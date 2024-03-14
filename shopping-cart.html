@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- blog09:29-->
+<!-- shopping-cart10:49-->
 <head>
 <meta charset="utf-8">
-<title>SINAEA - Industry and Factory HTML Template | Blog With Sidebar</title>
+<title>SINAEA - Factory, Industry, and Manufacturing HTML Template | Shopping Cart</title>
 <!-- Stylesheets -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
@@ -77,7 +77,7 @@
                                 <li><a href="project-detail.html">Project Detail</a></li>
                             </ul>
                         </li>
-                        <li class="current dropdown"><a href="blog.html">Blog</a>
+                        <li class="dropdown"><a href="blog.html">Blog</a>
                             <ul>
                                 <li><a href="blog.html">Blog with Sidebar</a></li>
                                 <li><a href="blog-grid.html">Blog Grid View</a></li>
@@ -85,7 +85,7 @@
                                 <li><a href="error-page.html">Error Page</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown"><a href="shop.html">Shop</a>
+                        <li class="current dropdown"><a href="shop.html">Shop</a>
                             <ul>
                                 <li><a href="shop.html">Shop</a></li>
                                 <li><a href="shop-single.html">Product Details</a></li>
@@ -198,225 +198,115 @@
         <!-- End Search Popup -->
 
         <!--Page Title-->
-        <section class="page-title" style="background-image:url(images/background/6.jpg)">
+        <section class="page-title" style="background-image:url(images/background/8.jpg)">
             <div class="auto-container">
-                <h2>Latest News</h2>
+                <h2>Shopping Cart</h2>
                 <ul class="page-breadcrumb">
                     <li><a href="index-2.html">home</a></li>
-                    <li>Blog</li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li>Shopping Cart</li>
                 </ul>
             </div>
         </section>
         <!--End Page Title-->
 
-        <!-- Sidebar Page Container -->
-        <div class="sidebar-page-container">
+        <!--Cart Section-->
+        <section class="cart-section">
             <div class="auto-container">
-                <div class="row clearfix">
-                    <!--Content Side-->
-                    <div class="content-side col-lg-8 col-md-12 col-sm-12">
-                        <div class="blog-sidebar">
-                            <!-- News Block -->
-                            <div class="news-block">
-                                <div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                    <div class="image">
-                                        <a href="blog-single.html"><img src="images/resource/blog-1.jpg" alt="" /></a>
-                                    </div>
-                                    <div class="lower-content">
-                                        <ul class="post-info">
-                                            <li>by Admin</li>
-                                            <li>03 Comments</li>
-                                            <li>January 25, 2019</li>
-                                        </ul>
-                                        <h3><a href="blog-single.html">Oil Prices Rise as Investors Focus on U.S. Database</a></h3>
-                                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</div>
-                                        <a href="blog-single.html" class="theme-btn btn-style-one"><span class="btn-title">Read More</span></a>
-                                    </div>
+                <!--Cart Outer-->
+                <div class="cart-outer">
+                    <div class="table-outer">
+                        <table class="cart-table">
+                            <thead class="cart-header">
+                                <tr>
+                                    <th>Preview</th>
+                                    <th class="prod-column">product</th>
+                                    <th class="price">Price</th>
+                                    <th>Quantity</th>
+                                    <th>Total</th>
+                                    <th>&nbsp;</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="prod-column">
+                                        <div class="column-box">
+                                            <figure class="prod-thumb"><a href="#"><img src="images/resource/products/12.jpg" alt=""></a></figure>
+                                        </div>
+                                    </td>
+                                    <td><h4 class="prod-title">Product Title</h4></td>
+                                    <td class="sub-total">$35.00</td>
+                                    <td class="qty"><div class="item-quantity"><input class="quantity-spinner" type="text" value="2" name="quantity"></div></td>
+                                    <td class="total">$35.00</td>
+                                    <td><a href="#" class="remove-btn"><span class="fa fa-times"></span></a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="cart-options clearfix">
+                        <div class="pull-left">
+                            <div class="apply-coupon clearfix">
+                                <div class="form-group clearfix">
+                                    <input type="text" name="coupon-code" value="" placeholder="Coupon Code">
+                                </div>
+                                <div class="form-group clearfix">
+                                    <button type="button" class="theme-btn coupon-btn">Apply Coupon</button>
                                 </div>
                             </div>
+                        </div>
 
-                            <!-- News Block -->
-                            <div class="news-block">
-                                <div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                    <div class="image">
-                                        <a href="blog-single.html"><img src="images/resource/blog-2.jpg" alt="" /></a>
-                                    </div>
-                                    <div class="lower-content">
-                                        <ul class="post-info">
-                                            <li>by Admin</li>
-                                            <li>03 Comments</li>
-                                            <li>January 25, 2019</li>
-                                        </ul>
-                                        <h3><a href="blog-single.html">We are Best For Any Industrial And Business Solution.</a></h3>
-                                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</div>
-                                        <a href="blog-single.html" class="theme-btn btn-style-one"><span class="btn-title">Read More</span></a>
-                                    </div>
+                        <div class="pull-right">
+                            <button type="button" class="theme-btn cart-btn">update cart</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-between">
+                    <div class="column pull-left col-lg-5 col-md-6 col-sm-12">
+                        <div class="shipping-block">
+                            <div class="inner-box">
+                                <h3>Free Shipping</h3>
+                                <h4>Calculate Shipping</h4>
+                                
+                                <!-- Shipping Form -->
+                                <div class="shipping-form">
+                                    <!--Shipping Form-->
+                                    <form method="post" action="#">
+                                        <div class="row clearfix">
+                                            <div class="form-group col-md-6 col-sm-12">
+                                                <input type="text" name="text" placeholder="Pakistan" required>
+                                            </div>
+                                            <div class="form-group col-md-6 col-sm-12">
+                                                <input type="text" name="text" placeholder="Postcode / ZIP" required>
+                                            </div>
+                                            <div class="form-group col-md-12 col-sm-12">
+                                                <input type="text" name="text" placeholder="State / County" required>
+                                            </div>
+                                            <div class="form-group col-md-12 col-sm-12">
+                                                <button class="theme-btn totals-btn" type="submit" name="submit-form">Update Totals</button>
+                                            </div>
+                                        </div>
+                                    </form>
                                 </div>
-                            </div>
-
-                            <!-- News Block -->
-                            <div class="news-block">
-                                <div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                    <div class="image">
-                                        <a href="blog-single.html"><img src="images/resource/blog-3.jpg" alt="" /></a>
-                                    </div>
-                                    <div class="lower-content">
-                                        <ul class="post-info">
-                                            <li>by Admin</li>
-                                            <li>03 Comments</li>
-                                            <li>January 25, 2019</li>
-                                        </ul>
-                                        <h3><a href="blog-single.html">How to get Hight Quality Industrial Products & Services.</a></h3>
-                                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</div>
-                                        <a href="blog-single.html" class="theme-btn btn-style-one"><span class="btn-title">Read More</span></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- News Block -->
-                            <div class="news-block">
-                                <div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                    <div class="image">
-                                        <a href="blog-single.html"><img src="images/resource/blog-4.jpg" alt="" /></a>
-                                    </div>
-                                    <div class="lower-content">
-                                        <ul class="post-info">
-                                            <li>by Admin</li>
-                                            <li>03 Comments</li>
-                                            <li>January 25, 2019</li>
-                                        </ul>
-                                        <h3><a href="blog-single.html">How to get Hight Quality Industrial Products & Services.</a></h3>
-                                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</div>
-                                        <a href="blog-single.html" class="theme-btn btn-style-one"><span class="btn-title">Read More</span></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Styled Pagination-->
-                            <div class="styled-pagination text-center">
-                                <ul class="clearfix">
-                                    <li><a href="#"><span class="flaticon-back-1"></span></a></li>
-                                    <li><a href="#">1</a></li>
-                                    <li class="active"><a href="#">2</a></li>
-                                    <li><a href="#">3</a></li>
-                                    <li><a href="#"><span class="flaticon-next-1"></span> </a></li>
-                                </ul>
                             </div>
                         </div>
                     </div>
-
-                    <!--Sidebar Side-->
-                    <div class="sidebar-side col-lg-4 col-md-12 col-sm-12">
-                        <aside class="sidebar">
-                            
-                            <!--search box-->
-                            <div class="sidebar-widget search-box">
-                                <form method="post" action="#">
-                                    <div class="form-group">
-                                        <input type="search" name="search-field" value="" placeholder="Search" required="">
-                                        <button type="submit"><span class="icon fa fa-search"></span></button>
-                                    </div>
-                                </form>
-                            </div>
-
-                            <!-- Categories -->
-                            <div class="sidebar-widget blog-categories">
-                                <div class="sidebar-title"><h2>Catagories</h2></div>
-                                <ul class="cat-list">
-                                    <li><a href="#">Handmade Furniture <span>(06)</span></a></li>
-                                    <li><a href="#">General Carpentry <span>(02)</span></a></li>
-                                    <li class="active"><a href="#">Office Renevation <span>(05)</span></a></li>
-                                    <li><a href="#">Kitchen Modeling <span>(25)</span></a></li>
-                                    <li><a href="#">Wooden Selves <span>(04)</span></a></li>
-                                </ul>
-                            </div>
-
-                            <!-- Latest News -->
-                            <div class="sidebar-widget latest-news">
-                                <div class="sidebar-title"><h2>Popular Posts</h2></div>
-                                <div class="widget-content">
-                                    <article class="post">
-                                        <div class="post-thumb"><a href="blog-single.html"><img src="images/resource/post-thumb-1.jpg" alt=""></a></div>
-                                        <h3><a href="blog-single.html">We are Best For Any Industrial And Business Solution.</a></h3>
-                                        <div class="post-info">February 14, 2017</div>
-                                    </article>
-
-                                    <article class="post">
-                                        <div class="post-thumb"><a href="blog-single.html"><img src="images/resource/post-thumb-2.jpg" alt=""></a></div>
-                                        <h3><a href="blog-single.html">How to get Hight Quality Industrial Products & Services.</a></h3>
-                                        <div class="post-info">February 14, 2017</div>
-                                    </article>
-
-                                    <article class="post">
-                                        <div class="post-thumb"><a href="blog-single.html"><img src="images/resource/post-thumb-3.jpg" alt=""></a></div>
-                                        <h3><a href="blog-single.html">Oil Prices Rise as Investors Focus on U.S. Database</a></h3>
-                                        <div class="post-info">January 22, 2017</div>
-                                    </article>
-                                </div>
-                            </div>
-
-                            <!--Footer Column-->
-                            <div class="sidebar-widget instagram-widget">
-                                <div class="sidebar-title"><h2>Instagram</h2></div>
-                                <div class="widget-content">
-                                    <div class="link-box"><a href="#"><span class="fab fa-instagram"></span></a></div>
-                                    <div class="outer clearfix">
-                                        <figure class="image">
-                                            <a href="images/gallery/1.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/gw-1.jpg" alt=""></a>
-                                        </figure>
-
-                                        <figure class="image">
-                                            <a href="images/gallery/2.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/gw-2.jpg" alt=""></a>
-                                        </figure>
-
-                                        <figure class="image">
-                                            <a href="images/gallery/3.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/gw-3.jpg" alt=""></a>
-                                        </figure>
-
-                                        <figure class="image">
-                                            <a href="images/gallery/4.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/gw-4.jpg" alt=""></a>
-                                        </figure>
-
-                                        <figure class="image">
-                                            <a href="images/gallery/5.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/gw-5.jpg" alt=""></a>
-                                        </figure>
-
-                                        <figure class="image">
-                                            <a href="images/gallery/1.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/gw-6.jpg" alt=""></a>
-                                        </figure>
-
-                                        <figure class="image">
-                                            <a href="images/gallery/1.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/gw-7.jpg" alt=""></a>
-                                        </figure>
-
-                                        <figure class="image">
-                                            <a href="images/gallery/1.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/gw-8.jpg" alt=""></a>
-                                        </figure>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Tags -->
-                            <div class="sidebar-widget tags">
-                                <div class="sidebar-title"><h2>Tag Cloud</h2></div>
-                                <ul class="tag-list clearfix">
-                                    <li><a href="#">Marketing</a></li>
-                                    <li><a href="#">Marketing</a></li>
-                                    <li><a href="#">Department</a></li>
-                                    <li><a href="#">Mechanical</a></li>
-                                    <li><a href="#">Automation</a></li>
-                                    <li><a href="#">Technology</a></li>
-                                    <li><a href="#">Renovation</a></li>
-                                    <li><a href="#">Repairing</a></li>
-                                    <li><a href="#">Management</a></li>
-                                </ul>
-                            </div>              
-                        </aside>
-                    </div>
+                        
+                    <div class="column pull-right col-lg-6 col-md-6 col-sm-12">
+                        <!--Totals Table-->
+                        <ul class="totals-table">
+                            <li><h3>Cart Totals</h3></li>
+                            <li class="clearfix total"><span class="col">Sub Total</span><span class="col price">$35.00</span></li>
+                            <li class="clearfix total"><span class="col">Total</span><span class="col price">$35.00</span></li>
+                            <li class="text-right"><button type="submit" class="theme-btn proceed-btn">Proceed to Checkout</button></li>
+                        </ul>
+                    </div>  
                 </div>
             </div>
-        </div>
-        <!-- End Sidebar Container -->
+        </section>
+        <!--End Cart Section-->
+
 
         <!-- Clients Section -->
         <section class="clients-section">
@@ -601,12 +491,14 @@
 <script src="js/jquery.js"></script> 
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-ui.js"></script> 
 <script src="js/owl.js"></script>
 <script src="js/wow.js"></script>
 <script src="js/mixitup.js"></script>
 <script src="js/appear.js"></script>
 <script src="js/jquery.stellar.min.js"></script>
 <script src="js/jquery.fancybox.js"></script>
+<script src="js/jquery.bootstrap-touchspin.js"></script>
 <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 <script src="js/swiper.min.js"></script>
 <script src="js/TweenMax.min.js"></script>
@@ -615,5 +507,5 @@
 <script src="js/color-settings.js"></script>
 </body>
 
-<!-- blog10:28-->
+<!-- shopping-cart10:50-->
 </html>
