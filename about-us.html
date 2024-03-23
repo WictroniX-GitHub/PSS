@@ -23,6 +23,56 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+
+<style>
+    .mynav li{
+        color: black;
+    }
+
+    .mynav li :hover{
+        background-color: orange;
+        color: white;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .maxnav{
+            display: none;
+        }
+        .logo-box {
+            margin-left: 0vh;
+        }
+
+        .logo-text {
+            font-size: large;
+            margin-left: 1vh;
+        }
+    }
+
+    @media only screen and (min-width: 768px) {
+        .display1 {
+            display: none;
+        }
+
+        .no-touch {
+            display: none;
+        }
+
+        .logo-text {
+            font-size: xx-large;
+            margin-left: 3vh;
+        }
+
+        /* .logo-box {
+            margin-left: 30vh;
+        } */
+
+        .innercolumn {
+            margin-top: -7vh;
+        }
+    }
+
+
+</style>
 </head>
 
 <body>
@@ -32,7 +82,7 @@
     <div class="preloader"></div>
 
     <!-- Sidenav Bar -->
-    <section class="sidenav-bar">
+    <section class="sidenav-bar display1">
         <div class="nav-box">
             <div class="inner-box">
                 <div class="upper-box">
@@ -42,81 +92,48 @@
                 <!-- .Side Nav -->
                 <nav class="side-nav">
                     <ul class="navigation clearfix" id="nav">
-                        <li class="dropdown"><a href="index-2.html">Home</a>
-                            <ul>
-                                <li><a href="index-2.html">Home Showcase</a></li>
-                                <li><a href="index-3.html">Home Carousel</a></li>
-                                <li><a href="index-4.html">Home Banner</a></li>
-                            </ul>
-                        </li>
-                        <li class="current dropdown"><a href="about-us.html">About</a>
-                            <ul>
-                                <li><a href="about-us.html">About Us</a></li>
-                                <li><a href="about-me.html">About Me</a></li>
-                                <li><a href="faqs.html">FAQ's</a></li>
-                                <li><a href="team.html">Team</a></li>
-                                <li><a href="pricing.html">Pricing</a></li>
-                                <li><a href="coming-soon.html">Coming Soon</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown"><a href="services.html">Services</a>
-                            <ul>
-                                <li><a href="services.html">All Services</a></li>
-                                <li><a href="service-detail.html">Civil Enginerring</a></li>
-                                <li><a href="service-detail.html">Oil & Gas Engineering</a></li>
-                                <li><a href="service-detail.html">Chemical Engineering</a></li>
-                                <li><a href="service-detail.html">Agriculture Engineering</a></li>
-                                <li><a href="service-detail.html">Mechanical Engineering</a></li>
-                                <li><a href="service-detail.html">Service Detail</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown"><a href="projects.html">Projects</a>
-                            <ul>
-                                <li><a href="projects.html">Project with Filters</a></li>
-                                <li><a href="projects-2.html">Project Slide Show</a></li>
-                                <li><a href="project-detail.html">Project Detail</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown"><a href="blog.html">Blog</a>
-                            <ul>
-                                <li><a href="blog.html">Blog with Sidebar</a></li>
-                                <li><a href="blog-grid.html">Blog Grid View</a></li>
-                                <li><a href="blog-single.html">Blog Single</a></li>
-                                <li><a href="error-page.html">Error Page</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown"><a href="shop.html">Shop</a>
-                            <ul>
-                                <li><a href="shop.html">Shop</a></li>
-                                <li><a href="shop-single.html">Product Details</a></li>
-                                <li><a href="shopping-cart.html">Shopping Cart</a></li>
-                                <li><a href="checkout.html">Checkout Page</a></li>
-                                <li><a href="login.html">Registration Page</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul> 
+                        <li><a href="index-3.html">HOME</a></li>
+                        <li><a href="about-us.html">ABOUT US</a></li>
+                        <li><a href="services.html">PRODUCTS</a></li>
+                        <li><a href="contact.html">CAREER</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
                 </nav><!-- /.Side-menu -->
 
                 <div class="contact-info-box">
-                    <!--Info Box-->
-                    <div class="info-box">
+<!-- =                        <div class="info-box">
                         <div class="icon-box"><span class="fa fa-home"></span></div>
                         <p>13005 Greenville Avenue <br>United Kingdom, TX 70240</p>
                     </div>
 
-                    <!--Info Box-->
-                    <div class="info-box">
+=                        <div class="info-box">
                         <div class="icon-box"><span class="far fa-clock"></span></div>
                         <p>Mon - Fri: 09:00 - 18:00</p>
                         <p>Sunday --- Close</p>
                     </div>
 
-                    <!--Info Box-->
-                    <div class="info-box">
+=                        <div class="info-box">
                         <div class="icon-box"><span class="far fa-envelope"></span></div>
                         <p><a href="tel:(888)123456789">(888) 123 456 789</a></p>
                         <p><a href="mailto:support@example.com">support@example.com</a></p>
+                    </div> -->
+                    <div class="top-icons" style="display: flex;">
+                        <ul class="social-icons icon-zoom">
+                            <li>    
+                                <a href="tel:9825513700"><i class="fa fa-phone"></i></a>
+                                <span>
+                                <h4>Call Us:</h4>
+                                <a href="tel:9825513700">9825513700</a>
+                                </span>
+                            </li>
+                            <li>
+                                <a href="mailto:vptrivedi@powersystemservices.in "><i class="fa fa-envelope"></i></a>
+                                <span>
+                                <h4>Mail Us:</h4>
+                                <a href="mailto:vptrivedi@powersystemservices.in ">vptrivedi@powersystemservices.in </a>
+                                </span>    
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -131,55 +148,48 @@
         <header class="main-header">
             <div class="outer-container">
                 <div class="main-box clearfix">
-                    <div class="logo-box">
-                        <div class="logo"><a href="index-2.html"><img src="images/logo.png" alt="" title=""></a></div>
+                    <div class="logo-box" style="font-size: large;">
+                        <div class="logo"><a href="index-3.html"><img style="border-radius: 1vh;" src="images/logo PSS.jpg" alt="" title=""></a>
+                        <span class="float-text theme_color logo-text">POWER SYSTEM SERVICES</span></div>
                     </div>
 
-                    
                     <div class="outer-box clearfix">
-                        <!-- Shoppping Car -->
-                        <div class="cart-btn">
-                            <button><i class="icon flaticon-shopping-bag"></i> <span class="count">2</span></button>
-
-                            <div class="shopping-cart">
-                                <div class="shopping-cart-header">
-                                    <i class="flaticon-shopping-cart-2 cart-icon"></i><span class="badge">2</span>
-                                    <div class="shopping-cart-total">
-                                        <span class="lighter-text">Total:</span>
-                                        <span class="main-color-text">$60.00</span>
-                                    </div>
-                                </div>
-
-                                <ul class="shopping-cart-items">
-                                    <li class="clearfix">
-                                        <img src="images/resource/products/prod-thumb-1.jpg" alt="item1" />
-                                        <span class="item-name">Popular Product</span>
-                                        <span class="item-price">$30.00</span>
-                                        <span class="item-quantity">Quantity: 01</span>
-                                        <a href="shop-single.html" class="product-detail"></a>
+                        <div class="maxnav" style="margin-left: -30vh; font-size: large;">
+                            <div class="top-icons">
+                                <ul class="social-icons icon-zoom" style="display: flex;">
+                                    <li style="margin-right: 4vh;">    
+                                        <a href="tel:9825513700"><i class="fa fa-phone"></i></a>
+                                        <span>
+                                        <h4>Call Us:</h4>
+                                        <a href="tel:9825513700 ">9825513700</a>
+                                        </span>
                                     </li>
-
-                                    <li class="clearfix">
-                                        <img src="images/resource/products/prod-thumb-2.jpg" alt="item1" />
-                                        <span class="item-name">Popular Product</span>
-                                        <span class="item-price">$30.00</span>
-                                        <span class="item-quantity">Quantity: 01</span>
-                                        <a href="shop-single.html" class="product-detail"></a>
+                                    <li>
+                                        <a href="mailto:vptrivedi@powersystemservices.in 
+                                        "><i class="fa fa-envelope"></i></a>
+                                        <span>
+                                        <h4>Mail Us:</h4>
+                                        <a href="mailto:vptrivedi@powersystemservices.in">vptrivedi@powersystemservices.in</a>
+                                        </span>    
                                     </li>
                                 </ul>
-
-                                <a href="checkout.html" class="theme-btn btn-style-one"><span class="btn-title">Checkout</span></a>
-                            </div> <!--end shopping-cart -->
+                            </div>
                         </div>
-
-                        <!-- Search Btn -->
-                        <div class="search-box">
-                            <button class="search-btn"><i class="fa fa-search"></i></button>
-                        </div>
-                        
                         <!-- Btn box -->
-                        <div class="btn-box no-touch"><button class="nav-toggler"><span></span></button></div>
+                        <div class="btn-box no-touch" style="margin-top: 1.5vh;"><button class="nav-toggler"><span></span></button></div>
                     </div>
+
+                </div>
+                <div class="maxnav">
+                    <nav class="maxnav">
+                        <ul class="mynav" style="display: flex; font-size: xx-large; justify-content: center;">
+                            <li style="margin: 2vh;"><a href="index-3.html">HOME </a>  &nbsp; <span class="theme_color"></span> &nbsp;</li>  
+                            <li style="margin: 2vh;"><a href="about-us.html">ABOUT US </a>  &nbsp; <span class="theme_color"></span>  &nbsp;</li>
+                            <li style="margin: 2vh;"><a href="services.html">PRODUCTS </a> &nbsp; <span class="theme_color"></span>  &nbsp;</li> 
+                            <li style="margin: 2vh;"><a href="contact.html">CAREER </a> &nbsp; <span class="theme_color"></span>  &nbsp;</li> 
+                            <li style="margin: 2vh;"><a href="contact.html">CONTACT</a> &nbsp; <span class="theme_color"></span>  &nbsp;</li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
         </header>
@@ -210,7 +220,7 @@
         <!--End Page Title-->
 
         <!-- Welcome Section -->
-        <section class="welcome-section">
+        <!-- <section class="welcome-section">
             <div class="auto-container">
                 <div class="sec-title text-center">
                     <span class="float-text">Welcome</span>
@@ -240,7 +250,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!--End Welcome Section -->
 
         <!-- About Us -->
@@ -254,35 +264,56 @@
                     <!-- Content Column -->
                     <div class="content-column col-lg-6 col-md-12 col-sm-12">
                         <div class="inner-column">
-                            <div class="about-years"><span class="theme_color">40</span><h3> Years experience in construction</h3></div>
+                            <div class="about-years"><span class="theme_color">18+</span><h3> Years of experience</h3></div>
                             <div class="text-box">
-                                <p>We have facility to produce advance work various industrial applications based on specially developed technol-ogy. We are also ready to developement by according to users changing needs. Infrastructure related installation projects. General repair & industrial and machinery.</p>
+                                <p>
+                                    Since 2006, Power System Services has been the trusted expert in delivering cutting-edge power solutions that empower both industrial and utility sectors. Our expertise in MV and HV retrofits ensures your systems operate at maximum efficiency and reliability, directly boosting productivity. .
+                                </p>
+                                <p>
+                                    Our client-centric approach is founded on understanding the unique needs power systems present to your specific operations. We take the time to analyse your needs and goals, tailoring solutions that surpass expectations. As a certified Siemens partner, we leverage the power of their renowned equipment, spares, and services offering, including:
+                                </p>
                             </div>
 
                             <!-- Feature Block -->
-                            <div class="feature-block">
+                            <div class="feature-block wow fadeInUp" style="display: flex;">
+                                <div class=""><span class="icon flaticon-rocket-ship"></span></div>&nbsp;&nbsp;&nbsp;&nbsp;
+                                <div class="text">
+                                    <h4>HT High Voltage Panels (11KV to 33KV)</h4>
+                                </div>
                                 <div class="inner-box">
-                                    <div class="icon-box"><span class="icon flaticon-engineer-1"></span></div>
-                                    <h4><a href="service-detail.html">Markets and Product</a></h4>
-                                    <div class="text">Dolor sit amet consectetur elit sed do eiusmod tempor incd idunt labore et dolore magna aliqua enim ad minim</div>
+                                    <!-- <div class="icon-box"><span class="icon flaticon-engineer-1"></span></div> -->
+                                    <!-- <h4><a href="service-detail.html"></a> -->
+                                    <!-- </h4> -->
+                                    <!-- <div class="text"></div> -->
                                 </div>
                             </div>
 
                             <!-- Feature Block -->
-                            <div class="feature-block">
+                            <div class="feature-block wow fadeInUp" style="display: flex;">
+                                <div class=""><span class="icon flaticon-rocket-ship"></span></div>&nbsp;&nbsp;&nbsp;&nbsp;
+                                <div class="text"><h4>EHV Breakers (SF6 Gas CB, 66KV to 765KV)</h4></div>
                                 <div class="inner-box">
-                                    <div class="icon-box"><span class="icon flaticon-bar-chart"></span></div>
-                                    <h4><a href="service-detail.html">Solutions and Satisfaction Value</a></h4>
-                                    <div class="text">Dolor sit amet consectetur elit sed do eiusmod tempor incd idunt labore et dolore magna aliqua enim ad minim</div>
+                                    <!-- <div class="icon-box"><span class="icon flaticon-bar-chart"></span></div> -->
+                                    <!-- <h4><a href="service-detail.html"></a></h4> -->
+                                    <!-- <div class="text"></div> -->
                                 </div>
                             </div>
 
                             <!-- Feature Block -->
-                            <div class="feature-block">
+                            <div class="feature-block wow fadeInUp" style="display: flex;">
+                                <div class=""><span class="icon flaticon-rocket-ship"></span></div>&nbsp;&nbsp;&nbsp;&nbsp;
+                                <div class="text"><h4>Isolators (33KV to 765KV)</h4></div>
+                                <div class="inner-box" >
+                                    <!-- <div class="icon-box"><span class="icon flaticon-rocket-ship"></span></div> -->
+                                    <!-- <h4><a href="service-detail.html">Isolators (33KV to 765KV)</a></h4> -->
+                                </div>
+                            </div>
+
+                            <div class="feature-block wow fadeInUp" style="display: flex;">
+                                <div class=""><span class="icon flaticon-rocket-ship"></span></div>&nbsp;&nbsp;&nbsp;&nbsp;
+                                <div class="text"><h4>LT</h4></div>
                                 <div class="inner-box">
-                                    <div class="icon-box"><span class="icon flaticon-rocket-ship"></span></div>
-                                    <h4><a href="service-detail.html">Technology-savvy</a></h4>
-                                    <div class="text">Dolor sit amet consectetur elit sed do eiusmod tempor incd idunt labore et dolore magna aliqua enim ad minim</div>
+                                    <!-- <div class="icon-box"><span class="icon flaticon-bar-chart"></span></div> -->
                                 </div>
                             </div>
 
@@ -292,62 +323,86 @@
                         </div>
                     </div>
 
-                    <div class="image-column col-lg-6 col-md-12 col-sm-12">
-                        <div class="inner-column">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="inner-column innercolumn">                        
+                            <div class="inner-column">
+                                <div class="request-form wow fadeInLeft" style="visibility: visible;">
+                                    <div class="welcome-heading">
+                                        <h2 class="theme_color">Quick Inquiry</h2>
+                                
+                                        <img src="https://expelprosys.com/wp-content/themes/expel-process/images/quick_line.png"
+                                            class="img-responsvie center-block">
+                                    </div>
+                                    <!--Comment Form-->
+                                    <form method="post" action="#">
+                                        <div class="row">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 form-group">
+                                                <input type="text" name="username" placeholder="Name" required="">
+                                            </div>
 
-                            <div class="single-item-carousel owl-carousel owl-theme">
-                                <!-- Slide Item -->
-                                <div class="slide-item">
-                                    <figure class="image"><a href="images/resource/about-img-1.jpg" class="lightbox-image" data-fancybox="images"><img src="images/resource/about-img-1.jpg" alt=""></a></figure>
-                                </div>
+                                            <div class="col-lg-12 col-md-12 col-sm-12 form-group">
+                                                <input type="email" name="email" placeholder="Email" required="">
+                                            </div>
 
-                                <!-- Slide Item -->
-                                <div class="slide-item">
-                                    <figure class="image"><a href="images/resource/about-img-2.jpg" class="lightbox-image" data-fancybox="images"><img src="images/resource/about-img-2.jpg" alt=""></a></figure>
-                                </div>
+                                            <div class="col-lg-12 col-md-12 col-sm-12 form-group">
+                                                <input type="text" name="phone" placeholder="Phone" required="">
+                                            </div>
 
-                                <!-- Slide Item -->
-                                <div class="slide-item">
-                                    <figure class="image"><a href="images/resource/about-img-3.jpg" class="lightbox-image" data-fancybox="images"><img src="images/resource/about-img-3.jpg" alt=""></a></figure>
-                                </div>
+                                            <div class="col-lg-12 col-md-12 col-sm-12 form-group">
+                                                <select name="interested">
+                                                    <option value="" class="theme_color">Please select...</option>
+                                                    <option value="HT PANEL" class="theme_color">MV</option>
+                                                    <option value="LT PANEL" class="theme_color">EHV</option>
+                                                    <option value="C&amp;R PANEL" class="theme_color">Isolator</option>
+                                                    <option value="GENERATOR PANEL" class="theme_color">LT</option>
+                                                    <option value="OTHER PANEL" class="theme_color">Retrofitting </option>
+                                                </select>
+                                            </div>
 
-                                <!-- Slide Item -->
-                                <div class="slide-item">
-                                    <figure class="image"><a href="images/resource/about-img-4.jpg" class="lightbox-image" data-fancybox="images"><img src="images/resource/about-img-4.jpg" alt=""></a></figure>
+                                            <div class="col-lg-12 col-md-12 col-sm-12 form-group">
+                                                <textarea name="message" placeholder="Massage"></textarea>
+                                            </div>
+
+                                            <div class="col-lg-12 col-md-12 col-sm-12 form-group">
+                                                <button class="theme-btn btn-style-two" type="submit" name="submit-form"><span class="btn-title">Submit
+                                                        Now</span></button>
+                                            </div>
+                                        </div>
+                                    </form>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </section>
         <!-- End About Us -->
 
         <!-- Contact Info Section -->
-        <section class="contact-info-section" style="background-image: url(images/background/3.jpg);">
+        <section class="contact-info-section" style="background-image: url(images/background/1.jpg);">
             <div class="auto-container">
                 <div class="content">
-                    <span class="title">Let's work together</span>
+                    <span class="title">WE’RE A LEADING INDUSTRY COMPANY</span>
                     <h2>Provide You The <span>Highest Quality</span><br> Work That Meets Your Expectation.</h2>
-                    <div class="number"><a href="tel:(+291)-456-789-1234">(+291)-456-789-1234</a></div>
-                    <a href="contact.html" class="theme-btn btn-style-one"><span class="btn-title">Get A Quote</span></a>
+                    <div class="number"><a href="tel:(+291)-456-789-1234">+91 98255 13700</a></div>
+                    <a href="contact.html" class="theme-btn btn-style-one"><span class="btn-title">Get A
+                            Quote</span></a>
                 </div>
             </div>
         </section>
         <!--End Contact Info Section -->
 
         <!-- Fun Facts -->
-        <section class="fun-facts">
+        <!-- <section class="fun-facts">
             <div class="auto-container">
                 <div class="sec-title">
                     <span class="float-text">Fun Facts</span>
                     <h2>Magical <span>Numbers</span></h2>
                 </div>
                 <div class="row">
-                    <!--Counter Column-->
                     <div class="fact-counter col-lg-6 col-md-12 col-sm-12">
                         <div class="row">
-                            <!--Column-->
                             <div class="column counter-column col-lg-6 col-md-12">
                                 <div class="inner">
                                     <span class="icon flaticon-conveyor-1"></span>
@@ -358,7 +413,6 @@
                                 </div>
                             </div>
 
-                            <!--Column-->
                             <div class="column counter-column col-lg-6 col-md-12">
                                 <div class="inner">
                                     <span class="icon flaticon-mechanic"></span>
@@ -369,7 +423,6 @@
                                 </div>
                             </div>
                             
-                            <!--Column-->
                             <div class="column counter-column col-lg-6 col-md-12">
                                 <div class="inner">
                                     <span class="icon flaticon-robot-arm"></span>
@@ -380,7 +433,6 @@
                                 </div>
                             </div>
                             
-                            <!--Column-->
                             <div class="column counter-column col-lg-6 col-md-12">
                                 <div class="inner">
                                     <span class="icon flaticon-diamond"></span>
@@ -393,14 +445,11 @@
                         </div>
                     </div>
                     
-                    <!--Progress Column-->
                     <div class="progress-column col-lg-6 col-md-12 col-sm-12">
-                        <!--Progress Bars-->
                         <div class="inner-column">
                             <h4>Check Our Skills</h4>
                             <div class="text">Lorem ipsum dolor amet consectur adipicing elit eiusmod tempor incididunt ut labore dolore magna aliqua.enim minim veniam quis nostrud exercitation ullamco laboris. aliquip commodo consequat duis aute irure dolor reprehen.</div>
                             <div class="progress-bars">
-                                <!--Skill Item-->
                                 <div class="bar-item">
                                     <div class="skill-header clearfix">
                                         <div class="skill-title">Architecher</div>
@@ -410,7 +459,6 @@
                                     </div>
                                 </div>
 
-                                <!--Skill Item-->
                                 <div class="bar-item">
                                     <div class="skill-header clearfix">
                                         <div class="skill-title">Construction</div>
@@ -420,7 +468,6 @@
                                     </div>
                                 </div>
 
-                                <!--Skill Item-->
                                 <div class="bar-item">
                                     <div class="skill-header clearfix">
                                         <div class="skill-title">Building</div>
@@ -430,7 +477,6 @@
                                     </div>
                                 </div>
 
-                                <!--Skill Item-->
                                 <div class="bar-item">
                                     <div class="skill-header clearfix">
                                         <div class="skill-title">Interior</div>
@@ -440,7 +486,6 @@
                                     </div>
                                 </div>  
 
-                                <!--Skill Item-->
                                 <div class="bar-item">
                                     <div class="skill-header clearfix">
                                         <div class="skill-title">Commercial</div>
@@ -454,11 +499,11 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!--End Fun Facts -->
 
         <!-- Video Section -->
-        <section class="video-section" style="background-image: url(images/background/2.jpg);" data-stellar-background-ratio="0.5">
+        <!-- <section class="video-section" style="background-image: url(images/background/2.jpg);" data-stellar-background-ratio="0.5">
             <div class="auto-container">
                 <div class="content-box">
                     <div class="text">WE’RE A LEADING INDUSTRY COMPANY</div>
@@ -466,7 +511,7 @@
                     <a href="https://www.youtube.com/watch?v=Fvae8nxzVz4" class="play-now" data-fancybox="gallery" data-caption=""><i class="icon flaticon-play-button-3" aria-hidden="true"></i><span class="ripple"></span></a>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!--End Video Section -->
 
         <!-- Call Back Section -->
@@ -475,21 +520,22 @@
                 <div class="sec-title text-center">
                     <span class="float-text">Call back</span>
                     <h2>Request A <span>Quote</span></h2>
-                    <div class="text">Send us a email and we’ll get in touch shortly, or phone between <br>9:00AM to 5:00PM Monday to Friday - We would be delighted to speak.</div>
+                    <div class="text">Send us a email and we’ll get in touch shortly, or phone between <br>9:00AM to
+                        5:00PM Monday to Friday - We would be delighted to speak.</div>
                 </div>
                 <div class="outer-box">
                     <div class="row">
                         <!-- Form Column -->
                         <div class="form-column col-lg-6 col-md-12 col-sm-12">
                             <div class="inner-column">
-                                <div class="request-form wow fadeInLeft" >
+                                <div class="request-form wow fadeInLeft">
                                     <!--Comment Form-->
                                     <form method="post" action="#">
                                         <div class="row">
                                             <div class="col-lg-12 col-md-12 col-sm-12 form-group">
                                                 <input type="text" name="username" placeholder="Name" required>
                                             </div>
-                                            
+
                                             <div class="col-lg-12 col-md-12 col-sm-12 form-group">
                                                 <input type="email" name="email" placeholder="Email" required>
                                             </div>
@@ -497,13 +543,15 @@
                                             <div class="col-lg-12 col-md-12 col-sm-12 form-group">
                                                 <input type="text" name="phone" placeholder="Phone" required>
                                             </div>
-                                            
+
                                             <div class="col-lg-12 col-md-12 col-sm-12 form-group">
                                                 <textarea name="message" placeholder="Massage"></textarea>
                                             </div>
-                                            
+
                                             <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                                                <button class="theme-btn btn-style-two" type="submit" name="submit-form"><span class="btn-title">Submit Now</span></button>
+                                                <button class="theme-btn btn-style-two" type="submit"
+                                                    name="submit-form"><span class="btn-title">Submit
+                                                        Now</span></button>
                                             </div>
                                         </div>
                                     </form>
@@ -513,7 +561,7 @@
 
                         <div class="image-column col-lg-6 col-md-12 col-sm-12">
                             <div class="image-box wow fadeInRight">
-                                <figure class="image"><img src="images/resource/man.png" alt=""></figure>
+                                <figure class="image"><img src="images/resource/about-img-3.jpg" alt=""></figure>
                             </div>
                         </div>
                     </div>
@@ -650,17 +698,20 @@
             <!--Footer Bottom-->
             <div class="footer-bottom">                    
                 <div class="auto-container">
-                    <div class="inner-container clearfix">
-                        <div class="footer-nav">
+                    <div class="inner-container clearfix" style="text-align: center;">
+                        <!-- <div class="footer-nav">
                             <ul class="clearfix">
                                <li><a href="#">Privacy Policy</a></li> 
                                <li><a href="#">Contact</a></li> 
                                <li><a href="#">Supplier</a></li>  
                             </ul>
-                        </div>
+                        </div> -->
                         
-                        <div class="copyright-text">
-                            <p><a href="https://www.templateshub.net" target="_blank">Templates Hub</a></p>
+                        <div>
+                            <a href="https://wictronix.com/" target="_blank">
+
+                                <span class="copy" style="font-size: large;">Powered By <img loading="lazy" alt="WictroniX" class="f-logo" style="width:30vh;" src="./images/white.png" /><br /></span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -677,12 +728,12 @@
 
 <!-- Color Palate / Color Switcher -->
 <div class="color-palate">
-    <div class="color-trigger">
+    <!-- <div class="color-trigger">
         <i class="fa fa-cog"></i>
     </div>
     <div class="color-palate-head">
         <h6>Choose Your Color</h6>
-    </div>
+    </div> -->
     <div class="various-color clearfix">
         <div class="colors-list">
             <span class="palate default-color active" data-theme-file="css/color-themes/default-theme.css"></span>
