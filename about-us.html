@@ -25,13 +25,37 @@
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
 
 <style>
+
+    /* .inner-box .read-more :hover{
+        background-color:#ff9933;
+    } */
+
+    .about-us{
+        background-color: white;
+        color: black;
+    }
+
+    .services-section {
+        background-color: white;
+        color: black;
+    }
+
+    .fun-facts {
+        background-color: white;
+        color: black;
+    }
+
+    .fadeInLeft {
+        background-color: white;
+        color: black;
+    }
+
     .mynav li{
         color: black;
     }
 
     .mynav li :hover{
-        background-color: orange;
-        color: white;
+        color: black;
     }
 
     @media only screen and (max-width: 768px) {
@@ -73,6 +97,7 @@
 
 
 </style>
+
 </head>
 
 <body>
@@ -83,62 +108,64 @@
 
     <!-- Sidenav Bar -->
     <section class="sidenav-bar display1">
-        <div class="nav-box">
-            <div class="inner-box">
-                <div class="upper-box">
-                    <div class="btn-box"><button class="close-btn"><span class="fa fa-times"></span></button></div>
-                </div>
-
-                <!-- .Side Nav -->
-                <nav class="side-nav">
-                    <ul class="navigation clearfix" id="nav">
-                        <li><a href="index-3.html">HOME</a></li>
-                        <li><a href="about-us.html">ABOUT US</a></li>
-                        <li><a href="services.html">PRODUCTS</a></li>
-                        <li><a href="contact.html">CAREER</a></li>
-                        <li><a href="contact.html">CONTACT</a></li>
-                    </ul>
-                </nav><!-- /.Side-menu -->
-
-                <div class="contact-info-box">
-<!-- =                        <div class="info-box">
-                        <div class="icon-box"><span class="fa fa-home"></span></div>
-                        <p>13005 Greenville Avenue <br>United Kingdom, TX 70240</p>
+            <div class="nav-box">
+                <div class="inner-box">
+                    <div class="upper-box">
+                        <div class="btn-box"><button class="close-btn"><span class="fa fa-times"></span></button></div>
                     </div>
 
-=                        <div class="info-box">
-                        <div class="icon-box"><span class="far fa-clock"></span></div>
-                        <p>Mon - Fri: 09:00 - 18:00</p>
-                        <p>Sunday --- Close</p>
-                    </div>
-
-=                        <div class="info-box">
-                        <div class="icon-box"><span class="far fa-envelope"></span></div>
-                        <p><a href="tel:(888)123456789">(888) 123 456 789</a></p>
-                        <p><a href="mailto:support@example.com">support@example.com</a></p>
-                    </div> -->
-                    <div class="top-icons" style="display: flex;">
-                        <ul class="social-icons icon-zoom">
-                            <li>    
-                                <a href="tel:9825513700"><i class="fa fa-phone"></i></a>
-                                <span>
-                                <h4>Call Us:</h4>
-                                <a href="tel:9825513700">9825513700</a>
-                                </span>
-                            </li>
-                            <li>
-                                <a href="mailto:vptrivedi@powersystemservices.in "><i class="fa fa-envelope"></i></a>
-                                <span>
-                                <h4>Mail Us:</h4>
-                                <a href="mailto:vptrivedi@powersystemservices.in ">vptrivedi@powersystemservices.in </a>
-                                </span>    
-                            </li>
+                    <!-- .Side Nav -->
+                    <nav class="side-nav">
+                        <ul class="navigation clearfix" id="nav">
+                            <li><a href="index-3.html">HOME</a></li>
+                            <li><a href="about-us.html">ABOUT US</a></li>
+                            <li><a href="services.html">PRODUCTS</a></li>
+                            <li><a href="services.html">GALLERY</a></li>
+                            <li><a href="services.html">CLIENTS</a></li>
+                            <li><a href="contact.html">CAREER</a></li>
+                            <li><a href="contact.html">CONTACT</a></li>
                         </ul>
+                    </nav><!-- /.Side-menu -->
+
+                    <div class="contact-info-box">
+<!-- =                        <div class="info-box">
+                            <div class="icon-box"><span class="fa fa-home"></span></div>
+                            <p>13005 Greenville Avenue <br>United Kingdom, TX 70240</p>
+                        </div>
+
+=                        <div class="info-box">
+                            <div class="icon-box"><span class="far fa-clock"></span></div>
+                            <p>Mon - Fri: 09:00 - 18:00</p>
+                            <p>Sunday --- Close</p>
+                        </div>
+
+=                        <div class="info-box">
+                            <div class="icon-box"><span class="far fa-envelope"></span></div>
+                            <p><a href="tel:(888)123456789">(888) 123 456 789</a></p>
+                            <p><a href="mailto:support@example.com">support@example.com</a></p>
+                        </div> -->
+                        <div class="top-icons" style="display: flex;">
+                            <ul class="social-icons icon-zoom">
+                                <li>    
+                                    <a href="tel:9825513700"><i class="fa fa-phone"></i></a>
+                                    <span>
+                                    <h4>Call Us:</h4>
+                                    <a href="tel:9825513700">9825513700</a>
+                                    </span>
+                                </li>
+                                <li>
+                                    <a href="mailto:vptrivedi@powersystemservices.in "><i class="fa fa-envelope"></i></a>
+                                    <span>
+                                    <h4>Mail Us:</h4>
+                                    <a href="mailto:vptrivedi@powersystemservices.in ">vptrivedi@powersystemservices.in </a>
+                                    </span>    
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
     <!--End Sidenav Bar -->
     
     <!-- Start Main Content -->
@@ -146,7 +173,7 @@
 
         <!-- Main Header-->
         <header class="main-header">
-            <div class="outer-container">
+            <div class="outer-container" style="background-color: white;">
                 <div class="main-box clearfix">
                     <div class="logo-box" style="font-size: large;">
                         <div class="logo"><a href="index-3.html"><img style="border-radius: 1vh;" src="images/logo PSS.jpg" alt="" title=""></a>
@@ -183,11 +210,17 @@
                 <div class="maxnav">
                     <nav class="maxnav">
                         <ul class="mynav" style="display: flex; font-size: xx-large; justify-content: center;">
-                            <li style="margin: 2vh;"><a href="index-3.html">HOME </a>  &nbsp; <span class="theme_color"></span> &nbsp;</li>  
-                            <li style="margin: 2vh;"><a href="about-us.html">ABOUT US </a>  &nbsp; <span class="theme_color"></span>  &nbsp;</li>
-                            <li style="margin: 2vh;"><a href="services.html">PRODUCTS </a> &nbsp; <span class="theme_color"></span>  &nbsp;</li> 
-                            <li style="margin: 2vh;"><a href="contact.html">CAREER </a> &nbsp; <span class="theme_color"></span>  &nbsp;</li> 
-                            <li style="margin: 2vh;"><a href="contact.html">CONTACT</a> &nbsp; <span class="theme_color"></span>  &nbsp;</li>
+                            <!-- <div class="btn-box">
+                                <a href="about-us.html" class="theme-btn btn-style-two"><span class="btn-title">Read
+                                        More</span></a>
+                            </div> -->
+                            <li style="margin: 2vh;"><a href="index-3.html" class="btn-box">HOME </a>  &nbsp; <span class="theme_color"></span> &nbsp;</li>  
+                            <li style="margin: 2vh;"><a href="about-us.html" class="btn-box">ABOUT US </a>  &nbsp; <span class="theme_color"></span>  &nbsp;</li>
+                            <li style="margin: 2vh;"><a href="services.html" class="btn-box">PRODUCTS </a> &nbsp; <span class="theme_color"></span>  &nbsp;</li> 
+                            <li style="margin: 2vh;"><a href="services.html" class="btn-box">GALLERY </a> &nbsp; <span class="theme_color"></span>  &nbsp;</li> 
+                            <li style="margin: 2vh;"><a href="services.html" class="btn-box">CLIENTS</a> &nbsp; <span class="theme_color"></span>  &nbsp;</li> 
+                            <li style="margin: 2vh;"><a href="contact.html" class="btn-box">CAREER </a> &nbsp; <span class="theme_color"></span>  &nbsp;</li> 
+                            <li style="margin: 2vh;"><a href="contact.html" class="btn-box">CONTACT</a> &nbsp; <span class="theme_color"></span>  &nbsp;</li>
                         </ul>
                     </nav>
                 </div>
@@ -212,7 +245,7 @@
             <div class="auto-container">
                 <h2>About us</h2>
                 <ul class="page-breadcrumb">
-                    <li><a href="index-2.html">home</a></li>
+                    <li><a href="index-3.html">home</a></li>
                     <li>About us</li>
                 </ul>
             </div>
@@ -256,29 +289,34 @@
         <!-- About Us -->
         <section class="about-us">
             <div class="auto-container">
-                <div class="sec-title light">
-                    <span class="float-text">About</span>
-                    <h2>About <span>Us</span></h2>
+                <div class="sec-title text-center">
+                    <span class="float-text" style="color: white;">STORY</span>
+                    <h2>OUR STORY</h2>
                 </div>
                 <div class="row clearfix">
                     <!-- Content Column -->
                     <div class="content-column col-lg-6 col-md-12 col-sm-12">
                         <div class="inner-column">
-                            <div class="about-years"><span class="theme_color">18+</span><h3> Years of experience</h3></div>
+                            <!-- <div class="about-years"><span class="theme_color">18</span>
+                                <h3> Years experience in construction</h3>
+                            </div> -->
                             <div class="text-box">
-                                <p>
-                                    Since 2006, Power System Services has been the trusted expert in delivering cutting-edge power solutions that empower both industrial and utility sectors. Our expertise in MV and HV retrofits ensures your systems operate at maximum efficiency and reliability, directly boosting productivity. .
-                                </p>
-                                <p>
-                                    Our client-centric approach is founded on understanding the unique needs power systems present to your specific operations. We take the time to analyse your needs and goals, tailoring solutions that surpass expectations. As a certified Siemens partner, we leverage the power of their renowned equipment, spares, and services offering, including:
-                                </p>
+                                <p>Since 2006, Power System Services has been the trusted expert in delivering
+                                    cutting-edge power solutions that empower both industrial and utility sectors.
+                                    Our expertise in MV and HV retrofits ensures your systems operate at maximum
+                                    efficiency and reliability, directly boosting productivity.</p>
+                                    <p>
+                                        Our client-centric approach is founded on understanding the unique needs power systems present to your specific operations. 
+                                        We take the time to analyse your needs and goals, tailoring solutions that surpass expectations. 
+                                        As a certified Siemens partner, we leverage the power of their renowned equipment, spares, and services offering, including:
+                                    </p>
                             </div>
 
                             <!-- Feature Block -->
-                            <div class="feature-block wow fadeInUp" style="display: flex;">
+                            <div class="" style="display: flex;">
                                 <div class=""><span class="icon flaticon-rocket-ship"></span></div>&nbsp;&nbsp;&nbsp;&nbsp;
+                                <h4 style="color: #ff9933;">HT High Voltage Panels (11KV to 33KV)</h4>
                                 <div class="text">
-                                    <h4>HT High Voltage Panels (11KV to 33KV)</h4>
                                 </div>
                                 <div class="inner-box">
                                     <!-- <div class="icon-box"><span class="icon flaticon-engineer-1"></span></div> -->
@@ -287,46 +325,63 @@
                                     <!-- <div class="text"></div> -->
                                 </div>
                             </div>
+                            <br/>
 
                             <!-- Feature Block -->
-                            <div class="feature-block wow fadeInUp" style="display: flex;">
+                            <div class="" style="display: flex;">
                                 <div class=""><span class="icon flaticon-rocket-ship"></span></div>&nbsp;&nbsp;&nbsp;&nbsp;
-                                <div class="text"><h4>EHV Breakers (SF6 Gas CB, 66KV to 765KV)</h4></div>
+                                <h4 style="color: #ff9933;">EHV Breakers (SF6 Gas CB, 66KV to 765KV)</h4>
+                                <div class="text">
+                                </div>
                                 <div class="inner-box">
                                     <!-- <div class="icon-box"><span class="icon flaticon-bar-chart"></span></div> -->
                                     <!-- <h4><a href="service-detail.html"></a></h4> -->
                                     <!-- <div class="text"></div> -->
                                 </div>
                             </div>
+                            <br/>
 
                             <!-- Feature Block -->
-                            <div class="feature-block wow fadeInUp" style="display: flex;">
+                            <div class="" style="display: flex;">
                                 <div class=""><span class="icon flaticon-rocket-ship"></span></div>&nbsp;&nbsp;&nbsp;&nbsp;
-                                <div class="text"><h4>Isolators (33KV to 765KV)</h4></div>
+                                <h4 style="color: #ff9933;">Isolators (33KV to 765KV)</h4></div>
+                                <div class="text">
                                 <div class="inner-box" >
                                     <!-- <div class="icon-box"><span class="icon flaticon-rocket-ship"></span></div> -->
                                     <!-- <h4><a href="service-detail.html">Isolators (33KV to 765KV)</a></h4> -->
                                 </div>
                             </div>
+                            <br/>
 
-                            <div class="feature-block wow fadeInUp" style="display: flex;">
+                            <div class="" style="display: flex;">
                                 <div class=""><span class="icon flaticon-rocket-ship"></span></div>&nbsp;&nbsp;&nbsp;&nbsp;
-                                <div class="text"><h4>LT</h4></div>
+                                <h4 style="color: #ff9933;">LT</h4></div>
+                                <div class="text">
                                 <div class="inner-box">
                                     <!-- <div class="icon-box"><span class="icon flaticon-bar-chart"></span></div> -->
                                 </div>
                             </div>
+                            <br/>
 
-                            <div class="btn-box">
-                                <a href="about-us.html" class="theme-btn btn-style-one"><span class="btn-title">Read More</span></a>
+                            <div class="text-box">
+                                <p>
+                                    At Power System Services, quality, collaboration, and technical excellence aren't just buzzwords; they're the principles guiding our every action.  Our team of professionals delivers unparalleled service, ensuring your power infrastructure receives the detailed attention and expertise it deserves.  Let Power System Services become your strategic partner in power system optimization. 
+                                </p>
+                                <p>
+                                    Contact us today to discover how we can transform your power operations and boost your success.
+
+                                </p>
                             </div>
+                            
                         </div>
                     </div>
 
                     <div class="col-lg-6 col-md-12 col-sm-12">
-                        <div class="inner-column innercolumn">                        
+                        <!-- <div class="inner-column innercolumn"> -->
+
+                           
                             <div class="inner-column">
-                                <div class="request-form wow fadeInLeft" style="visibility: visible;">
+                                <div class="request-form wow fadeInLeft theme" style="visibility: visible;">
                                     <div class="welcome-heading">
                                         <h2 class="theme_color">Quick Inquiry</h2>
                                 
@@ -371,16 +426,78 @@
                                     </form>
                                 </div>
                             </div>
-                        </div>
+                        <!-- </div> -->
                     </div>
+
 
                 </div>
             </div>
         </section>
         <!-- End About Us -->
 
+        <section class="fun-facts">
+            <div class="auto-container">
+                <div class="sec-title text-center">
+                    <span class="float-text" style="color: white;">Facts</span>
+                    <h2>Magical Numbers</h2>
+                </div>
+                <div class="row">
+                    <!--Counter Column-->
+                    <div class="fact-counter col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                        <div class="row">
+                            <!--Column-->
+                            <div class="column counter-column col-lg-6 col-md-6 wow fadeInUp">
+                                <div class="inner" style="background-color: white;">
+                                    <span class="icon flaticon-conveyor-1"></span>
+                                    <div class="count-outer count-box">
+                                        <span class="count-text" style="color:#ff9933;" data-speed="2000" data-stop="18">0</span>+
+                                    </div>
+                                    <h4 class="counter-title" style="color:#ff9933;">Years Of Experience</h4>
+                                </div>
+                            </div>
+
+                            <!--Column-->
+                            <div class="column counter-column col-lg-6 col-md-6 wow fadeInUp"
+                                data-wow-delay="300ms">
+                                <div class="inner" style="background-color: white;">
+                                    <span class="icon flaticon-mechanic"></span>
+                                    <div class="count-outer count-box">
+                                        <span class="count-text" style="color:#ff9933;" data-speed="2000" data-stop="1500">0</span>+
+                                    </div>
+                                    <h4 class="counter-title" style="color:#ff9933;"> RETROFITTED MORE THEN 1,500 BREAKES </h4>
+                                </div>
+                            </div>
+
+                            <!--Column-->
+                            <div class="column counter-column col-lg-6 col-md-6 wow fadeInUp">
+                                <div class="inner" style="background-color: white;">
+                                    <span class="icon flaticon-robot-arm"></span>
+                                    <div class="count-outer count-box">
+                                        <span class="count-text" style="color:#ff9933;" data-speed="2500" data-stop="20000">0</span>+
+                                    </div>
+                                    <h4 class="counter-title" style="color:#ff9933;">MORE THAN 20,000 HEALTH CHECKUP JOBS OF BREAKERS WITH PANEL UNDER GUIDELINE FROM SIEMENS LTD</h4>
+                                </div>
+                            </div>
+
+                            <!--Column-->
+                            <div class="column counter-column col-lg-6 col-md-6 wow fadeInUp"
+                                data-wow-delay="300ms">
+                                <div class="inner" style="background-color: white;">
+                                    <span class="icon flaticon-diamond"></span>
+                                    <div class="count-outer count-box">
+                                        <span class="count-text" style="color:#ff9933;" data-speed="3000" data-stop="0">0</span>
+                                    </div>
+                                    <h4 class="counter-title" style="color:#ff9933;">XX</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Contact Info Section -->
-        <section class="contact-info-section" style="background-image: url(images/background/1.jpg);">
+        <section class="contact-info-section" style="background-color: white">
             <div class="auto-container">
                 <div class="content">
                     <span class="title">WE’RE A LEADING INDUSTRY COMPANY</span>
@@ -515,11 +632,11 @@
         <!--End Video Section -->
 
         <!-- Call Back Section -->
-        <section class="call-back-section">
+        <section class="call-back-section" style="background-color: white;">
             <div class="auto-container">
                 <div class="sec-title text-center">
-                    <span class="float-text">Call back</span>
-                    <h2>Request A <span>Quote</span></h2>
+                    <span class="float-text" style="color: white;">Call back</span>
+                    <h2>Request A Quote<span></span></h2>
                     <div class="text">Send us a email and we’ll get in touch shortly, or phone between <br>9:00AM to
                         5:00PM Monday to Friday - We would be delighted to speak.</div>
                 </div>

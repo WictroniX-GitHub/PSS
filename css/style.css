@@ -1591,7 +1591,6 @@ img{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-	margin-top: 20vh;
 }
 
 .page-title:before{
@@ -2215,6 +2214,59 @@ img{
 ====================================================================
 
 ***/
+
+@media only screen and (max-width: 768px) {
+	.maxnav{
+		display: none;
+	}
+	.logo-box {
+		margin-left: 0vh;
+	}
+
+	.logo-text {
+		font-size: large;
+		margin-left: 1vh;
+	}
+
+	.banner-section-two{
+		margin-top: 10vh;
+	}
+
+	.page-title{
+		margin-top: 10vh;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.display1 {
+		display: none;
+	}
+
+	.no-touch {
+		display: none;
+	}
+
+	.logo-text {
+		font-size: xx-large;
+		margin-left: 3vh;
+	}
+
+	/* .logo-box {
+		margin-left: 30vh;
+	} */
+
+	.innercolumn {
+		margin-top: -7vh;
+	}
+
+	.banner-section-two{
+		margin-top: 20vh;
+	}
+
+	.page-title{
+		margin-top: 20vh;
+	}
+}
 
 .banner-section-two{
 	position: relative;
