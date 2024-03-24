@@ -23,6 +23,82 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+
+<style>
+
+    /* .inner-box .read-more :hover{
+        background-color:#ff9933;
+    } */
+
+    .about-us{
+        background-color: white;
+        color: black;
+    }
+
+    .services-section {
+        background-color: white;
+        color: black;
+    }
+
+    .fun-facts {
+        background-color: white;
+        color: black;
+    }
+
+    .fadeInLeft {
+        background-color: white;
+        color: black;
+    }
+
+    .mynav li{
+        color: black;
+    }
+
+    .mynav li :hover{
+        color: black;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .maxnav{
+            display: none;
+        }
+        .logo-box {
+            margin-left: 0vh;
+        }
+
+        .logo-text {
+            font-size: large;
+            margin-left: 1vh;
+        }
+    }
+
+    @media only screen and (min-width: 768px) {
+        .display1 {
+            display: none;
+        }
+
+        .no-touch {
+            display: none;
+        }
+
+        .logo-text {
+            font-size: xx-large;
+            margin-left: 3vh;
+        }
+
+        /* .logo-box {
+            margin-left: 30vh;
+        } */
+
+        .innercolumn {
+            margin-top: -7vh;
+        }
+
+        
+    }
+
+
+</style>
 </head>
 
 <body>
@@ -32,7 +108,7 @@
     <div class="preloader"></div>
 
     <!-- Sidenav Bar -->
-    <section class="sidenav-bar">
+    <section class="sidenav-bar display1">
         <div class="nav-box">
             <div class="inner-box">
                 <div class="upper-box">
@@ -42,81 +118,50 @@
                 <!-- .Side Nav -->
                 <nav class="side-nav">
                     <ul class="navigation clearfix" id="nav">
-                        <li class="dropdown"><a href="index-2.html">Home</a>
-                            <ul>
-                                <li><a href="index-2.html">Home Showcase</a></li>
-                                <li><a href="index-3.html">Home Carousel</a></li>
-                                <li><a href="index-4.html">Home Banner</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown"><a href="about-us.html">About</a>
-                            <ul>
-                                <li><a href="about-us.html">About Us</a></li>
-                                <li><a href="about-me.html">About Me</a></li>
-                                <li><a href="faqs.html">FAQ's</a></li>
-                                <li><a href="team.html">Team</a></li>
-                                <li><a href="pricing.html">Pricing</a></li>
-                                <li><a href="coming-soon.html">Coming Soon</a></li>
-                            </ul>
-                        </li>
-                        <li class="current dropdown"><a href="services.html">Services</a>
-                            <ul>
-                                <li><a href="services.html">All Services</a></li>
-                                <li><a href="service-detail.html">Civil Enginerring</a></li>
-                                <li><a href="service-detail.html">Oil & Gas Engineering</a></li>
-                                <li><a href="service-detail.html">Chemical Engineering</a></li>
-                                <li><a href="service-detail.html">Agriculture Engineering</a></li>
-                                <li><a href="service-detail.html">Mechanical Engineering</a></li>
-                                <li><a href="service-detail.html">Service Detail</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown"><a href="projects.html">Projects</a>
-                            <ul>
-                                <li><a href="projects.html">Project with Filters</a></li>
-                                <li><a href="projects-2.html">Project Slide Show</a></li>
-                                <li><a href="project-detail.html">Project Detail</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown"><a href="blog.html">Blog</a>
-                            <ul>
-                                <li><a href="blog.html">Blog with Sidebar</a></li>
-                                <li><a href="blog-grid.html">Blog Grid View</a></li>
-                                <li><a href="blog-single.html">Blog Single</a></li>
-                                <li><a href="error-page.html">Error Page</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown"><a href="shop.html">Shop</a>
-                            <ul>
-                                <li><a href="shop.html">Shop</a></li>
-                                <li><a href="shop-single.html">Product Details</a></li>
-                                <li><a href="shopping-cart.html">Shopping Cart</a></li>
-                                <li><a href="checkout.html">Checkout Page</a></li>
-                                <li><a href="login.html">Registration Page</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul> 
+                        <li><a href="index-3.html">HOME</a></li>
+                        <li><a href="about-us.html">ABOUT US</a></li>
+                        <li><a href="services.html">PRODUCTS</a></li>
+                        <li><a href="services.html">GALLERY</a></li>
+                        <li><a href="services.html">CLIENTS</a></li>
+                        <li><a href="contact.html">CAREER</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
                 </nav><!-- /.Side-menu -->
 
                 <div class="contact-info-box">
-                    <!--Info Box-->
-                    <div class="info-box">
+<!-- =                        <div class="info-box">
                         <div class="icon-box"><span class="fa fa-home"></span></div>
                         <p>13005 Greenville Avenue <br>United Kingdom, TX 70240</p>
                     </div>
 
-                    <!--Info Box-->
-                    <div class="info-box">
+=                        <div class="info-box">
                         <div class="icon-box"><span class="far fa-clock"></span></div>
                         <p>Mon - Fri: 09:00 - 18:00</p>
                         <p>Sunday --- Close</p>
                     </div>
 
-                    <!--Info Box-->
-                    <div class="info-box">
+=                        <div class="info-box">
                         <div class="icon-box"><span class="far fa-envelope"></span></div>
                         <p><a href="tel:(888)123456789">(888) 123 456 789</a></p>
                         <p><a href="mailto:support@example.com">support@example.com</a></p>
+                    </div> -->
+                    <div class="top-icons" style="display: flex;">
+                        <ul class="social-icons icon-zoom">
+                            <li>    
+                                <a href="tel:9825513700"><i class="fa fa-phone"></i></a>
+                                <span>
+                                <h4>Call Us:</h4>
+                                <a href="tel:9825513700">9825513700</a>
+                                </span>
+                            </li>
+                            <li>
+                                <a href="mailto:vptrivedi@powersystemservices.in "><i class="fa fa-envelope"></i></a>
+                                <span>
+                                <h4>Mail Us:</h4>
+                                <a href="mailto:vptrivedi@powersystemservices.in ">vptrivedi@powersystemservices.in </a>
+                                </span>    
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -129,57 +174,56 @@
 
         <!-- Main Header-->
         <header class="main-header">
-            <div class="outer-container">
+            <div class="outer-container" style="background-color: white;">
                 <div class="main-box clearfix">
-                    <div class="logo-box">
-                        <div class="logo"><a href="index-2.html"><img src="images/logo.png" alt="" title=""></a></div>
+                    <div class="logo-box" style="font-size: large;">
+                        <div class="logo"><a href="index-3.html"><img style="border-radius: 1vh;" src="images/logo PSS.jpg" alt="" title=""></a>
+                        <span class="float-text theme_color logo-text">POWER SYSTEM SERVICES</span></div>
                     </div>
 
-                    
                     <div class="outer-box clearfix">
-                        <!-- Shoppping Car -->
-                        <div class="cart-btn">
-                            <button><i class="icon flaticon-shopping-bag"></i> <span class="count">2</span></button>
-
-                            <div class="shopping-cart">
-                                <div class="shopping-cart-header">
-                                    <i class="flaticon-shopping-cart-2 cart-icon"></i><span class="badge">2</span>
-                                    <div class="shopping-cart-total">
-                                        <span class="lighter-text">Total:</span>
-                                        <span class="main-color-text">$60.00</span>
-                                    </div>
-                                </div>
-
-                                <ul class="shopping-cart-items">
-                                    <li class="clearfix">
-                                        <img src="images/resource/products/prod-thumb-1.jpg" alt="item1" />
-                                        <span class="item-name">Popular Product</span>
-                                        <span class="item-price">$30.00</span>
-                                        <span class="item-quantity">Quantity: 01</span>
-                                        <a href="shop-single.html" class="product-detail"></a>
+                        <div class="maxnav" style="margin-left: -30vh; font-size: large;">
+                            <div class="top-icons">
+                                <ul class="social-icons icon-zoom" style="display: flex;">
+                                    <li style="margin-right: 4vh;">    
+                                        <a href="tel:9825513700"><i class="fa fa-phone"></i></a>
+                                        <span>
+                                        <h4>Call Us:</h4>
+                                        <a href="tel:9825513700 ">9825513700</a>
+                                        </span>
                                     </li>
-
-                                    <li class="clearfix">
-                                        <img src="images/resource/products/prod-thumb-2.jpg" alt="item1" />
-                                        <span class="item-name">Popular Product</span>
-                                        <span class="item-price">$30.00</span>
-                                        <span class="item-quantity">Quantity: 01</span>
-                                        <a href="shop-single.html" class="product-detail"></a>
+                                    <li>
+                                        <a href="mailto:vptrivedi@powersystemservices.in 
+                                        "><i class="fa fa-envelope"></i></a>
+                                        <span>
+                                        <h4>Mail Us:</h4>
+                                        <a href="mailto:vptrivedi@powersystemservices.in">vptrivedi@powersystemservices.in</a>
+                                        </span>    
                                     </li>
                                 </ul>
-
-                                <a href="checkout.html" class="theme-btn btn-style-one"><span class="btn-title">Checkout</span></a>
-                            </div> <!--end shopping-cart -->
+                            </div>
                         </div>
-
-                        <!-- Search Btn -->
-                        <div class="search-box">
-                            <button class="search-btn"><i class="fa fa-search"></i></button>
-                        </div>
-                        
                         <!-- Btn box -->
-                        <div class="btn-box no-touch"><button class="nav-toggler"><span></span></button></div>
+                        <div class="btn-box no-touch" style="margin-top: 1.5vh;"><button class="nav-toggler"><span></span></button></div>
                     </div>
+
+                </div>
+                <div class="maxnav">
+                    <nav class="maxnav">
+                        <ul class="mynav" style="display: flex; font-size: xx-large; justify-content: center;">
+                            <!-- <div class="btn-box">
+                                <a href="about-us.html" class="theme-btn btn-style-two"><span class="btn-title">Read
+                                        More</span></a>
+                            </div> -->
+                            <li style="margin: 2vh;"><a href="index-3.html" class="btn-box">HOME </a>  &nbsp; <span class="theme_color"></span> &nbsp;</li>  
+                            <li style="margin: 2vh;"><a href="about-us.html" class="btn-box">ABOUT US </a>  &nbsp; <span class="theme_color"></span>  &nbsp;</li>
+                            <li style="margin: 2vh;"><a href="services.html" class="btn-box">PRODUCTS </a> &nbsp; <span class="theme_color"></span>  &nbsp;</li> 
+                            <li style="margin: 2vh;"><a href="services.html" class="btn-box">GALLERY </a> &nbsp; <span class="theme_color"></span>  &nbsp;</li> 
+                            <li style="margin: 2vh;"><a href="services.html" class="btn-box">CLIENTS</a> &nbsp; <span class="theme_color"></span>  &nbsp;</li> 
+                            <li style="margin: 2vh;"><a href="contact.html" class="btn-box">CAREER </a> &nbsp; <span class="theme_color"></span>  &nbsp;</li> 
+                            <li style="margin: 2vh;"><a href="contact.html" class="btn-box">CONTACT</a> &nbsp; <span class="theme_color"></span>  &nbsp;</li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
         </header>
@@ -198,23 +242,24 @@
         <!-- End Search Popup -->
 
         <!--Page Title-->
-        <section class="page-title" style="background-image:url(images/background/9.jpg)">
+        <section class="page-title" style="">
             <div class="auto-container">
-                <h2>Our Services</h2>
+                <h2>Our Products</h2>
                 <ul class="page-breadcrumb">
-                    <li><a href="index-2.html">home</a></li>
-                    <li>Our Services</li>
+                    <li><a href="index-3.html">home</a></li>
+                    <li>Our Products</li>
                 </ul>
             </div>
         </section>
         <!--End Page Title-->
 
          <!-- Services Section -->
-        <section class="services-section-two">
+        <section class="services-section-two" style="background-color: white">
             <div class="auto-container">
+
                 <div class="sec-title text-center">
-                    <span class="float-text">Services</span>
-                    <h2>Industrial <span>Solutions</span></h2>
+                    <span class="float-text" style="color: white;">Products</span>
+                    <h2>Industrial Solutions</h2>
                 </div>
 
                 <div class="row">
@@ -222,11 +267,11 @@
                     <div class="service-block-two col-lg-4 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><a href="service-detail.html"><img src="images/resource/service-1.jpg" alt=""></a></figure>
+                                <figure class="image"><img src="images/products/image1.png" alt=""></figure>
                             </div>
                             <div class="lower-content">
-                                <h3><a href="service-detail.html">Civil Engineering</a></h3>
-                                <div class="text">We have strength and experience in this services allowed in successfully delivering.</div>
+                                <h3 style="color: #ff9933;">MV (Medium Voltage)</h3>
+                                <div class="text">Operates between 1kV and 72kV and are crucial for efficient power distribution.</div>
                                 <a href="service-detail.html" class="read-more">Read More</a>
                             </div>
                         </div>
@@ -236,11 +281,11 @@
                     <div class="service-block-two col-lg-4 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><a href="service-detail.html"><img src="images/resource/service-2.jpg" alt=""></a></figure>
+                                <figure class="image"><img src="images/products/image6.png" alt=""></figure>
                             </div>
                             <div class="lower-content">
-                                <h3><a href="service-detail.html">Agricultural Automation</a></h3>
-                                <div class="text">We have strength and experience in this services allowed in successfully delivering.</div>
+                                <h3 style="color: #ff9933;">EHV (Extra High Voltage)</h3>
+                                <div class="text">Vital for long-distance transmission of high volumes of electricity.</div>
                                 <a href="service-detail.html" class="read-more">Read More</a>
                             </div>
                         </div>
@@ -250,11 +295,11 @@
                     <div class="service-block-two col-lg-4 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><a href="service-detail.html"><img src="images/resource/service-3.jpg" alt=""></a></figure>
+                                <figure class="image"><img src="images/products/image5.png" alt=""></figure>
                             </div>
                             <div class="lower-content">
-                                <h3><a href="service-detail.html">Mechanical Engineering</a></h3>
-                                <div class="text">We have strength and experience in this services allowed in successfully delivering.</div>
+                                <h3 style="color: #ff9933;">Isolator</h3>
+                                <div class="text">Mechanical switches that create a safe physical break in electrical circuits</div>
                                 <a href="service-detail.html" class="read-more">Read More</a>
                             </div>
                         </div>
@@ -264,11 +309,11 @@
                     <div class="service-block-two col-lg-4 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><a href="service-detail.html"><img src="images/resource/service-4.jpg" alt=""></a></figure>
+                                <figure class="image"><img src="images/products/image3.png" alt=""></figure>
                             </div>
                             <div class="lower-content">
-                                <h3><a href="service-detail.html">Oil & Gas Engineering</a></h3>
-                                <div class="text">We have strength and experience in this services allowed in successfully delivering.</div>
+                                <h3 style="color: #ff9933;">LT (Low Voltage) </h3>
+                                <div class="text">Operates below 1kV and deliver power to homes and the everyday electrical outlets.</div>
                                 <a href="service-detail.html" class="read-more">Read More</a>
                             </div>
                         </div>
@@ -278,36 +323,129 @@
                     <div class="service-block-two col-lg-4 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><a href="service-detail.html"><img src="images/resource/service-5.jpg" alt=""></a></figure>
+                                <figure class="image"><img src="images/products/image4.png" alt=""></figure>
                             </div>
                             <div class="lower-content">
-                                <h3><a href="service-detail.html">Automotive Manufacturing</a></h3>
-                                <div class="text">We have strength and experience in this services allowed in successfully delivering.</div>
+                                <h3 style="color: #ff9933;">Retrofitting (General)</h3>
+                                <div class="text">Offers compelling advantages over full system replacement.</div>
                                 <a href="service-detail.html" class="read-more">Read More</a>
                             </div>
                         </div>
                     </div>
 
                     <!-- service Block -->
-                    <div class="service-block-two col-lg-4 col-md-6 col-sm-12">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <figure class="image"><a href="service-detail.html"><img src="images/resource/service-6.jpg" alt=""></a></figure>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- End service Section -->
+        <section class="fun-facts">
+            <div class="auto-container">
+                <div class="sec-title text-center">
+                    <span class="float-text" style="color: white;">Choose Us</span>
+                    <h2>Why Choose Us</h2>
+                </div>
+                <div class="row">
+                    <!--Counter Column-->
+                    <div class="fact-counter col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                        <div class="row">
+                            <!--Column-->
+                            <div class="column counter-column col-lg-12 col-md-12">
+                                <div class="inner" style="background-color: white;">
+                                    <span class="icon flaticon-conveyor-1"></span>
+                                    <div class="count-outer count-box">
+                                        <span class="count-text" style="color:#ff9933;">Proven Expertise</span>
+                                    </div>
+                                    <h4 class="counter-title" style="color:#ff9933;">Decades of experience delivering reliable power solutions.
+                                    </h4>
+                                </div>
                             </div>
-                            <div class="lower-content">
-                                <h3><a href="service-detail.html">Chemical Research</a></h3>
-                                <div class="text">We have strength and experience in this services allowed in successfully delivering.</div>
-                                <a href="service-detail.html" class="read-more">Read More</a>
+
+                            <div class="column counter-column col-lg-12 col-md-12">
+                                <div class="inner" style="background-color: white;">
+                                    <span class="icon flaticon-diamond"></span>
+                                    <div class="count-outer count-box">
+                                        <span class="count-text" style="color:#ff9933;">Client-First Focus</span>
+                                    </div>
+                                    <h4 class="counter-title" style="color:#ff9933;">We listen to your needs and tailor solutions that achieve your specific goals.
+                                    </h4>
+                                </div>
                             </div>
+
+                            <div class="column counter-column col-lg-12 col-md-12">
+                                <div class="inner" style="background-color: white;">
+                                    <span class="icon flaticon-mechanic"></span>
+                                    <div class="count-outer count-box">
+                                        <span class="count-text" style="color:#ff9933;">Uncompromising Quality</span>
+                                    </div>
+                                    <h4 class="counter-title" style="color:#ff9933;">Commitment to industry-leading standards and the finest Siemens equipment.
+                                    </h4>
+                                </div>
+                            </div>
+
+                            <div class="column counter-column col-lg-12 col-md-12">
+                                <div class="inner" style="background-color: white;">
+                                    <span class="icon flaticon-robot-arm"></span>
+                                    <div class="count-outer count-box">
+                                        <span class="count-text" style="color:#ff9933;">Technical Excellence</span>
+                                    </div>
+                                    <h4 class="counter-title" style="color:#ff9933;">A team of professionals with a deep understanding of power systems.
+                                </div>
+                            </div>
+
+                            <div class="column counter-column col-lg-12 col-md-12">
+                                <div class="inner" style="background-color: white;">
+                                    <span class="icon flaticon-mechanic"></span>
+                                    <div class="count-outer count-box">
+                                        <span class="count-text" style="color:#ff9933;">Partnership Approach</span>
+                                    </div>
+                                    <h4 class="counter-title" style="color:#ff9933;">We're not just suppliers, we're invested in your long-term success.
+                                    </h4>
+                                </div>
+                            </div>
+
+                            <!-- Column -->
+                            <!-- <div class="column counter-column col-lg-6 col-md-6 wow fadeInUp"
+                                data-wow-delay="300ms">
+                                <div class="inner" style="background-color: white;">
+                                    <span class="icon flaticon-mechanic"></span>
+                                    <div class="count-outer count-box">
+                                        <span class="count-text" style="color:#ff9933;" data-speed="2000" data-stop="1500">0</span>+
+                                    </div>
+                                    <h4 class="counter-title" style="color:#ff9933;"> RETROFITTED MORE THEN 1,500 BREAKES </h4>
+                                </div>
+                            </div> -->
+
+                            <!--Column-->
+                            <!-- <div class="column counter-column col-lg-6 col-md-6 wow fadeInUp">
+                                <div class="inner" style="background-color: white;">
+                                    <span class="icon flaticon-robot-arm"></span>
+                                    <div class="count-outer count-box">
+                                        <span class="count-text" style="color:#ff9933;" data-speed="2500" data-stop="20000">0</span>+
+                                    </div>
+                                    <h4 class="counter-title" style="color:#ff9933;">MORE THAN 20,000 HEALTH CHECKUP JOBS OF BREAKERS WITH PANEL UNDER GUIDELINE FROM SIEMENS LTD</h4>
+                                </div>
+                            </div> -->
+
+                            <!--Column-->
+                            <!-- <div class="column counter-column col-lg-6 col-md-6 wow fadeInUp"
+                                data-wow-delay="300ms">
+                                <div class="inner" style="background-color: white;">
+                                    <span class="icon flaticon-diamond"></span>
+                                    <div class="count-outer count-box">
+                                        <span class="count-text" style="color:#ff9933;" data-speed="3000" data-stop="0">0</span>
+                                    </div>
+                                    <h4 class="counter-title" style="color:#ff9933;">XX</h4>
+                                </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- End service Section -->
 
         <!-- Video Section -->
-        <section class="video-section" style="background-image: url(images/background/2.jpg);" data-stellar-background-ratio="0.5">
+        <!-- <section class="video-section" style="background-image: url(images/background/2.jpg);" data-stellar-background-ratio="0.5">
             <div class="auto-container">
                 <div class="content-box">
                     <div class="text">WE’RE A LEADING INDUSTRY COMPANY</div>
@@ -315,11 +453,11 @@
                     <a href="https://www.youtube.com/watch?v=Fvae8nxzVz4" class="play-now" data-fancybox="gallery" data-caption=""><i class="icon flaticon-play-button-3" aria-hidden="true"></i><span class="ripple"></span></a>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!--End Video Section -->
 
         <!-- Features Section -->
-        <section class="features-section">
+        <!-- <section class="features-section">
             <div class="auto-container">
                 <div class="sec-title">
                     <span class="float-text">Why Us?</span>
@@ -344,7 +482,6 @@
                     <div class="features-column col-xl-8 col-lg-12 col-md-12 col-sm-12">
                         <div class="row">
 
-                            <!-- Feature Block -->
                             <div class="feature-block-two col-lg-6 col-md-6 col-sm-12 wow fadeInUp">
                                 <div class="inner-box">
                                     <span class="icon flaticon-project-management"></span>
@@ -353,7 +490,6 @@
                                 </div>
                             </div>
 
-                            <!-- Feature Block -->
                             <div class="feature-block-two col-lg-6 col-md-6 col-sm-12 wow fadeInUp">
                                 <div class="inner-box">
                                     <span class="icon flaticon-mechanic"></span>
@@ -362,7 +498,6 @@
                                 </div>
                             </div>
 
-                            <!-- Feature Block -->
                             <div class="feature-block-two col-lg-6 col-md-6 col-sm-12 wow fadeInUp">
                                 <div class="inner-box">
                                     <span class="icon flaticon-24-hours"></span>
@@ -371,7 +506,6 @@
                                 </div>
                             </div>
 
-                            <!-- Feature Block -->
                             <div class="feature-block-two col-lg-6 col-md-6 col-sm-12 wow fadeInUp">
                                 <div class="inner-box">
                                     <span class="icon flaticon-team"></span>
@@ -380,7 +514,6 @@
                                 </div>
                             </div>
 
-                            <!-- Feature Block -->
                             <div class="feature-block-two col-lg-6 col-md-6 col-sm-12 wow fadeInUp">
                                 <div class="inner-box">
                                     <span class="icon flaticon-manufacturing-1"></span>
@@ -389,7 +522,6 @@
                                 </div>
                             </div>
 
-                            <!-- Feature Block -->
                             <div class="feature-block-two col-lg-6 col-md-6 col-sm-12 wow fadeInUp">
                                 <div class="inner-box">
                                     <span class="icon flaticon-clock-4"></span>
@@ -401,7 +533,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!--End Features Section -->
 
         <!-- Clients Section -->
