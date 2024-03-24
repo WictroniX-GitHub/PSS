@@ -3637,6 +3637,7 @@ img{
 	width: 12px;
 	background-color: rgba(255,255,255,.50);
 	margin: 0 5px;
+	background-color: #fd7e14;
 }
 
 .services-section .owl-dot.active{
@@ -3744,7 +3745,7 @@ img{
 	font-weight: 600;
 	padding: 5px 20px;
 	border-radius: 3px;
-	background-color: #fd7e14;
+	background-color: orange;
 	-webkit-transition: all 300ms ease;
 	-moz-transition: all 300ms ease;
 	-ms-transition: all 300ms ease;
@@ -3753,7 +3754,6 @@ img{
 }
 
 .service-block-two .read-more:hover{
-	background-color: #ffffff;
 	color: #222222;
 }
 
@@ -5212,7 +5212,6 @@ img{
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-color: #222222;
 	opacity: .90;
 	content: "";
 }
@@ -5237,7 +5236,7 @@ img{
 	display: block;
 	font-size: 42px;
 	line-height: 1.3em;
-	color: #ffffff;
+	color: #fd7e14;
 	font-weight: 600;
 	margin-bottom: 20px;
 }
