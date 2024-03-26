@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- index-203:54-->
+
 <head>
     <meta charset="utf-8">
-    <title>Home - Power System Services</title>
+    <title>Power System Services | Home </title>
     <!-- Stylesheets -->
-    <link href="./css/bootstrap.css" rel="stylesheet">
-    <link href="./css/style.css" rel="stylesheet">
-    <link href="./css/responsive.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
     <!--Color Switcher Mockup-->
-    <link href="./css/color-switcher-design.css" rel="stylesheet">
+    <link href="css/color-switcher-design.css" rel="stylesheet">
 
     <!--Color Themes-->
     <link id="theme-color-file" href="css/color-themes/default-theme.css" rel="stylesheet">
@@ -20,11 +22,88 @@
     <!-- Responsive -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
 
+    <style>
+
+        /* .inner-box .read-more :hover{
+            background-color:#ff9933;
+        } */
+
+        .about-us{
+            background-color: white;
+            color: black;
+        }
+
+        .services-section {
+            background-color: white;
+            color: black;
+        }
+
+        .fun-facts {
+            background-color: white;
+            color: black;
+        }
+
+        .fadeInLeft {
+            background-color: white;
+            color: black;
+        }
+
+        .mynav li{
+            color: black;
+        }
+
+        .mynav li :hover{
+            color: black;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .maxnav{
+                display: none;
+            }
+            .logo-box {
+                margin-left: 0vh;
+            }
+
+            .logo-text {
+                font-size: large;
+                margin-left: 1vh;
+            }
+        }
+
+        @media only screen and (min-width: 768px) {
+            .display1 {
+                display: none;
+            }
+
+            .no-touch {
+                display: none;
+            }
+
+            .logo-text {
+                font-size: xx-large;
+                margin-left: 3vh;
+            }
+
+            /* .logo-box {
+                margin-left: 30vh;
+            } */
+
+            .innercolumn {
+                margin-top: -7vh;
+            }
+
+            
+        }
+
+
+    </style>
 </head>
 
-
 <body>
+
     <div class="page-wrapper">
         <!-- Preloader -->
         <div class="preloader"></div>
@@ -40,12 +119,12 @@
                     <!-- .Side Nav -->
                     <nav class="side-nav">
                         <ul class="navigation clearfix" id="nav">
-                            <li><a href="index-3.html">HOME</a></li>
+                            <li><a href="index.html">HOME</a></li>
                             <li><a href="about-us.html">ABOUT US</a></li>
                             <li><a href="services.html">PRODUCTS</a></li>
-                            <li><a href="services.html">GALLERY</a></li>
+                            <li><a href="gallery.html">GALLERY</a></li>
                             <li><a href="clients.html">CLIENTS</a></li>
-                            <li><a href="contact.html">CAREER</a></li>
+                            <li><a href="career.html">CAREER</a></li>
                             <li><a href="contact.html">CONTACT</a></li>
                         </ul>
                     </nav><!-- /.Side-menu -->
@@ -93,32 +172,62 @@
 
         <!-- Start Main Content -->
         <main id="content">
+
             <!-- Main Header-->
             <header class="main-header">
-                <div class="header-top">
-                    <a href="index.html" class="logo">
-                        <img src="images/logo.png" alt="Logo">
-                    </a>
-                    <div class="contact-info">
-                        <a href="tel:9825513700" class="contact-link"><i class="fas fa-phone"></i> &nbsp; 9825513700</a>
-                        <a href="mailto:vptrivedi@powersystemservices.in" class="contact-link"><i class="fas fa-envelope"></i>&nbsp; vptrivedi@powersystemservices.in</a>
+                <div class="outer-container" style="background-color: white;">
+                    <div class="main-box clearfix">
+                        <div class="logo-box" style="font-size: large;">
+                            <div class="logo"><a href="index.html"><img style="border-radius: 1vh;" src="images/logo PSS.jpg" alt="" title=""></a>
+                            <span class="float-text theme_color logo-text">POWER SYSTEM SERVICES</span></div>
+                        </div>
+
+                        <div class="outer-box clearfix">
+                            <div class="maxnav" style="margin-left: -30vh; font-size: large;">
+                                <div class="top-icons">
+    								<ul class="social-icons icon-zoom" style="display: flex;">
+    									<li style="margin-right: 4vh;">    
+    										<a href="tel:9825513700"><i class="fa fa-phone"></i></a>
+    										<span>
+                                            <h4>Call Us:</h4>
+                                            <a href="tel:9825513700 ">9825513700</a>
+                                            </span>
+    									</li>
+    									<li>
+    										<a href="mailto:vptrivedi@powersystemservices.in 
+                                            "><i class="fa fa-envelope"></i></a>
+    										<span>
+                                            <h4>Mail Us:</h4>
+                                            <a href="mailto:vptrivedi@powersystemservices.in">vptrivedi@powersystemservices.in</a>
+                                            </span>    
+    									</li>
+    								</ul>
+    							</div>
+                            </div>
+                            <!-- Btn box -->
+                            <div class="btn-box no-touch" style="margin-top: 1.5vh;"><button class="nav-toggler"><span></span></button></div>
+                        </div>
+
+                    </div>
+                    <div class="maxnav">
+                        <nav class="maxnav">
+                            <ul class="mynav" style="display: flex; font-size: xx-large; justify-content: center;">
+                                <!-- <div class="btn-box">
+                                    <a href="about-us.html" class="theme-btn btn-style-two"><span class="btn-title">Read
+                                            More</span></a>
+                                </div> -->
+                                <li style="margin: 2vh;"><a href="index.html" class="btn-box">HOME </a>  &nbsp; <span class="theme_color"></span> &nbsp;</li>  
+                                <li style="margin: 2vh;"><a href="about-us.html" class="btn-box">ABOUT US </a>  &nbsp; <span class="theme_color"></span>  &nbsp;</li>
+                                <li style="margin: 2vh;"><a href="services.html" class="btn-box">PRODUCTS </a> &nbsp; <span class="theme_color"></span>  &nbsp;</li> 
+                                <li style="margin: 2vh;"><a href="gallery.html" class="btn-box">GALLERY </a> &nbsp; <span class="theme_color"></span>  &nbsp;</li> 
+                                <li style="margin: 2vh;"><a href="clients.html" class="btn-box">CLIENTS</a> &nbsp; <span class="theme_color"></span>  &nbsp;</li> 
+                                <li style="margin: 2vh;"><a href="career.html" class="btn-box">CAREER </a> &nbsp; <span class="theme_color"></span>  &nbsp;</li> 
+                                <li style="margin: 2vh;"><a href="contact.html" class="btn-box">CONTACT</a> &nbsp; <span class="theme_color"></span>  &nbsp;</li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
-                <nav class="main-nav">
-                    <ul>
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="about-us.html">ABOUT US</a></li>
-                        <li><a href="services.html">PRODUCTS</a></li>
-                        <li><a href="gallery.html">GALLERY</a></li>
-                        <li><a href="clients.html">CLIENTS</a></li>
-                        <li><a href="career.html">CAREER</a></li>
-                        <li><a href="contact.html">CONTACT</a></li>
-                    </ul>
-                </nav>
             </header>
-            
-            
-            
             <!--End Main Header -->
 
             <!-- Search Popup -->
@@ -136,7 +245,7 @@
             <section class="banner-section-two">
                 <div class="banner-carousel owl-carousel owl-theme">
                     <!-- Slide Item -->
-                    <div class="slide-item" style="background-image: url(images/main-slider/1.jpg);">
+                    <div class="slide-item" style="background-image: url(images/main-slider/11.jpg);">
                         <div class="content-box">
                             <div class="content">
                                 <div class="auto-container" style="padding: 5vh;">
@@ -164,7 +273,7 @@
                     </div>
 
                     <!-- Slide Item -->
-                    <div class="slide-item" style="background-image: url(images/main-slider/2.jpg);">
+                    <div class="slide-item" style="background-image: url(images/main-slider/12.jpg);">
                         <div class="content-box">
                             <div class="content">
                                 <div class="auto-container" style="padding: 5vh;">
@@ -192,34 +301,7 @@
                     </div>
 
                     <!-- Slide Item -->
-                    <div class="slide-item" style="background-image: url(images/main-slider/3.jpg);">
-                        <div class="content-box">
-                            <div class="content">
-                                <div class="auto-container" style="padding: 5vh;">
-                                    <h2>Welcome to Best <br><span class="theme_color">Manufacturing</span></h2>
-                                    <div class="text">We deliver sustainable solutions and services to various
-                                        industries within the USA. <br>Our partners and clients value us for the quality
-                                        of our products.</div>
-                                    <div class="btn-box">
-                                        <a href="service-detail.html" class="theme-btn btn-style-two"><span
-                                                class="btn-title">Our Solution</span></a>
-                                    </div>
-                                </div>
-                                <!-- <div class="banner" style="margin-top: -33vh;">
-                                    <div class="owl-nav">
-                                        <div class="owl-prev" style="float: left;">
-                                            <span class="fa fa-angle-left"></span>
-                                        </div>
-                                        <div class="owl-next" style="float: right;">
-                                            <span class="fa fa-angle-right"></span>
-                                        </div>
-                                    </div>
-                                </div> -->
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Slide Item -->
-                    <div class="slide-item" style="background-image: url(images/main-slider/4.jpg);">
+                    <div class="slide-item" style="background-image: url(images/main-slider/13.jpg);">
                         <div class="content-box">
                             <div class="content">
                                 <div class="auto-container" style="padding: 5vh;">
@@ -260,10 +342,10 @@
             <!--END Banner Section -->
 
             <!-- About Us -->
-            <section class="about-us bg-white">
+            <section class="about-us">
                 <div class="auto-container">
                     <div class="sec-title text-center">
-                        <span class="float-text">STORY</span>
+                        <span class="float-text" style="color: white;">STORY</span>
                         <h2>OUR STORY</h2>
                     </div>
                     <div class="row clearfix">
@@ -288,7 +370,7 @@
                                 <!-- Feature Block -->
                                 <div class="" style="display: flex;">
                                     <div class=""><span class="icon flaticon-rocket-ship"></span></div>&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <h4>HT High Voltage Panels (11KV to 33KV)</h4>
+                                    <h4 style="color: #ff9933;">HT High Voltage Panels (11KV to 33KV)</h4>
                                     <div class="text">
                                     </div>
                                     <div class="inner-box">
@@ -303,7 +385,7 @@
                                 <!-- Feature Block -->
                                 <div class="" style="display: flex;">
                                     <div class=""><span class="icon flaticon-rocket-ship"></span></div>&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <h4>EHV Breakers (SF6 Gas CB, 66KV to 765KV)</h4>
+                                    <h4 style="color: #ff9933;">EHV Breakers (SF6 Gas CB, 66KV to 765KV)</h4>
                                     <div class="text">
                                     </div>
                                     <div class="inner-box">
@@ -317,7 +399,7 @@
                                 <!-- Feature Block -->
                                 <div class="" style="display: flex;">
                                     <div class=""><span class="icon flaticon-rocket-ship"></span></div>&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <h4>Isolators (33KV to 765KV)</h4></div>
+                                    <h4 style="color: #ff9933;">Isolators (33KV to 765KV)</h4></div>
                                     <div class="text">
                                     <div class="inner-box" >
                                         <!-- <div class="icon-box"><span class="icon flaticon-rocket-ship"></span></div> -->
@@ -328,7 +410,7 @@
 
                                 <div class="" style="display: flex;">
                                     <div class=""><span class="icon flaticon-rocket-ship"></span></div>&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <h4>LT</h4></div>
+                                    <h4 style="color: #ff9933;">LT</h4></div>
                                     <div class="text">
                                     <div class="inner-box">
                                         <!-- <div class="icon-box"><span class="icon flaticon-bar-chart"></span></div> -->
@@ -423,6 +505,9 @@
                                     <div class="request-form wow fadeInLeft theme" style="visibility: visible;">
                                         <div class="welcome-heading">
                                             <h2 class="theme_color">Quick Inquiry</h2>
+                                    
+                                            <img src="https://expelprosys.com/wp-content/themes/expel-process/images/quick_line.png"
+                                                class="img-responsvie center-block">
                                         </div>
                                         <!--Comment Form-->
                                         <form method="post" action="#">
@@ -464,16 +549,18 @@
                                 </div>
                             <!-- </div> -->
                         </div>
+
+
                     </div>
                 </div>
             </section>
             <!-- End About Us -->
 
             <!-- Fun Facts -->
-            <section class="fun-facts bg-light">
+            <section class="fun-facts">
                 <div class="auto-container">
                     <div class="sec-title text-center">
-                        <span class="float-text">Facts</span>
+                        <span class="float-text" style="color: white;">Facts</span>
                         <h2>Magical Numbers</h2>
                     </div>
                     <div class="row">
@@ -481,47 +568,48 @@
                         <div class="fact-counter col-xl-12 col-lg-12 col-md-12 col-sm-12">
                             <div class="row">
                                 <!--Column-->
-                                <div class="column col-lg-6 col-md-6 wow fadeInUp">
-                                    <div class="inner">
+                                <div class="column counter-column col-lg-6 col-md-6 wow fadeInUp">
+                                    <div class="inner" style="background-color: white;">
                                         <span class="icon flaticon-conveyor-1"></span>
                                         <div class="count-outer count-box">
-                                            <span class="count-text" data-speed="2000" data-stop="18">0</span>+
+                                            <span class="count-text" style="color:#ff9933;" data-speed="2000" data-stop="18">0</span>+
                                         </div>
-                                        <h4 class="counter-title">Years Of Experience</h4>
+                                        <h4 class="counter-title" style="color:#ff9933;">Years Of Experience</h4>
                                     </div>
                                 </div>
 
                                 <!--Column-->
-                                <div class="column col-lg-6 col-md-6 wow fadeInUp"
+                                <div class="column counter-column col-lg-6 col-md-6 wow fadeInUp"
                                     data-wow-delay="300ms">
-                                    <div class="inner">
+                                    <div class="inner" style="background-color: white;">
                                         <span class="icon flaticon-mechanic"></span>
                                         <div class="count-outer count-box">
-                                            <span class="count-text" data-speed="2000" data-stop="1500">0</span>+
+                                            <span class="count-text" style="color:#ff9933;" data-speed="2000" data-stop="1500">0</span>+
                                         </div>
-                                        <h4 class="counter-title">Retrofitted more than 1,500 Brakes</h4>
+                                        <h4 class="counter-title" style="color:#ff9933;"> RETROFITTED MORE THEN 1,500 BREAKES </h4>
                                     </div>
                                 </div>
 
                                 <!--Column-->
-                                <div class="column col-lg-6 col-md-6 wow fadeInUp">
-                                    <div class="inner">
+                                <div class="column counter-column col-lg-6 col-md-6 wow fadeInUp">
+                                    <div class="inner" style="background-color: white;">
                                         <span class="icon flaticon-robot-arm"></span>
                                         <div class="count-outer count-box">
-                                            <span class="count-text" data-speed="2500" data-stop="20000">0</span>+
+                                            <span class="count-text" style="color:#ff9933;" data-speed="2500" data-stop="20000">0</span>+
                                         </div>
-                                        <h4 class="counter-title">Over 20,000 breaker and panel health checkups following Siemens Ltd guidelines</h4>
+                                        <h4 class="counter-title" style="color:#ff9933;">MORE THAN 20,000 HEALTH CHECKUP JOBS OF BREAKERS WITH PANEL UNDER GUIDELINE FROM SIEMENS LTD</h4>
                                     </div>
                                 </div>
 
                                 <!--Column-->
-                                <div class="column col-lg-6 col-md-6 wow fadeInUp">
-                                    <div class="inner">
-                                        <span class="icon flaticon-robot-arm"></span>
+                                <div class="column counter-column col-lg-6 col-md-6 wow fadeInUp"
+                                    data-wow-delay="300ms">
+                                    <div class="inner" style="background-color: white;">
+                                        <span class="icon flaticon-diamond"></span>
                                         <div class="count-outer count-box">
-                                            <span class="count-text" data-speed="2500" data-stop="20000">0</span>+
+                                            <span class="count-text" style="color:#ff9933;" data-speed="3000" data-stop="0">0</span>
                                         </div>
-                                        <h4 class="counter-title">Over 20,000 breaker and panel health checkups following Siemens Ltd guidelines</h4>
+                                        <h4 class="counter-title" style="color:#ff9933;">XX</h4>
                                     </div>
                                 </div>
                             </div>
@@ -627,22 +715,21 @@
             <!--End Fun Facts -->
 
             <!-- Services Section -->
-            <section class="services-section bg-white">
+            <section class="services-section">
                 <div class="auto-container">
                     <div class="sec-title text-center">
-                        <span class="float-text">Products</span>
-                        <h2>Our Products</h2>
+                        <span class="float-text" style="color: white;">Services</span>
+                        <h2>Our Services</h2>
                     </div>
 
                     <div class="carousel-outer">
-
                         <!-- Services Carousel -->
-                        <div class="services-carousel owl-carousel">
+                        <div class="services-carousel owl-carousel owl-theme">
                             <!-- service Block -->
                             <div class="service-block">
-                                <div class="inner-box">
+                                <div class="inner-box" style="background-color: white;">
                                     <span class="icon flaticon-helmet"></span>
-                                    <h3>Medium Voltage (MV)</h3>
+                                    <h3 style="color: #ff9933;">Medium Voltage (MV)</h3>
                                     <div class="text">MV systems operate between 1kV and 72kV and are crucial for
                                         efficient power distribution across ...</div>
                                     <a href="service-detail.html" class="read-more">Read More</a>
@@ -651,9 +738,9 @@
 
                             <!-- service Block -->
                             <div class="service-block">
-                                <div class="inner-box">
+                                <div class="inner-box" style="background-color: white;">
                                     <span class="icon flaticon-conveyor-3"></span>
-                                    <h3>Extra High Voltage (EHV)</h3>
+                                    <h3 style="color: #ff9933;">Extra High Voltage (EHV)</h3>
                                     <div class="text">EHV systems are vital for long-distance transmission of high
                                         volumes of electricity, typically operating at 220kV ...</div>
                                     <a href="service-detail.html" class="read-more">Read More</a>
@@ -662,9 +749,9 @@
 
                             <!-- service Block -->
                             <div class="service-block">
-                                <div class="inner-box">
+                                <div class="inner-box" style="background-color: white;">
                                     <span class="icon flaticon-engineer-1"></span>
-                                    <h3>Isolator</h3>
+                                    <h3 style="color: #ff9933;">Isolator</h3>
                                     <div class="text">Isolators function as mechanical switches that create a safe
                                         physical break in electrical circuits ...</div>
                                     <a href="service-detail.html" class="read-more">Read More</a>
@@ -673,9 +760,9 @@
 
                             <!-- service Block -->
                             <div class="service-block">
-                                <div class="inner-box">
+                                <div class="inner-box" style="background-color: white;">
                                     <span class="icon flaticon-refinery-1"></span>
-                                    <h3>Low Voltage (LT)</h3>
+                                    <h3 style="color: #ff9933;">Low Voltage (LT)</h3>
                                     <div class="text">LT systems operate below 1kV and deliver power to homes, small
                                         businesses, and the everyday electrical ...</div>
                                     <a href="service-detail.html" class="read-more">Read More</a>
@@ -684,9 +771,9 @@
 
                             <!-- service Block -->
                             <div class="service-block">
-                                <div class="inner-box">
+                                <div class="inner-box" style="background-color: white;">
                                     <span class="icon flaticon-laboratory"></span>
-                                    <h3>Retrofitting (General)</h3>
+                                    <h3 style="color: #ff9933;">Retrofitting (General)</h3>
                                     <div class="text">Retrofitting offers compelling advantages over full
                                         replacement. It significantly reduces the capital ...</div>
                                     <a href="service-detail.html" class="read-more">Read More</a>
@@ -699,28 +786,24 @@
             <!-- End service Section -->
 
             <!-- Contact Info Section -->
-            <section class="contact-info-section">
+            <section class="contact-info-section" style="background-color: white">
                 <div class="auto-container">
                     <div class="content">
-                        <span class="title"></i> We are a Market Leader</span>
-                        <h2>We provide <span>Highest Quality Work</span><br>That Meets Your Expectation.</h2>
-                        <div class="number">
-                            <i class="fa fa-phone"></i> <a href="tel:+919825513700">+91 98255 13700</a>
-                        </div>
-                        <a href="contact.html" class="theme-btn btn-style-one">
-                            </i> <span class="btn-title">Get A Quote</span>
-                        </a>
+                        <span class="title">WE’RE A LEADING INDUSTRY COMPANY</span>
+                        <h2>Provide You The <span>Highest Quality</span><br> Work That Meets Your Expectation.</h2>
+                        <div class="number"><a href="tel:(+291)-456-789-1234">+91 98255 13700</a></div>
+                        <a href="contact.html" class="theme-btn btn-style-one"><span class="btn-title">Get A
+                                Quote</span></a>
                     </div>
                 </div>
             </section>
-            
             <!--End Contact Info Section -->
 
             <!-- Project Section -->
-            <section class="project-section-two bg-light">
+            <section class="project-section-two" style="background-color: white;">
                 <div class="auto-container">
                     <div class="sec-title text-center">
-                        <span class="float-text">Gallery</span>
+                        <span class="float-text" style="color: white;">Gallery</span>
                         <h2>Projects Gallery<span></span></h2>
                     </div>
                     <!--MixitUp Galery-->
@@ -1370,11 +1453,11 @@
             <!-- End News Section -->
 
             <!-- Certificates -->
-            <section class="team-section"
+            <section class="team-section" style="background-color: white;"
                 data-stellar-background-ratio="0.5">
                 <div class="auto-container">
                     <div class="sec-title text-center">
-                        <span class="float-text">Certificates</span>
+                        <span class="float-text" style="color: white;">Certificates</span>
                         <h2>Our Certificates<span></span></h2>
                     </div>
 
@@ -1400,10 +1483,10 @@
             </section>
 
             <!-- Clients Section -->
-            <section class="clients-section">
+            <section class="clients-section" style="background-color: white;">
                 <div class="auto-container">
                     <div class="sec-title text-center">
-                        <span class="float-text">Clients</span>
+                        <span class="float-text" style="color: white;">Clients</span>
                         <h2>Our Clients<span></span></h2>
                     </div>
                     <div class="sponsors">
@@ -1560,14 +1643,18 @@
                         </ul>
                     </div>
                 </div>
+                <!-- clientsclients -->
+                <div class="content" style="text-align: center; margin-top: 5vh;">
+                    <a href="clients.html" class="theme-btn btn-style-one"><span class="btn-title">View All</span></a>
+                </div>
             </section>
             <!-- End Clients Section -->
 
             <!-- Call Back Section -->
-            <section class="call-back-section">
+            <section class="call-back-section" style="background-color: white;">
                 <div class="auto-container">
                     <div class="sec-title text-center">
-                        <span class="float-text">Call back</span>
+                        <span class="float-text" style="color: white;">Call back</span>
                         <h2>Request A Quote<span></span></h2>
                         <div class="text">Send us a email and we’ll get in touch shortly, or phone between <br>9:00AM to
                             5:00PM Monday to Friday - We would be delighted to speak.</div>
@@ -1683,11 +1770,11 @@
                                         <div class="footer-widget useful-links">
                                             <h2 class="widget-title">Useful Links</h2>
                                             <ul class="user-links">
-                                                <li><a href="index-3.html">Home</a></li>
+                                                <li><a href="index.html">Home</a></li>
                                                 <li><a href="about-us.html">About Us</a></li>
                                                 <li><a href="services.html">Services</a></li>
-                                                <li><a href="projects.html">Projects</a></li>
-                                                <li><a href="blog.html">Blogs</a></li>
+                                                <li><a href="gallery.html">Gallery</a></li>
+                                                <!-- <li><a href="blog.html">Blogs</a></li> -->
                                                 <li><a href="contact.html">Contact Us</a></li>
                                             </ul>
                                         </div>
@@ -1735,24 +1822,20 @@
                 </div>
 
                 <!--Footer Bottom-->
-                <div class="footer-bottom">
+                <div class="footer-bottom">                    
                     <div class="auto-container">
-                        <div class="inner-container clearfix">
+                        <div class="inner-container clearfix" style="text-align: center;">
                             <!-- <div class="footer-nav">
                                 <ul class="clearfix">
-                                    <li><a href="#">Privacy Policy</a></li>
-                                    <li><a href="#">Contact</a></li>
-                                    <li><a href="#">Supplier</a></li>
+                                   <li><a href="#">Privacy Policy</a></li> 
+                                   <li><a href="#">Contact</a></li> 
+                                   <li><a href="#">Supplier</a></li>  
                                 </ul>
                             </div> -->
-
-                            <!-- <div class="copyright-text">
-                                <p><a href="https://www.templateshub.net" target="_blank">Templates Hub</a></p>
-                            </div> -->
-
-                            <div style="text-align: center;">
+                            
+                            <div>
                                 <a href="https://wictronix.com/" target="_blank">
-                                    
+    
                                     <span class="copy" style="font-size: large;">Powered By <img loading="lazy" alt="WictroniX" class="f-logo" style="width:30vh;" src="./images/white.png" /><br /></span>
                                 </a>
                             </div>
