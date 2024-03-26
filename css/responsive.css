@@ -1,20 +1,3 @@
-/* SINAEA - Factory, Industry, and Manufacturing HTML Template  */
-
-@media only screen and (max-width: 1479px){
-	.main-header .main-box{
-		padding: 10px 30px;
-	}
-
-	.sidenav-bar-visible header,
-	.sidenav-bar-visible main{
-		width: 100%;
-	}
-
-	.sidenav-bar{
-		width: 320px;
-	}
-}
-
 @media only screen and (max-width: 1139px){
 	.about-us .content-column .inner-column{
 		padding-right: 0;
@@ -73,13 +56,6 @@
 }
 
 @media only screen and (max-width: 1023px){
-	.main-header{
-		top: 0;
-	}
-
-	.main-header .main-box{
-		padding: 10px 15px;
-	}
 
 	.banner-section .swiper-slide h2{
 		font-size: 60px;

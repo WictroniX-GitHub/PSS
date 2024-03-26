@@ -24,79 +24,6 @@
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
 
-<style>
-
-    /* .inner-box .read-more :hover{
-        background-color:#ff9933;
-    } */
-
-    .about-us{
-        background-color: white;
-        color: black;
-    }
-
-    .services-section {
-        background-color: white;
-        color: black;
-    }
-
-    .fun-facts {
-        background-color: white;
-        color: black;
-    }
-
-    .fadeInLeft {
-        background-color: white;
-        color: black;
-    }
-
-    .mynav li{
-        color: black;
-    }
-
-    .mynav li :hover{
-        color: black;
-    }
-
-    @media only screen and (max-width: 768px) {
-        .maxnav{
-            display: none;
-        }
-        .logo-box {
-            margin-left: 0vh;
-        }
-
-        .logo-text {
-            font-size: large;
-            margin-left: 1vh;
-        }
-    }
-
-    @media only screen and (min-width: 768px) {
-        .display1 {
-            display: none;
-        }
-
-        .no-touch {
-            display: none;
-        }
-
-        .logo-text {
-            font-size: xx-large;
-            margin-left: 3vh;
-        }
-
-        /* .logo-box {
-            margin-left: 30vh;
-        } */
-
-        .innercolumn {
-            margin-top: -7vh;
-        }
-    }
-
-
-</style>
 
 </head>
 
@@ -106,139 +33,40 @@
     <!-- Preloader -->
     <div class="preloader"></div>
 
-    <!-- Sidenav Bar -->
-    <section class="sidenav-bar display1">
-        <div class="nav-box">
-            <div class="inner-box">
-                <div class="upper-box">
-                    <div class="btn-box"><button class="close-btn"><span class="fa fa-times"></span></button></div>
-                </div>
 
-                <!-- .Side Nav -->
-                <nav class="side-nav">
-                    <ul class="navigation clearfix" id="nav">
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="about-us.html">ABOUT US</a></li>
-                        <li><a href="services.html">PRODUCTS</a></li>
-                        <li><a href="gallery.html">GALLERY</a></li>
-                        <li><a href="clients.html">CLIENTS</a></li>
-                        <li><a href="career.html">CAREER</a></li>
-                        <li><a href="contact.html">CONTACT</a></li>
-                    </ul>
-                </nav><!-- /.Side-menu -->
-
-                <div class="contact-info-box">
-<!-- =                        <div class="info-box">
-                        <div class="icon-box"><span class="fa fa-home"></span></div>
-                        <p>13005 Greenville Avenue <br>United Kingdom, TX 70240</p>
-                    </div>
-
-=                        <div class="info-box">
-                        <div class="icon-box"><span class="far fa-clock"></span></div>
-                        <p>Mon - Fri: 09:00 - 18:00</p>
-                        <p>Sunday --- Close</p>
-                    </div>
-
-=                        <div class="info-box">
-                        <div class="icon-box"><span class="far fa-envelope"></span></div>
-                        <p><a href="tel:(888)123456789">(888) 123 456 789</a></p>
-                        <p><a href="mailto:support@example.com">support@example.com</a></p>
-                    </div> -->
-                    <div class="top-icons" style="display: flex;">
-                        <ul class="social-icons icon-zoom">
-                            <li>    
-                                <a href="tel:9825513700"><i class="fa fa-phone"></i></a>
-                                <span>
-                                <h4>Call Us:</h4>
-                                <a href="tel:9825513700">9825513700</a>
-                                </span>
-                            </li>
-                            <li>
-                                <a href="mailto:vptrivedi@powersystemservices.in "><i class="fa fa-envelope"></i></a>
-                                <span>
-                                <h4>Mail Us:</h4>
-                                <a href="mailto:vptrivedi@powersystemservices.in ">vptrivedi@powersystemservices.in </a>
-                                </span>    
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+ <!-- Main Header-->
+ <header class="main-header">
+    <div class="header-top">
+        <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="Logo">
+        </a>
+        <div class="contact-info">
+            <a href="tel:9825513700" class="contact-link"><i class="fas fa-phone"></i> <span>&nbsp; 9825513700</span></a>
+            <a href="mailto:vptrivedi@powersystemservices.in" class="contact-link"><i class="fas fa-envelope"></i><span>&nbsp; vptrivedi@powersystemservices.in</span></a>
         </div>
-    </section>
-    <!--End Sidenav Bar -->
+        <div >
+            <button class="menu-toggle">☰</button>
+        </div>
+    </div>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about-us.html">ABOUT US</a></li>
+            <li><a href="services.html">PRODUCTS</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="clients.html">CLIENTS</a></li>
+            <li><a href="career.html">CAREER</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+</header>
+<!--End Main Header -->
+
+
+
     
     <!-- Start Main Content -->
     <main id="content">
-
-        <!-- Main Header-->
-        <header class="main-header">
-            <div class="outer-container" style="background-color: white;">
-                <div class="main-box clearfix">
-                    <div class="logo-box" style="font-size: large;">
-                        <div class="logo"><a href="index.html"><img style="border-radius: 1vh;" src="images/logo PSS.jpg" alt="" title=""></a>
-                        <span class="float-text theme_color logo-text">POWER SYSTEM SERVICES</span></div>
-                    </div>
-
-                    <div class="outer-box clearfix">
-                        <div class="maxnav" style="margin-left: -30vh; font-size: large;">
-                            <div class="top-icons">
-                                <ul class="social-icons icon-zoom" style="display: flex;">
-                                    <li style="margin-right: 4vh;">    
-                                        <a href="tel:9825513700"><i class="fa fa-phone"></i></a>
-                                        <span>
-                                        <h4>Call Us:</h4>
-                                        <a href="tel:9825513700 ">9825513700</a>
-                                        </span>
-                                    </li>
-                                    <li>
-                                        <a href="mailto:vptrivedi@powersystemservices.in 
-                                        "><i class="fa fa-envelope"></i></a>
-                                        <span>
-                                        <h4>Mail Us:</h4>
-                                        <a href="mailto:vptrivedi@powersystemservices.in">vptrivedi@powersystemservices.in</a>
-                                        </span>    
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- Btn box -->
-                        <div class="btn-box no-touch" style="margin-top: 1.5vh;"><button class="nav-toggler"><span></span></button></div>
-                    </div>
-
-                </div>
-                <div class="maxnav">
-                    <nav class="maxnav">
-                        <ul class="mynav" style="display: flex; font-size: xx-large; justify-content: center;">
-                            <!-- <div class="btn-box">
-                                <a href="about-us.html" class="theme-btn btn-style-two"><span class="btn-title">Read
-                                        More</span></a>
-                            </div> -->
-                            <li style="margin: 2vh;"><a href="index.html" class="btn-box">HOME </a>  &nbsp; <span class="theme_color"></span> &nbsp;</li>  
-                            <li style="margin: 2vh;"><a href="about-us.html" class="btn-box">ABOUT US </a>  &nbsp; <span class="theme_color"></span>  &nbsp;</li>
-                            <li style="margin: 2vh;"><a href="services.html" class="btn-box">PRODUCTS </a> &nbsp; <span class="theme_color"></span>  &nbsp;</li> 
-                            <li style="margin: 2vh;"><a href="gallery.html" class="btn-box">GALLERY </a> &nbsp; <span class="theme_color"></span>  &nbsp;</li> 
-                            <li style="margin: 2vh;"><a href="clients.html" class="btn-box">CLIENTS</a> &nbsp; <span class="theme_color"></span>  &nbsp;</li> 
-                            <li style="margin: 2vh;"><a href="career.html" class="btn-box">CAREER </a> &nbsp; <span class="theme_color"></span>  &nbsp;</li> 
-                            <li style="margin: 2vh;"><a href="contact.html" class="btn-box">CONTACT</a> &nbsp; <span class="theme_color"></span>  &nbsp;</li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </header>
-        <!--End Main Header -->
-
-        <!-- Search Popup -->
-        <div class="search-popup">
-            <button class="close-search"><span class="fa fa-long-arrow-alt-up"></span></button>
-            <form method="post" action="#">
-                <div class="form-group">
-                    <input type="search" name="search-field" value="" placeholder="Search" required="">
-                    <button type="submit"><i class="fa fa-search"></i></button>
-                </div>
-            </form>
-        </div>
-        <!-- End Search Popup -->
 
         <!--Page Title-->
         <section class="page-title" style="background-image:url(images/background/8.jpg)">
@@ -287,7 +115,7 @@
         <!--End Welcome Section -->
 
         <!-- About Us -->
-        <section class="about-us">
+        <section class="about-us bg-light">
             <div class="auto-container">
                 <div class="sec-title text-center">
                     <span class="float-text">STORY</span>
@@ -313,8 +141,8 @@
                             </div>
 
                             <!-- Feature Block -->
-                            <div class="" style="display: flex;">
-                                <div class=""><span class="icon flaticon-rocket-ship"></span></div>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <div  style="display: flex;">
+                                <div ><span class="icon flaticon-rocket-ship"></span></div>&nbsp;&nbsp;&nbsp;&nbsp;
                                 <h4 style="color: #ff9933;">HT High Voltage Panels (11KV to 33KV)</h4>
                                 <div class="text">
                                 </div>
@@ -328,8 +156,8 @@
                             <br/>
 
                             <!-- Feature Block -->
-                            <div class="" style="display: flex;">
-                                <div class=""><span class="icon flaticon-rocket-ship"></span></div>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <div  style="display: flex;">
+                                <div ><span class="icon flaticon-rocket-ship"></span></div>&nbsp;&nbsp;&nbsp;&nbsp;
                                 <h4 style="color: #ff9933;">EHV Breakers (SF6 Gas CB, 66KV to 765KV)</h4>
                                 <div class="text">
                                 </div>
@@ -342,8 +170,8 @@
                             <br/>
 
                             <!-- Feature Block -->
-                            <div class="" style="display: flex;">
-                                <div class=""><span class="icon flaticon-rocket-ship"></span></div>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <div  style="display: flex;">
+                                <div ><span class="icon flaticon-rocket-ship"></span></div>&nbsp;&nbsp;&nbsp;&nbsp;
                                 <h4 style="color: #ff9933;">Isolators (33KV to 765KV)</h4></div>
                                 <div class="text">
                                 <div class="inner-box" >
@@ -353,8 +181,8 @@
                             </div>
                             <br/>
 
-                            <div class="" style="display: flex;">
-                                <div class=""><span class="icon flaticon-rocket-ship"></span></div>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <div  style="display: flex;">
+                                <div ><span class="icon flaticon-rocket-ship"></span></div>&nbsp;&nbsp;&nbsp;&nbsp;
                                 <h4 style="color: #ff9933;">LT</h4></div>
                                 <div class="text">
                                 <div class="inner-box">
@@ -415,7 +243,7 @@
                                             </div>
 
                                             <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                                                <textarea name="message" placeholder="Massage"></textarea>
+                                                <textarea name="message" placeholder="Message"></textarea>
                                             </div>
 
                                             <div class="col-lg-12 col-md-12 col-sm-12 form-group">
@@ -444,94 +272,93 @@
                 <div class="row">
                     <!--Counter Column-->
                     <div class="fact-counter col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                        <div class="row">
+                        <div class="row justify-content-center">
                             <!--Column-->
-                            <div class="column counter-column col-lg-12 col-md-12">
-                                <div class="inner" style="background-color: white;">
-                                    <span class="icon flaticon-conveyor-1"></span>
-                                    <div class="count-outer count-box">
-                                        <span class="count-text" style="color:#ff9933;">Proven Expertise</span>
-                                    </div>
-                                    <h4 class="counter-title" style="color:#ff9933;">Decades of experience delivering reliable power solutions.
-                                    </h4>
+                            <div class="column col-lg-9 col-md-12">
+                                <div class="inner2" >
+                                    <span class="icon2 flaticon-conveyor-1"></span>
+                                    <div class="count-outer">
+                                        <span class="count-text2" >Proven Expertise</span>
+                                        <h5 class="counter-title2" >Decades of experience delivering reliable power solutions.</h5>
+                                    </div>  
                                 </div>
                             </div>
 
-                            <div class="column counter-column col-lg-12 col-md-12">
-                                <div class="inner" style="background-color: white;">
-                                    <span class="icon flaticon-diamond"></span>
-                                    <div class="count-outer count-box">
-                                        <span class="count-text" style="color:#ff9933;">Client-First Focus</span>
+                            <div class="column col-lg-9 col-md-12">
+                                <div class="inner2" >
+                                    <span class="icon2 flaticon-diamond"></span>
+                                    <div class="count-outer">
+                                        <span class="count-text2" >Client-First Focus</span>
+                                        <h5 class="counter-title2" >We listen to your needs and tailor solutions that achieve your specific goals.
+                                        </h5>
                                     </div>
-                                    <h4 class="counter-title" style="color:#ff9933;">We listen to your needs and tailor solutions that achieve your specific goals.
-                                    </h4>
                                 </div>
                             </div>
 
-                            <div class="column counter-column col-lg-12 col-md-12">
-                                <div class="inner" style="background-color: white;">
-                                    <span class="icon flaticon-mechanic"></span>
-                                    <div class="count-outer count-box">
-                                        <span class="count-text" style="color:#ff9933;">Uncompromising Quality</span>
+                            <div class="column col-lg-9 col-md-12">
+                                <div class="inner2" >
+                                    <span class="icon2 flaticon-mechanic"></span>
+                                    <div class="count-outer">
+                                        <span class="count-text2" >Uncompromising Quality</span>
+                                        <h5 class="counter-title2" >Commited to industry-leading standards and the finest Siemens equipment.
+                                        </h5>
                                     </div>
-                                    <h4 class="counter-title" style="color:#ff9933;">Commitment to industry-leading standards and the finest Siemens equipment.
-                                    </h4>
                                 </div>
                             </div>
 
-                            <div class="column counter-column col-lg-12 col-md-12">
-                                <div class="inner" style="background-color: white;">
-                                    <span class="icon flaticon-robot-arm"></span>
-                                    <div class="count-outer count-box">
-                                        <span class="count-text" style="color:#ff9933;">Technical Excellence</span>
+                            <div class="column col-lg-9 col-md-12">
+                                <div class="inner2" >
+                                    <span class="icon2 flaticon-robot-arm"></span>
+                                    <div class="count-outer">
+                                        <span class="count-text2" >Technical Excellence</span>
+                                        <h5 class="counter-title2" >A team of professionals with a deep understanding of power systems.
                                     </div>
-                                    <h4 class="counter-title" style="color:#ff9933;">A team of professionals with a deep understanding of power systems.
                                 </div>
                             </div>
 
-                            <div class="column counter-column col-lg-12 col-md-12">
-                                <div class="inner" style="background-color: white;">
-                                    <span class="icon flaticon-mechanic"></span>
-                                    <div class="count-outer count-box">
-                                        <span class="count-text" style="color:#ff9933;">Partnership Approach</span>
+                            <div class="column col-lg-9 col-md-12">
+                                <div class="inner2" >
+                                    <span class="icon2 flaticon-mechanic"></span>
+                                    <div class="count-outer">
+                                        <span class="count-text2" >Partnership Approach</span>
+                                        <h5 class="counter-title2" >We're not just suppliers, we're invested in your long-term success.
+                                        </h5>
                                     </div>
-                                    <h4 class="counter-title" style="color:#ff9933;">We're not just suppliers, we're invested in your long-term success.
-                                    </h4>
                                 </div>
                             </div>
 
                             <!-- Column -->
-                            <!-- <div class="column counter-column col-lg-6 col-md-6 wow fadeInUp"
+                            <!-- <div class="column col-lg-6 col-md-6 wow fadeInUp"
                                 data-wow-delay="300ms">
-                                <div class="inner" style="background-color: white;">
+                                <div class="inner" >
                                     <span class="icon flaticon-mechanic"></span>
                                     <div class="count-outer count-box">
-                                        <span class="count-text" style="color:#ff9933;" data-speed="2000" data-stop="1500">0</span>+
+                                        <span class="count-text"  data-speed="2000" data-stop="1500">0</span>+
                                     </div>
-                                    <h4 class="counter-title" style="color:#ff9933;"> RETROFITTED MORE THEN 1,500 BREAKES </h4>
+                                    <h4 class="counter-title" > RETROFITTED MORE THEN 1,500 BREAKES </h4>
                                 </div>
                             </div> -->
 
                             <!--Column-->
-                            <!-- <div class="column counter-column col-lg-6 col-md-6 wow fadeInUp">
-                                <div class="inner" style="background-color: white;">
+                            <!-- <div class="column col-lg-6 col-md-6 wow fadeInUp">
+                                <div class="inner" >
                                     <span class="icon flaticon-robot-arm"></span>
                                     <div class="count-outer count-box">
-                                        <span class="count-text" style="color:#ff9933;" data-speed="2500" data-stop="20000">0</span>+
+                                        <span class="count-text"  data-speed="2500" data-stop="20000">0</span>+
                                     </div>
-                                    <h4 class="counter-title" style="color:#ff9933;">MORE THAN 20,000 HEALTH CHECKUP JOBS OF BREAKERS WITH PANEL UNDER GUIDELINE FROM SIEMENS LTD</h4>
+                                    <h4 class="counter-title" >MORE THAN 20,000 HEALTH CHECKUP JOBS OF BREAKERS WITH PANEL UNDER GUIDELINE FROM SIEMENS LTD</h4>
                                 </div>
                             </div> -->
 
                             <!--Column-->
-                            <!-- <div class="column counter-column col-lg-6 col-md-6 wow fadeInUp"
+                            <!-- <div class="column col-lg-6 col-md-6 wow fadeInUp"
                                 data-wow-delay="300ms">
-                                <div class="inner" style="background-color: white;">
+                                <div class="inner" >
                                     <span class="icon flaticon-diamond"></span>
                                     <div class="count-outer count-box">
-                                        <span class="count-text" style="color:#ff9933;" data-speed="3000" data-stop="0">0</span>
+                                        <span class="count-text"  data-speed="3000" data-stop="0">0</span>
                                     </div>
-                                    <h4 class="counter-title" style="color:#ff9933;">XX</h4>
+                                    <h4 class="counter-title" >XX</h4>
                                 </div>
                             </div> -->
                         </div>
@@ -541,7 +368,7 @@
         </section>
 
 
-        <section class="fun-facts">
+        <section class="fun-facts bg-light">
             <div class="auto-container">
                 <div class="sec-title text-center">
                     <span class="float-text">Facts</span>
@@ -552,48 +379,47 @@
                     <div class="fact-counter col-xl-12 col-lg-12 col-md-12 col-sm-12">
                         <div class="row">
                             <!--Column-->
-                            <div class="column counter-column col-lg-6 col-md-6 wow fadeInUp">
-                                <div class="inner" style="background-color: white;">
+                            <div class="column col-lg-6 col-md-6 wow fadeInUp">
+                                <div class="inner">
                                     <span class="icon flaticon-conveyor-1"></span>
                                     <div class="count-outer count-box">
-                                        <span class="count-text" style="color:#ff9933;" data-speed="2000" data-stop="18">0</span>+
+                                        <span class="count-text" data-speed="2000" data-stop="18">0</span>+
                                     </div>
-                                    <h4 class="counter-title" style="color:#ff9933;">Years Of Experience</h4>
+                                    <h4 class="counter-title">Years Of Experience</h4>
                                 </div>
                             </div>
 
                             <!--Column-->
-                            <div class="column counter-column col-lg-6 col-md-6 wow fadeInUp"
+                            <div class="column col-lg-6 col-md-6 wow fadeInUp"
                                 data-wow-delay="300ms">
-                                <div class="inner" style="background-color: white;">
+                                <div class="inner">
                                     <span class="icon flaticon-mechanic"></span>
                                     <div class="count-outer count-box">
-                                        <span class="count-text" style="color:#ff9933;" data-speed="2000" data-stop="1500">0</span>+
+                                        <span class="count-text" data-speed="2000" data-stop="1500">0</span>+
                                     </div>
-                                    <h4 class="counter-title" style="color:#ff9933;"> RETROFITTED MORE THEN 1,500 BREAKES </h4>
+                                    <h4 class="counter-title">Retrofitted more than 1,500 Brakes</h4>
                                 </div>
                             </div>
 
                             <!--Column-->
-                            <div class="column counter-column col-lg-6 col-md-6 wow fadeInUp">
-                                <div class="inner" style="background-color: white;">
+                            <div class="column col-lg-6 col-md-6 wow fadeInUp">
+                                <div class="inner">
                                     <span class="icon flaticon-robot-arm"></span>
                                     <div class="count-outer count-box">
-                                        <span class="count-text" style="color:#ff9933;" data-speed="2500" data-stop="20000">0</span>+
+                                        <span class="count-text" data-speed="2500" data-stop="20000">0</span>+
                                     </div>
-                                    <h4 class="counter-title" style="color:#ff9933;">MORE THAN 20,000 HEALTH CHECKUP JOBS OF BREAKERS WITH PANEL UNDER GUIDELINE FROM SIEMENS LTD</h4>
+                                    <h4 class="counter-title">Over 20,000 breaker and panel health checkups following Siemens Ltd guidelines</h4>
                                 </div>
                             </div>
 
                             <!--Column-->
-                            <div class="column counter-column col-lg-6 col-md-6 wow fadeInUp"
-                                data-wow-delay="300ms">
-                                <div class="inner" style="background-color: white;">
-                                    <span class="icon flaticon-diamond"></span>
+                            <div class="column col-lg-6 col-md-6 wow fadeInUp">
+                                <div class="inner">
+                                    <span class="icon flaticon-robot-arm"></span>
                                     <div class="count-outer count-box">
-                                        <span class="count-text" style="color:#ff9933;" data-speed="3000" data-stop="0">0</span>
+                                        <span class="count-text" data-speed="2500" data-stop="20000">0</span>+
                                     </div>
-                                    <h4 class="counter-title" style="color:#ff9933;">XX</h4>
+                                    <h4 class="counter-title">Over 20,000 breaker and panel health checkups following Siemens Ltd guidelines</h4>
                                 </div>
                             </div>
                         </div>
@@ -603,17 +429,20 @@
         </section>
 
         <!-- Contact Info Section -->
-        <section class="contact-info-section" style="background-color: white">
-            <div class="auto-container">
-                <div class="content">
-                    <span class="title">WE’RE A LEADING INDUSTRY COMPANY</span>
-                    <h2>Provide You The <span>Highest Quality</span><br> Work That Meets Your Expectation.</h2>
-                    <div class="number"><a href="tel:(+291)-456-789-1234">+91 98255 13700</a></div>
-                    <a href="contact.html" class="theme-btn btn-style-one"><span class="btn-title">Get A
-                            Quote</span></a>
+        <section class="contact-info-section">
+                <div class="auto-container">
+                    <div class="content">
+                        <span class="title"></i> We are a Market Leader</span>
+                        <h2>We provide <span>Highest Quality Work</span><br>That Meets Your Expectation.</h2>
+                        <div class="number">
+                            <i class="fa fa-phone"></i> <a href="tel:+919825513700">+91 98255 13700</a>
+                        </div>
+                        <a href="contact.html" class="theme-btn btn-style-one">
+                            </i> <span class="btn-title">Get A Quote</span>
+                        </a>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
         <!--End Contact Info Section -->
 
         <!-- Fun Facts -->
@@ -626,7 +455,7 @@
                 <div class="row">
                     <div class="fact-counter col-lg-6 col-md-12 col-sm-12">
                         <div class="row">
-                            <div class="column counter-column col-lg-6 col-md-12">
+                            <div class="column col-lg-6 col-md-12">
                                 <div class="inner">
                                     <span class="icon flaticon-conveyor-1"></span>
                                     <div class="count-outer count-box">
@@ -636,7 +465,7 @@
                                 </div>
                             </div>
 
-                            <div class="column counter-column col-lg-6 col-md-12">
+                            <div class="column col-lg-6 col-md-12">
                                 <div class="inner">
                                     <span class="icon flaticon-mechanic"></span>
                                     <div class="count-outer count-box">
@@ -646,7 +475,7 @@
                                 </div>
                             </div>
                             
-                            <div class="column counter-column col-lg-6 col-md-12">
+                            <div class="column col-lg-6 col-md-12">
                                 <div class="inner">
                                     <span class="icon flaticon-robot-arm"></span>
                                     <div class="count-outer count-box">
@@ -656,7 +485,7 @@
                                 </div>
                             </div>
                             
-                            <div class="column counter-column col-lg-6 col-md-12">
+                            <div class="column col-lg-6 col-md-12">
                                 <div class="inner">
                                     <span class="icon flaticon-diamond"></span>
                                     <div class="count-outer count-box">
@@ -738,12 +567,12 @@
         <!--End Video Section -->
 
         <!-- Call Back Section -->
-        <section class="call-back-section" style="background-color: white;">
+        <section class="call-back-section bg-light" >
             <div class="auto-container">
                 <div class="sec-title text-center">
                     <span class="float-text">Call back</span>
                     <h2>Request A Quote<span></span></h2>
-                    <div class="text">Send us a email and we’ll get in touch shortly, or phone between <br>9:00AM to
+                    <div class="text text-center mt-3">Send us a email and we will get in touch shortly, or phone between. 9:00AM to
                         5:00PM Monday to Friday - We would be delighted to speak.</div>
                 </div>
                 <div class="outer-box">
@@ -768,7 +597,7 @@
                                             </div>
 
                                             <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                                                <textarea name="message" placeholder="Massage"></textarea>
+                                                <textarea name="message" placeholder="Message"></textarea>
                                             </div>
 
                                             <div class="col-lg-12 col-md-12 col-sm-12 form-group">
@@ -793,153 +622,109 @@
         </section>
         <!--End Call Back Section -->
 
-        <!-- Clients Section -->
-        <section class="clients-section">
-            <div class="auto-container">
-                <div class="sponsors-outer">
-                    <!--Sponsors Carousel-->
-                    <ul class="sponsors-carousel owl-carousel owl-theme">
-                        <li class="slide-item"><figure class="image"><a href="#"><img src="images/clients/1.png" alt=""></a></figure></li>
-                        <li class="slide-item"><figure class="image"><a href="#"><img src="images/clients/2.png" alt=""></a></figure></li>
-                        <li class="slide-item"><figure class="image"><a href="#"><img src="images/clients/3.png" alt=""></a></figure></li>
-                        <li class="slide-item"><figure class="image"><a href="#"><img src="images/clients/4.png" alt=""></a></figure></li>
-                        <li class="slide-item"><figure class="image"><a href="#"><img src="images/clients/5.png" alt=""></a></figure></li>
-                        <li class="slide-item"><figure class="image"><a href="#"><img src="images/clients/1.png" alt=""></a></figure></li>
-                        <li class="slide-item"><figure class="image"><a href="#"><img src="images/clients/2.png" alt=""></a></figure></li>
-                        <li class="slide-item"><figure class="image"><a href="#"><img src="images/clients/3.png" alt=""></a></figure></li>
-                    </ul>
-                </div>
-            </div>        
-        </section>
-        <!-- End Clients Section -->
-
         <!-- Main Footer -->
         <footer class="main-footer">
-            <!--Widgets Section-->
-            <div class="widgets-section">
-                <div class="auto-container">
-                    <div class="row">
-                        <!--Big Column-->
-                        <div class="big-column col-xl-6 col-lg-12 col-md-12 col-sm-12">
-                            <div class="row">
-                                <!--Footer Column-->
-                                <div class="footer-column col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                                    <div class="footer-widget about-widget">
-                                        <div class="logo">
-                                            <a href="index-2.html"><img src="images/logo.png" alt="" /></a>
-                                        </div>
-                                        <div class="text">
-                                            <p>We have very good strength in innovative technology and tools with over 35 years of experience. We makes long-term investments goal in global companies in different sectors, mainly in Europe and other countries.</p>           
-                                        </div>
-                                        <ul class="social-icon-two">
-                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-skype"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <!--Footer Column-->
-                                <div class="footer-column col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <!--Widgets Section-->
+                <div class="widgets-section">
+                    <div class="auto-container">
+                        <div class="row">
+                            <!--Big Column-->
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <div class="row">
                                     <!--Footer Column-->
-                                    <div class="footer-widget recent-posts">
-                                        <h2 class="widget-title">Latest News</h2>
-                                         <!--Footer Column-->
-                                        <div class="widget-content">
-                                            <div class="post">
-                                                <h4><a href="blog-single.html">We won the award for best factory of the year 2019.</a></h4>
-                                                <span class="date"><span class="far fa-calendar-alt"></span> August 1, 2019</span>
+                                    <div class="footer-column col-lg-4 col-md-12 col-sm-12">
+                                        <div class="footer-widget about-widget">
+                                            <div class="logo">
+                                                <a href="index-2.html"><img src="images/logo.png" alt="" /></a>
                                             </div>
-
-                                            <div class="post">
-                                                <h4><a href="blog-single.html">We are Best for Industrial and Business Solution.</a></h4>
-                                                <span class="date"><span class="far fa-calendar-alt"></span> August 2, 2019</span>
+                                            <div class="text">
+                                                <p>We have very good strength in innovative technology and tools with
+                                                    over 35 years of experience. We makes long-term investments goal in
+                                                    global companies in different sectors, mainly in Europe and other
+                                                    countries.</p>
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--Big Column-->
-                        <div class="big-column col-xl-6 col-lg-12 col-md-12 col-sm-12">
-                            <div class="row">
-                                <!--Footer Column-->
-                                <div class="footer-column col-lg-6 col-md-6 col-sm-12">
-                                    <div class="footer-widget useful-links">
-                                        <h2 class="widget-title">Useful Links</h2>
-                                        <ul class="user-links">
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="about-us.html">About Us</a></li>
-                                            <li><a href="services.html">Services</a></li>
-                                            <li><a href="gallery.html">Gallery</a></li>
-                                            <!-- <li><a href="blog.html">Blogs</a></li> -->
-                                            <li><a href="contact.html">Contact Us</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <!--Footer Column-->
-                                <div class="footer-column col-lg-6 col-md-6 col-sm-12">
-                                    <!--Footer Column-->
-                                    <div class="footer-widget contact-widget">
-                                        <h2 class="widget-title">Contact Us</h2>
-                                         <!--Footer Column-->
-                                        <div class="widget-content">
-                                            <ul class="contact-list">
-                                                <li>
-                                                    <span class="icon flaticon-clock"></span>
-                                                    <div class="text">Mon - Fri: 09:00 - 18:00</div>
-                                                </li>
-
-                                                <li>
-                                                    <span class="icon flaticon-call-1"></span>
-                                                    <div class="text"><a href="tel:+1-345-5678-77">+1-345-5678-77</a></div>
-                                                </li>
-
-                                                <li>
-                                                    <span class="icon flaticon-paper-plane"></span>
-                                                    <div class="text"><a href="mailto:support@example.com">support@example.com</a></div>
-                                                </li>
-
-                                                <li>
-                                                    <span class="icon flaticon-worldwide"></span>
-                                                    <div class="text">13005 Greenville Avenue<br> California, TX 70240</div>
-                                                </li>
+                                            <ul class="social-icon-two">
+                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-skype"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
+                                    <!--Footer Column-->
+                                    <div class="footer-column col-lg-4 col-md-12 col-sm-12">
+                                        <div class="footer-widget useful-links">
+                                            <h2 class="widget-title">Useful Links</h2>
+                                            <ul class="user-links">
+                                                <li><a href="index-3.html">Home</a></li>
+                                                <li><a href="about-us.html">About Us</a></li>
+                                                <li><a href="services.html">Services</a></li>
+                                                <li><a href="projects.html">Projects</a></li>
+                                                <li><a href="blog.html">Blogs</a></li>
+                                                <li><a href="contact.html">Contact Us</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <!--Footer Column-->
+                                    <div class="footer-column col-lg-4 col-md-12 col-sm-12">
+                                        <!--Footer Column-->
+                                        <div class="footer-widget contact-widget">
+                                            <h2 class="widget-title">Contact Us</h2>
+                                            <!--Footer Column-->
+                                            <div class="widget-content">
+                                                <ul class="contact-list">
+                                                    <li>
+                                                        <span class="icon flaticon-clock"></span>
+                                                        <div class="text">Mon - Fri: 09:00 - 18:00</div>
+                                                    </li>
+
+                                                    <li>
+                                                        <span class="icon flaticon-call-1"></span>
+                                                        <div class="text"><a
+                                                                href="tel:+1-345-5678-77">+1-345-5678-77</a></div>
+                                                    </li>
+
+                                                    <li>
+                                                        <span class="icon flaticon-paper-plane"></span>
+                                                        <div class="text"><a
+                                                                href="mailto:support@example.com">support@example.com</a>
+                                                        </div>
+                                                    </li>
+
+                                                    <li>
+                                                        <span class="icon flaticon-worldwide"></span>
+                                                        <div class="text">13005 Greenville Avenue<br> California, TX
+                                                            70240</div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <!--Footer Bottom-->
-            <div class="footer-bottom">                    
-                <div class="auto-container">
-                    <div class="inner-container clearfix" style="text-align: center;">
-                        <!-- <div class="footer-nav">
-                            <ul class="clearfix">
-                               <li><a href="#">Privacy Policy</a></li> 
-                               <li><a href="#">Contact</a></li> 
-                               <li><a href="#">Supplier</a></li>  
-                            </ul>
-                        </div> -->
-                        
-                        <div>
-                            <a href="https://wictronix.com/" target="_blank">
+                <!--Footer Bottom-->
+               <div class="footer-bottom">
+                    <div class="auto-container">
+                        <div class="inner-container p-3">
+                            <div class="row justify-content-around">
+                                <a href="https://wictronix.com/" target="_blank">
+                                    <span class="copy">2024 &copy;Copyright Power System Services </span>
+                                </a>
 
-                                <span class="copy" style="font-size: large;">Powered By <img loading="lazy" alt="WictroniX" class="f-logo" style="width:30vh;" src="./images/white.png" /><br /></span>
-                            </a>
+                                <a href="https://wictronix.com/" target="_blank">
+                                    <span class="copy">Powered By &nbsp;<img loading="lazy" alt="WictroniX" class="f-logo" style="width:20vh;" src="./images/white.png" /><br /></span>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </footer>
+            </footer>
         <!-- End Footer -->
 
     </main>
