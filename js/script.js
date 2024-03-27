@@ -54,8 +54,39 @@
 
 		menuToggle.addEventListener("click", function () {
 			mainNav.classList.toggle("active");
+			menuToggle.classList.toggle("is-active"); // Toggle the .is-active class for the button
 		});
 	});
+
+	document.addEventListener("DOMContentLoaded", function () {
+		let lastScrollTop = 0; // Keep track of the last scroll position
+		const mainHeader = document.querySelector(".main-header"); // Select the main header
+
+		window.addEventListener(
+			"scroll",
+			function () {
+				let currentScroll = window.scrollY || document.documentElement.scrollTop;
+
+				if (currentScroll > lastScrollTop) {
+					// Scrolling down
+					mainHeader.classList.add("hide");
+				} else {
+					// Scrolling up
+					mainHeader.classList.remove("hide");
+				}
+				lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // For Mobile or negative scrolling
+			},
+			false
+		);
+
+		const menuToggle = document.querySelector(".menu-toggle button"); // Ensure the button inside .menu-toggle is targeted
+		const mainNav = document.querySelector(".main-nav");
+
+		menuToggle.addEventListener("click", function () {
+			mainNav.classList.toggle("active");
+		});
+	});
+
 
 	//Home Showcase Banner
 	if ($("#banner-slider").length) {
