@@ -3187,10 +3187,17 @@ ul,li{
 
 /*=== Brochure Box ===*/
 
+.sidebar .services-sidebar {
+	text-align: center;
+}
+
+.sidebar-widget .brochure-box {
+	border-radius: 2vh;
+}
+
 .brochure-box{
 	position: relative;
 	margin-bottom: 50px;
-	border-radius: 2vh;
 }
 
 .brochure-box .inner{
@@ -3240,9 +3247,13 @@ ul,li{
 }
 
 /* Help Box*/
+
+.sidebar-widget .help-box {
+	border-radius: 2vh;
+}
+
 .help-box{
 	position: relative;
-	border-radius: 2vh;
 }
 
 .help-box .inner-box{
@@ -3287,6 +3298,7 @@ ul,li{
 
 .help-box .info-box li a{
 	color: orange;
+	font-size: 3px;
 }
 
 .help-box .info-box li a:hover{
