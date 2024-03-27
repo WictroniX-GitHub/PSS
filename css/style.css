@@ -892,6 +892,7 @@ ul,li{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+	margin-top: 15vh;
 }
 
 .page-title:before{
@@ -2972,7 +2973,7 @@ ul,li{
 .service-block-two .inner-box{
 	position: relative;
 	display: block;
-	background-color: #252525;
+	background-color: white;
 	box-shadow: 0 0 25px rgba(0,0,0,0.50);
 	border-radius: 10px;
 	overflow: hidden;
@@ -4569,6 +4570,7 @@ contact-info-section .content .title {
 	position: relative;
 	display: block;
 	padding-bottom: 120px;
+	background-color: #f8f9fa!important;
 }
 
 .map-area{
@@ -4596,6 +4598,7 @@ contact-info-section .content .title {
 
 .map-section .map-canvas{
 	height:540px;
+	width: 100%;
 	border: 10px solid #252525;
 	background-color: #f9f9f9;
 	box-shadow: 0 0 30px rgba(0,0,0,0.50);
