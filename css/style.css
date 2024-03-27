@@ -2914,6 +2914,7 @@ ul,li{
 .services-section-two{
 	position: relative;
 	padding: 120px 0 90px;
+	background-color: white;
 }
 
 .service-block-two{
@@ -3140,6 +3141,7 @@ ul,li{
 .brochure-box{
 	position: relative;
 	margin-bottom: 50px;
+	border-radius: 2vh;
 }
 
 .brochure-box .inner{
@@ -3191,6 +3193,7 @@ ul,li{
 /* Help Box*/
 .help-box{
 	position: relative;
+	border-radius: 2vh;
 }
 
 .help-box .inner-box{
@@ -3503,6 +3506,7 @@ ul,li{
 .project-section-two{
 	position: relative;
 	padding:40px 0 90px;
+	background-color: white;
 }
 
 /*=== Mixitup Gallery ===*/
@@ -3563,12 +3567,12 @@ ul,li{
 .project-block-two .image-box .image{
 	position: relative;
 	margin: 0;
-	background-color: #252525;
+	background-color: white;
 }
 
 .project-block-two .image-box img{
 	display: block;
-    width: 100%;
+    width: 80%;
     height: 50vh;
     opacity: 1;
 }
