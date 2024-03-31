@@ -649,6 +649,7 @@ ul,li{
 
 .logo img {
     height: 80px; 
+	width: 100%;
     transition: transform 0.3s ease;
 }
 
@@ -799,7 +800,7 @@ ul,li{
 
 
 	.banner-section-two{
-		margin-top: 10vh;
+		margin-top: 8vh;
 	}
 
 	.page-title{
@@ -1531,6 +1532,7 @@ ul,li{
 ***/
 .banner-section-two{
 	position: relative;
+	margin-top: 15vh;
 }
 
 .banner-section-two .slide-item{
