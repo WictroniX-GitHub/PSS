@@ -133,6 +133,10 @@
 }	
 
 @media only screen and (max-width: 767px){
+	.banner-section-two{
+		margin-top: 0;
+	}
+
 	.banner-section .swiper-slide .content .inner{
 		max-width: 400px;
 	}
@@ -141,6 +145,20 @@
 	.banner-section .swiper-slide .content .inner br{
 		display: none;
 	}
+
+	#b1{
+		background-image: url(../images/main-slider/5.png);
+	}
+	#b2{
+		background-image: url(../images/main-slider/6.png);
+	}
+	#b3{
+		background-image: url(../images/main-slider/7.png);
+	}
+	#b4{
+		background-image: url(../images/main-slider/8.png);
+	}
+
 
 	.sec-title .float-text{
 		font-size: 120px;

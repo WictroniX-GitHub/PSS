@@ -813,8 +813,7 @@ ul,li{
 	}
 
 	.logo img {
-		/* height: 50px; */
-		width: 32vh; 
+		width: 30vh; 
 		transition: transform 0.3s ease;
 	}
 }
@@ -1861,6 +1860,19 @@ ul,li{
 .square-menu.active .menu-item:nth-child(4) {
 	-webkit-transform: translateX(-200px);
 	transform: translateX(-200px);
+}
+
+#b1{
+	background-image: url(../images/main-slider/2.jpg);
+}
+#b2{
+	background-image: url(../images/main-slider/1.jpg);
+}
+#b3{
+	background-image: url(../images/main-slider/4.jpg);
+}
+#b4{
+	background-image: url(../images/main-slider/3.jpg);
 }
 
 /*** 
