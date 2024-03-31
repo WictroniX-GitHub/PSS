@@ -767,6 +767,7 @@ ul,li{
 		display: block;
 		padding: 1px;
 		margin-left: 3vh;
+		color:orange;
 	}
 
 	.main-header .contact-info span{
@@ -795,6 +796,15 @@ ul,li{
         display: flex; /* Correctly shows the menu */
 		z-index: 999;
     }
+
+
+	.banner-section-two{
+		margin-top: 10vh;
+	}
+
+	.page-title{
+		margin-top: 10vh;
+	}
 
 }
 
@@ -919,7 +929,7 @@ ul,li{
 	margin-bottom: 10px;
 	font-weight: 700;
 	text-transform:capitalize;
-	}
+}
 
 .page-breadcrumb{
 	position:relative;
@@ -1516,7 +1526,6 @@ ul,li{
 ***/
 .banner-section-two{
 	position: relative;
-	margin-top: 15vh;
 }
 
 .banner-section-two .slide-item{
@@ -5839,6 +5848,7 @@ contact-info-section .content .title {
 	background-position: center;
 	background-size: cover;
 	padding: 150px 0 70px;
+	background-color: #252525;
 }
 
 .main-footer .footer-column{
