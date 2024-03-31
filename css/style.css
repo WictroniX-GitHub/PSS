@@ -760,6 +760,11 @@ ul,li{
 
 
 @media (max-width: 768px) {
+
+	.fact-counter .column .inner2{
+		text-align: center;
+	}
+
     .menu-toggle {
         display: block; /* Show toggle button on mobile */
     }
@@ -3118,8 +3123,8 @@ ul,li{
 
 .service-detail .image-box .image img{
 	display: block;
-	width: 50vh;
-	height: 45vh;
+	width: 75%;
+	/* height: 45vh; */
 	margin: auto;
 }
 
@@ -3637,6 +3642,7 @@ ul,li{
 .project-block-two{
 	position: relative;
 	margin-bottom: 30px;
+	width: 100%;
 }
 
 .project-block-two .inner-box{
