@@ -765,7 +765,8 @@ ul,li{
 
 	.toggle{
 		display: block;
-		padding: 2px;
+		padding: 1px;
+		margin-left: 3vh;
 	}
 
 	.main-header .contact-info span{
@@ -1538,7 +1539,7 @@ ul,li{
 	bottom: 0;
 	height: 100%;
 	width: 100%;
-	background-color: rgba(0,0,0,0.40);
+	/* background-color: rgba(0,0,0,0.40); */
 	content: "";
 }
 
@@ -1588,7 +1589,7 @@ ul,li{
 	display: block;
 	font-size: 64px;
 	line-height: 1.2em;
-	color: #ffffff;
+	color: orange;
 	font-weight: 600;
 	margin-bottom: 25px;
 	opacity: 0;
@@ -1625,7 +1626,7 @@ ul,li{
 	display: block;
 	font-size: 18px;
 	line-height: 30px;
-	color: #ffffff;
+	color: orange;
 	font-weight: 400;
 	margin-bottom: 40px;
 	opacity: 0;
@@ -2850,11 +2851,13 @@ ul,li{
 	color: #fd7e14;
 	line-height: 1em;
 	margin-bottom: 30px;
-	-webkit-transition: all 400ms ease;
+	width: 8vh;
+	margin: auto;
+	/* -webkit-transition: all 400ms ease;
 	-moz-transition: all 400ms ease;
 	-ms-transition: all 400ms ease;
 	-o-transition: all 400ms ease;
-	transition: all 400ms ease;
+	transition: all 400ms ease; */
 }
 
 .service-block .inner-box:hover .icon{
@@ -3621,6 +3624,7 @@ ul,li{
 .project-block-two .inner-box{
 	position: relative;
 	box-shadow: 0 0 30px rgba(0,0,0,0.50);
+	border-radius: 2vh;
 }
 
 .project-block-two .image-box{
