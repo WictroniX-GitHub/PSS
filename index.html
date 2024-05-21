@@ -56,13 +56,13 @@
             </div>
             <nav class="main-nav">
                 <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about-us.html">ABOUT US</a></li>
-                    <li><a href="products.html">PRODUCTS</a></li>
-                    <li><a href="gallery.html">GALLERY</a></li>
-                    <li><a href="clients.html">CLIENTS</a></li>
-                    <li><a href="career.html">CAREER</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="index.html#home">HOME</a></li>
+                    <li><a href="about-us.html#about-us">ABOUT US</a></li>
+                    <li><a href="products.html#products">PRODUCTS</a></li>
+                    <li><a href="gallery.html#gallery">GALLERY</a></li>
+                    <li><a href="clients.html#clients">CLIENTS</a></li>
+                    <li><a href="career.html#career">CAREER</a></li>
+                    <li><a href="contact.html#contact">CONTACT</a></li>
                 </ul>
             </nav>
         </header>
@@ -73,7 +73,7 @@
         <!-- Start Main Content -->
         <main id="content">
             <!-- Banner Section -->
-            <section class="banner-section-two">
+            <section class="banner-section-two" id="home">
                 <div class="banner-carousel owl-carousel owl-theme">
                     <!-- Slide Item -->
                     <div class="slide-item" id="b1">
@@ -209,7 +209,7 @@
             <!--END Banner Section -->
 
             <!-- About Us -->
-            <section class="about-us bg-white">
+            <section class="about-us bg-white" id="about-us">
                 <div class="auto-container">
                     <div class="sec-title text-center">
                         <span class="float-text">STORY</span>
@@ -403,7 +403,7 @@
             <!--End Fun Facts -->
 
             <!-- Services Section -->
-            <section class="services-section bg-white">
+            <section class="services-section bg-white" id="products">
                 <div class="auto-container">
                     <div class="sec-title text-center">
                         <span class="float-text">Products</span>
@@ -503,7 +503,7 @@
             <!--End Contact Info Section -->
 
             <!-- Project Section -->
-            <section class="project-section-two bg-light">
+            <section class="project-section-two bg-light" id="gallery">
                 <div class="auto-container">
                     <div class="sec-title text-center">
                         <span class="float-text">Gallery</span>
@@ -807,7 +807,7 @@
             </section>
 
             <!-- Clients Section -->
-            <section class="clients-section">
+            <section class="clients-section" id="clients">
                 <div class="auto-container">
                     <div class="sec-title text-center">
                         <span class="float-text">Clients</span>
@@ -848,7 +848,7 @@
             <!-- End Clients Section -->
 
             <!-- Call Back Section -->
-            <section class="call-back-section bg-light">
+            <section class="call-back-section bg-light" id="contact">
                 <div class="auto-container">
                     <div class="sec-title text-center">
                         <span class="float-text">Call back</span>
@@ -1040,6 +1040,33 @@
     <script src="js/script.js"></script>
     <!-- Color Setting -->
     <script src="js/color-settings.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const sections = document.querySelectorAll('section');
+            const navLi = document.querySelectorAll('.main-nav ul li a');
+    
+            window.onscroll = () => {
+                let current = '';
+    
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.clientHeight;
+                    if (pageYOffset >= sectionTop - sectionHeight / 3) {
+                        current = section.getAttribute('id');
+                    }
+                });
+    
+                navLi.forEach(li => {
+                    li.classList.remove('active');
+                    if (li.getAttribute('href').includes(current)) {
+                        li.classList.add('active');
+                    }
+                });
+            };
+        });
+    </script>
+    
 </body>
 
 <!-- index-205:59-->
