@@ -690,6 +690,14 @@ ul,li{
     transition: all 0.3s ease;
     border-radius: 5px; /* Smooth, rounded corners for elegance */
 }
+.main-nav ul li a.active {
+	background-color: #fff; /* Visible button background on hover */
+    color: orange; /* Text color changes on hover */
+    border-color: orange; /* Border becomes visible */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Drop shadow for depth */
+    transform: translateY(-1px); /* Slight lift effect */
+}
+
 
 .main-nav ul li a {
     display: block;
