@@ -4,60 +4,84 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
 
 <url>
-  <loc>https://wictronix-github.github.io/PSS/</loc>
-  <lastmod>2024-05-22T05:46:54+00:00</lastmod>
+  <loc>https://powersystemservices.in/</loc>
+  <lastmod>2024-05-23T07:18:40+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://wictronix-github.github.io/PSS/index.html</loc>
-  <lastmod>2024-05-22T05:46:54+00:00</lastmod>
+  <loc>https://powersystemservices.in/index.html</loc>
+  <lastmod>2024-05-23T07:18:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://wictronix-github.github.io/PSS/about-us.html</loc>
-  <lastmod>2024-05-22T05:46:54+00:00</lastmod>
+  <loc>https://powersystemservices.in/about-us.html</loc>
+  <lastmod>2024-05-23T07:00:36+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://wictronix-github.github.io/PSS/products.html</loc>
-  <lastmod>2024-05-22T05:46:54+00:00</lastmod>
+  <loc>https://powersystemservices.in/products.html</loc>
+  <lastmod>2024-05-23T06:58:48+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://wictronix-github.github.io/PSS/gallery.html</loc>
-  <lastmod>2024-05-22T05:46:54+00:00</lastmod>
+  <loc>https://powersystemservices.in/gallery.html</loc>
+  <lastmod>2024-05-23T07:19:51+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://wictronix-github.github.io/PSS/clients.html</loc>
-  <lastmod>2024-05-22T05:46:54+00:00</lastmod>
+  <loc>https://powersystemservices.in/clients.html</loc>
+  <lastmod>2024-05-23T07:01:42+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://wictronix-github.github.io/PSS/career.html</loc>
-  <lastmod>2024-05-22T05:46:54+00:00</lastmod>
+  <loc>https://powersystemservices.in/career.html</loc>
+  <lastmod>2024-05-23T07:01:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://wictronix-github.github.io/PSS/contact.html</loc>
-  <lastmod>2024-05-22T05:46:54+00:00</lastmod>
+  <loc>https://powersystemservices.in/contact.html</loc>
+  <lastmod>2024-05-23T06:58:07+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://wictronix-github.github.io/PSS/products-detail.html</loc>
-  <lastmod>2024-05-22T05:46:54+00:00</lastmod>
+  <loc>https://powersystemservices.in/products-detail.html</loc>
+  <lastmod>2024-05-23T07:19:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://wictronix-github.github.io/PSS/images/products/MV_spares_3.pdf</loc>
-  <lastmod>2024-05-22T05:46:54+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://powersystemservices.in/images/products/MV_spares.pdf</loc>
+  <lastmod>2024-05-22T07:00:20+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://wictronix-github.github.io/PSS/images/products/MV_spares_4.pdf</loc>
-  <lastmod>2024-05-22T05:46:54+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://powersystemservices.in/images/products/MV_spares_2.pdf</loc>
+  <lastmod>2024-05-22T07:00:21+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
+<url>
+  <loc>https://powersystemservices.in/images/products/MV_spares_3.pdf</loc>
+  <lastmod>2024-05-21T14:37:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://powersystemservices.in/images/products/MV_spares_4.pdf</loc>
+  <lastmod>2024-05-21T14:37:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://powersystemservices.in/images/products/Isolator_Hand_Book.pdf</loc>
+  <lastmod>2024-05-21T14:37:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://powersystemservices.in/images/products/EHV_spares.pdf</loc>
+  <lastmod>2024-05-21T14:37:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
 </urlset>
