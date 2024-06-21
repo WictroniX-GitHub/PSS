@@ -44,6 +44,22 @@
                 width: 14vh !important;
             }
         }
+
+        @media (max-width: 1000px) {
+            .special1 {
+                display: none;
+            }
+
+            .special2 {
+                display: visible;
+            }
+        }
+
+        @media (min-width: 1000px) {
+            .special2 {
+                display: none;
+            }
+        }
     </style>
 </head>
 
@@ -154,22 +170,9 @@
                                     </div>
                                 </ul>
 
-                                <div class="sidebar-side mt-5">
+                                <div class="sidebar-side mt-5 special1">
 
                                     <!-- Services Cat List -->
-
-                                    <!--Brochure Box-->
-                                    <div class="sidebar-widget brochure-box">
-                                        <div class="inner">
-                                            <h4>Download Brochures</h4>
-                                            <!-- <div class="text">Etiam tortor lorem, auctor ut orci ut, vehicula ultricies mauris. Sed pulvinar scelerisque.</div> -->
-                                            <!-- <a class="theme-btn btn-style-one" href="#"><span class="btn-title"><i class="fa fa-file-pdf"></i> Download Brochures</span></a> -->
-                                            <a class="theme-btn btn-style-two" href="contact.html"><span
-                                                    class="btn-title"> <i class="fa fa-file-pdf"></i>Download
-                                                    Brochures</span></a>
-                                            <!-- <a class="theme-btn btn-style-one" href="contact.html"><span class="btn-title"><i class="fa fa-file-pdf"></i> Company Presentation</span></a> -->
-                                        </div>
-                                    </div>
 
 
                                     <!-- Brochure -->
@@ -199,6 +202,19 @@
                                         </div>
                                     </div>
 
+
+                                    <!--Brochure Box-->
+                                    <div class="sidebar-widget brochure-box">
+                                        <div class="inner">
+                                            <h4>Download Brochures</h4>
+                                            <!-- <div class="text">Etiam tortor lorem, auctor ut orci ut, vehicula ultricies mauris. Sed pulvinar scelerisque.</div> -->
+                                            <!-- <a class="theme-btn btn-style-one" href="#"><span class="btn-title"><i class="fa fa-file-pdf"></i> Download Brochures</span></a> -->
+                                            <a class="theme-btn btn-style-two" href="contact.html"><span
+                                                    class="btn-title"> <i class="fa fa-file-pdf"></i>Download
+                                                    Brochures</span></a>
+                                            <!-- <a class="theme-btn btn-style-one" href="contact.html"><span class="btn-title"><i class="fa fa-file-pdf"></i> Company Presentation</span></a> -->
+                                        </div>
+                                    </div>
                                 </div>
 
                             </div>
@@ -211,129 +227,55 @@
                                                     <img src="images/products/image1.jpeg" alt="products">
                                                 </div>
                                             </div>
-                                            <!-- <div class="blue-color">
-                                                <h2 class="theme_color text-center">MV Switchgear</h2>
-                                                <div style="margin-top: 2vh;">
-                                                    <h4>Description</h4>
-                                                    <br />
-                                                    <p>MV switchgear is the heart of medium voltage power distribution.
-                                                        It houses circuit breakers, switches, and other control devices
-                                                        to protect, monitor, and distribute electrical power.</p>
-                                                </div>
-                                                <div style="margin-top: 3vh;">
-                                                    <h4>Features</h4>
-                                                    <br />
-
-                                                    <div style="display: flex;">
-                                                        <div><span class="icon flaticon-rocket-ship"></span></div>
-                                                        &nbsp;&nbsp;&nbsp;&nbsp;
-                                                        <p>Compact, modular designs for space optimization.</p>
-                                                        <div class="text">
-                                                        </div>
-                                                    </div>
-                                                    <br />
-
-                                                    <div style="display: flex;">
-                                                        <div><span class="icon flaticon-rocket-ship"></span></div>
-                                                        &nbsp;&nbsp;&nbsp;&nbsp;
-                                                        <p>Advanced switchgear technology for high reliability and
-                                                            operational safety.</p>
-                                                        <div class="text">
-                                                        </div>
-                                                    </div>
-                                                    <br />
-
-                                                    <div style="display: flex;">
-                                                        <div><span class="icon flaticon-rocket-ship"></span></div>
-                                                        &nbsp;&nbsp;&nbsp;&nbsp;
-                                                        <p>Remote monitoring and control capabilities.</p>
-                                                        <div class="text">
-                                                        </div>
-                                                    </div>
-                                                    <br />
-
-                                                    <div style="display: flex;">
-                                                        <div><span class="icon flaticon-rocket-ship"></span></div>
-                                                        &nbsp;&nbsp;&nbsp;&nbsp;
-                                                        <p>Arc-flash mitigation systems.</p>
-                                                        <div class="text">
-                                                        </div>
-                                                    </div>
-                                                    <br />
-                                                </div>
-                                                <div style="margin-top: 2vh;">
-                                                    <h4>Benefits</h4>
-                                                    <br />
-
-                                                    <div style="display: flex;">
-                                                        <div><span class="icon flaticon-rocket-ship"></span></div>
-                                                        &nbsp;&nbsp;&nbsp;&nbsp;
-                                                        <p>Enhanced power system reliability and minimized downtime.</p>
-                                                        <div class="text">
-                                                        </div>
-                                                    </div>
-                                                    <br />
-
-                                                    <div style="display: flex;">
-                                                        <div><span class="icon flaticon-rocket-ship"></span></div>
-                                                        &nbsp;&nbsp;&nbsp;&nbsp;
-                                                        <p>Increased operational safety for personnel.</p>
-                                                        <div class="text">
-                                                        </div>
-                                                    </div>
-                                                    <br />
-
-                                                    <div style="display: flex;">
-                                                        <div><span class="icon flaticon-rocket-ship"></span></div>
-                                                        &nbsp;&nbsp;&nbsp;&nbsp;
-                                                        <p>Improved energy efficiency and reduced operational costs.</p>
-                                                        <div class="text">
-                                                        </div>
-                                                    </div>
-                                                    <br />
-
-                                                    <div style="display: flex;">
-                                                        <div><span class="icon flaticon-rocket-ship"></span></div>
-                                                        &nbsp;&nbsp;&nbsp;&nbsp;
-                                                        <p>Scalability to meet evolving power demands.</p>
-                                                        <div class="text">
-                                                        </div>
-                                                    </div>
-                                                    <br />
-                                                </div>
-                                            </div> -->
-
                                             <div class="blue-color  text-center">
                                                 <h2 class="theme_color">MV Switchgear</h2>
                                                 <br>
                                                 <a class="theme-btn btn-style-two"
                                                     href="./products-detail-gallery.html">
                                                     <span class="btn-title">
-                                                        <i class="fa fa-file-pdf"></i>Images
+                                                        <i class="fa fa-file-pdf"></i>MV Spares Catalog 1 (PDF)
                                                     </span>
                                                 </a>
-                                                <br>
-                                                <a class="theme-btn btn-style-two" href="images/products/MV_spares.pdf">
+                                                <a class="theme-btn btn-style-two"
+                                                    href="./images/products/MV_Spares.pdf">
                                                     <span class="btn-title">
-                                                        <i class="fa fa-file-pdf"></i>Download MV Spares Catalog 1 (PDF)
+                                                        <i class="fa fa-file-pdf"></i>Download here
+                                                    </span>
+                                                </a>
+                                                <a class="theme-btn btn-style-two"
+                                                    href="./products-detail-gallery.html">
+                                                    <span class="btn-title">
+                                                        <i class="fa fa-file-pdf"></i>MV Spares Catalog 2 (PDF)
                                                     </span>
                                                 </a>
                                                 <a class="theme-btn btn-style-two"
                                                     href="images/products/MV_spares_2.pdf">
                                                     <span class="btn-title">
-                                                        <i class="fa fa-file-pdf"></i>Download MV Spares Catalog 2 (PDF)
+                                                        <i class="fa fa-file-pdf"></i>Download here
+                                                    </span>
+                                                </a>
+                                                <a class="theme-btn btn-style-two"
+                                                    href="./products-detail-gallery.html">
+                                                    <span class="btn-title">
+                                                        <i class="fa fa-file-pdf"></i>MV Spares Catalog 3 (PDF)
                                                     </span>
                                                 </a>
                                                 <a class="theme-btn btn-style-two"
                                                     href="images/products/MV_spares_3.pdf">
                                                     <span class="btn-title">
-                                                        <i class="fa fa-file-pdf"></i>Download MV Spares Catalog 3 (PDF)
+                                                        <i class="fa fa-file-pdf"></i>Download here
+                                                    </span>
+                                                </a>
+                                                <a class="theme-btn btn-style-two"
+                                                    href="./products-detail-gallery.html">
+                                                    <span class="btn-title">
+                                                        <i class="fa fa-file-pdf"></i>MV Spares Catalog 4 (PDF)
                                                     </span>
                                                 </a>
                                                 <a class="theme-btn btn-style-two"
                                                     href="images/products/MV_spares_4.pdf">
                                                     <span class="btn-title">
-                                                        <i class="fa fa-file-pdf"></i>Download MV Spares Catalog 4 (PDF)
+                                                        <i class="fa fa-file-pdf"></i>Download here
                                                     </span>
                                                 </a>
 
@@ -353,104 +295,19 @@
                                                 <h2 class="theme_color">EHV Circuit breaker</h2>
                                                 <br>
                                                 <a class="theme-btn btn-style-two"
+                                                    href="./products-detail-gallery.html">
+                                                    <span class="btn-title">
+                                                        <i class="fa fa-file-pdf"></i>EHV Spares Catalog (PDF)
+                                                    </span>
+                                                </a>
+                                                <a class="theme-btn btn-style-two"
                                                     href="images/products/EHV_spares.pdf">
                                                     <span class="btn-title">
-                                                        <i class="fa fa-file-pdf"></i>Download EHV Spares Catalog (PDF)
+                                                        <i class="fa fa-file-pdf"></i>Download here
                                                     </span>
                                                 </a>
 
                                             </div>
-                                            <!-- <div class="blue-color">
-                                                <h2 class="theme_color text-center">EHV Circuit breaker</h2>
-                                                <div style="margin-top: 2vh;">
-                                                    <h4>Description</h4>
-                                                    <br />
-                                                    <p>EHV circuit breakers are critical for the protection and control
-                                                        of high voltage power grids. They interrupt dangerous fault
-                                                        currents and allow for safe isolation of grid sections.</p>
-                                                </div>
-                                                <div style="margin-top: 3vh;">
-                                                    <h4>Features</h4>
-                                                    <br />
-
-                                                    <div style="display: flex;">
-                                                        <div><span class="icon flaticon-rocket-ship"></span></div>
-                                                        &nbsp;&nbsp;&nbsp;&nbsp;
-                                                        <p>Extremely high current interruption capability.</p>
-                                                        <div class="text">
-                                                        </div>
-                                                    </div>
-                                                    <br />
-
-                                                    <div style="display: flex;">
-                                                        <div><span class="icon flaticon-rocket-ship"></span></div>
-                                                        &nbsp;&nbsp;&nbsp;&nbsp;
-                                                        <p>Fast operating mechanisms.</p>
-                                                        <div class="text">
-                                                        </div>
-                                                    </div>
-                                                    <br />
-
-                                                    <div style="display: flex;">
-                                                        <div><span class="icon flaticon-rocket-ship"></span></div>
-                                                        &nbsp;&nbsp;&nbsp;&nbsp;
-                                                        <p>Sulfur Hexafluoride (SF6) gas-insulated or air-insulated
-                                                            designs.</p>
-                                                        <div class="text">
-                                                        </div>
-                                                    </div>
-                                                    <br />
-
-                                                    <div style="display: flex;">
-                                                        <div><span class="icon flaticon-rocket-ship"></span></div>
-                                                        &nbsp;&nbsp;&nbsp;&nbsp;
-                                                        <p>Advanced monitoring and diagnostics.</p>
-                                                        <div class="text">
-                                                        </div>
-                                                    </div>
-                                                    <br />
-                                                </div>
-                                                <div style="margin-top: 2vh;">
-                                                    <h4>Benefits</h4>
-                                                    <br />
-
-                                                    <div style="display: flex;">
-                                                        <div><span class="icon flaticon-rocket-ship"></span></div>
-                                                        &nbsp;&nbsp;&nbsp;&nbsp;
-                                                        <p>Maintains power grid stability and reliability.</p>
-                                                        <div class="text">
-                                                        </div>
-                                                    </div>
-                                                    <br />
-
-                                                    <div style="display: flex;">
-                                                        <div><span class="icon flaticon-rocket-ship"></span></div>
-                                                        &nbsp;&nbsp;&nbsp;&nbsp;
-                                                        <p>Protects valuable grid assets from damage during faults.</p>
-                                                        <div class="text">
-                                                        </div>
-                                                    </div>
-                                                    <br />
-
-                                                    <div style="display: flex;">
-                                                        <div><span class="icon flaticon-rocket-ship"></span></div>
-                                                        &nbsp;&nbsp;&nbsp;&nbsp;
-                                                        <p>Facilitates safe maintenance and repair of EHV equipment.</p>
-                                                        <div class="text">
-                                                        </div>
-                                                    </div>
-                                                    <br />
-
-                                                    <div style="display: flex;">
-                                                        <div><span class="icon flaticon-rocket-ship"></span></div>
-                                                        &nbsp;&nbsp;&nbsp;&nbsp;
-                                                        <p>Long operational lifespan with high reliability.</p>
-                                                        <div class="text">
-                                                        </div>
-                                                    </div>
-                                                    <br />
-                                                </div>
-                                            </div> -->
                                         </div>
                                     </div>
 
@@ -465,108 +322,18 @@
                                             <div class="blue-color  text-center">
                                                 <h2 class="theme_color">Isolator/ Disconnector</h2>
                                                 <br>
-                                                <a class="theme-btn btn-style-two"
-                                                    href="images/products/Isolator_Hand_Book.pdf">
+                                                <a class="theme-btn btn-style-two" href="products-detail-gallery.html">
                                                     <span class="btn-title">
                                                         <i class="fa fa-file-pdf"></i>Download Isolator Handbook (PDF)
                                                     </span>
                                                 </a>
-
+                                                <a class="theme-btn btn-style-two"
+                                                    href="images/products/Isolator_Hand_Book.pdf">
+                                                    <span class="btn-title">
+                                                        <i class="fa fa-file-pdf"></i>Download here
+                                                    </span>
+                                                </a>
                                             </div>
-
-
-                                            <!-- <div class="blue-color">
-                                                <h2 class="theme_color text-center">Isolator/ Disconnector</h2>
-                                                <div style="margin-top: 2vh;">
-                                                    <h4>Description</h4>
-                                                    <br />
-                                                    <p>Isolators and disconnectors create a safe physical break in
-                                                        electrical circuits, ensuring zero energy flow during
-                                                        maintenance or expansion.
-                                                    </p>
-                                                </div>
-                                                <div style="margin-top: 3vh;">
-                                                    <h4>Features</h4>
-                                                    <br />
-
-                                                    <div style="display: flex;">
-                                                        <div><span class="icon flaticon-rocket-ship"></span></div>
-                                                        &nbsp;&nbsp;&nbsp;&nbsp;
-                                                        <p>Robust mechanical designs for reliable operation.</p>
-                                                        <div class="text">
-                                                        </div>
-                                                    </div>
-                                                    <br />
-
-                                                    <div style="display: flex;">
-                                                        <div><span class="icon flaticon-rocket-ship"></span></div>
-                                                        &nbsp;&nbsp;&nbsp;&nbsp;
-                                                        <p>High-quality insulating materials.</p>
-                                                        <div class="text">
-                                                        </div>
-                                                    </div>
-                                                    <br />
-
-                                                    <div style="display: flex;">
-                                                        <div><span class="icon flaticon-rocket-ship"></span></div>
-                                                        &nbsp;&nbsp;&nbsp;&nbsp;
-                                                        <p>Clear indication of open/closed position.</p>
-                                                        <div class="text">
-                                                        </div>
-                                                    </div>
-                                                    <br />
-
-                                                    <div style="display: flex;">
-                                                        <div><span class="icon flaticon-rocket-ship"></span></div>
-                                                        &nbsp;&nbsp;&nbsp;&nbsp;
-                                                        <p>Interlocking systems to prevent operation under load.</p>
-                                                        <div class="text">
-                                                        </div>
-                                                    </div>
-                                                    <br />
-                                                </div>
-                                                <div style="margin-top: 2vh;">
-                                                    <h4>Benefits</h4>
-                                                    <br />
-
-                                                    <div style="display: flex;">
-                                                        <div><span class="icon flaticon-rocket-ship"></span></div>
-                                                        &nbsp;&nbsp;&nbsp;&nbsp;
-                                                        <p>Essential for workplace safety during electrical work.</p>
-                                                        <div class="text">
-                                                        </div>
-                                                    </div>
-                                                    <br />
-
-                                                    <div style="display: flex;">
-                                                        <div><span class="icon flaticon-rocket-ship"></span></div>
-                                                        &nbsp;&nbsp;&nbsp;&nbsp;
-                                                        <p>Durable design for long life and minimal maintenance.</p>
-                                                        <div class="text">
-                                                        </div>
-                                                    </div>
-                                                    <br />
-
-                                                    <div style="display: flex;">
-                                                        <div><span class="icon flaticon-rocket-ship"></span></div>
-                                                        &nbsp;&nbsp;&nbsp;&nbsp;
-                                                        <p>Available in a range of voltage classes to suit different
-                                                            applications.</p>
-                                                        <div class="text">
-                                                        </div>
-                                                    </div>
-                                                    <br />
-
-                                                    <<div style="display: flex;">
-                                                        <div><span class="icon flaticon-rocket-ship"></span></div>
-                                                        &nbsp;&nbsp;&nbsp;&nbsp;
-                                                        <p>Long operational lifespan with high reliability.</p>
-                                                        <div class="text">
-                                                        </div>
-                                                    </div>
-                                                    <br /> 
-                                                </div>
-                                            </div> -->
                                         </div>
                                     </div>
 
@@ -773,6 +540,52 @@
                                                 </div>
                                             </div>
                                         </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="sidebar-side mt-5 mx-5 special2" style="flex:auto;">
+
+                                <!-- Services Cat List -->
+
+
+                                <!-- Brochure -->
+                                <div class="sidebar-widget help-box">
+                                    <div class="inner-box">
+                                        <h6>Have You Any Requirement of Industrial Work?</h6>
+                                        <ul class="info-box">
+                                            <li style="padding: 0px 20px;">
+                                                <span class="icon fa fa-envelope"></span>
+                                                <a href="mailto:vptrivedi@powersystemservices.in" class="overlay-box">
+                                                    <p style="font-size:14px;">Email:
+                                                        vptrivedi@powersystemservices.in</p>
+                                                </a>
+                                            </li>
+                                            <li style="padding: 0px 20px;">
+                                                <span class="icon fa fa-phone"></span>
+                                                <a href="tel:+919825513700" class="text-center">
+                                                    <p>Phone: +91 9825513700</p>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <a class="theme-btn btn-style-two" href="contact.html">
+                                            <span class="btn-title">Contact Us</span>
+                                        </a>
+
+                                    </div>
+                                </div>
+
+
+                                <!--Brochure Box-->
+                                <div class="sidebar-widget brochure-box">
+                                    <div class="inner">
+                                        <h4>Download Brochures</h4>
+                                        <!-- <div class="text">Etiam tortor lorem, auctor ut orci ut, vehicula ultricies mauris. Sed pulvinar scelerisque.</div> -->
+                                        <!-- <a class="theme-btn btn-style-one" href="#"><span class="btn-title"><i class="fa fa-file-pdf"></i> Download Brochures</span></a> -->
+                                        <a class="theme-btn btn-style-two" href="contact.html"><span class="btn-title">
+                                                <i class="fa fa-file-pdf"></i>Download
+                                                Brochures</span></a>
+                                        <!-- <a class="theme-btn btn-style-one" href="contact.html"><span class="btn-title"><i class="fa fa-file-pdf"></i> Company Presentation</span></a> -->
                                     </div>
                                 </div>
                             </div>
