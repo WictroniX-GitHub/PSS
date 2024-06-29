@@ -46,46 +46,49 @@
             }
         }
 
-        .main-nav ul .dropdown {
+        /* Dropdown Button */
+        .dropdown-content {
             display: none;
-            position: relative;
-            top: 0%;
-            background-color: #fff;
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            position: absolute;
             z-index: 1;
         }
 
-        .main-nav ul .dropdown li {
-            display: block;
-        }
-
-        /* Show the dropdown menu on hover */
-        .main-nav ul li:hover .dropdown {
-            display: block;
-        }
-
-        /* Style the links */
-        .main-nav ul li a {
-            display: block;
-            padding: 10px 20px;
+        /* Links inside the dropdown */
+        .dropdown-content a {
+            color: black;
             text-decoration: none;
-            color: #333;
+            display: block;
         }
 
-        .main-nav ul li a:hover {
-            background-color: #f1f1f1;
-        }
-
-        /* Additional styles for dropdown links */
-        .main-nav ul .dropdown li a {
-            padding: 10px 20px;
-            white-space: nowrap;
-        }
-
-        .main-nav ul .dropdown li a:hover {
+        /* Change color of dropdown links on hover */
+        .dropdown-content a:hover {
             background-color: #ddd;
         }
+
+        /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+        .show {
+            display: block;
+        }
     </style>
+    <script>/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown menu if the user clicks outside of it
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }</script>
 </head>
 
 <body>
@@ -118,13 +121,18 @@
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="about-us.html">ABOUT US</a></li>
                     <li>
-                        <a href="products.html">PRODUCTS</a>
-                        <ul class="dropdown">
-                            <li><a href="mv.html">MV Switchgear</a></li>
-                            <li><a href="ehv.html">EHV Circuit breaker</a></li>
-                            <li><a href="isolator.html">Isolator/ Disconnector</a></li>
-                            <li><a href="others.html">Other Products</a></li>
-                        </ul>
+                        <a>
+                            <div class="dropbtn" onclick="myFunction()">PRODUCTS
+                                <i class="fa fa-caret-down"></i>
+                            </div>
+
+                        </a>
+                        <div class="dropdown-content" id="myDropdown">
+                            <a href="mv.html">MV Switchgear</a>
+                            <a href="ehv.html">EHV Circuit</a>
+                            <a href="isolator.html">Isolators</a>
+                            <a href="others.html">Other Products</a>
+                        </div>
                     </li>
                     <li><a href="gallery.html">GALLERY</a></li>
                     <li><a href="clients.html">CLIENTS</a></li>
@@ -152,164 +160,79 @@
 
                     <div class="project-block-two">
                         <div class="service-detail">
-                            <div class="row" style="justify-content: center;">
-                                <div class="col-lg-8 col-md-6 col-sm-12">
-                                    <div class="image-box">
-                                        <div class="image">
-                                            <img src="images/products/image5.png" alt="Isolator">
+                            <div class="blue-color">
+                                <div class="row" style="justify-content: center;">
+                                    <div class="col-lg-8 col-md-6 col-sm-12">
+                                        <div class="image-box">
+                                            <div class="image">
+                                                <img src="images/products/image5.png" alt="Isolator">
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="blue-color" style="margin-bottom: 30px;">
-                                    <h2 class="theme_color text-center">Isolator</h2>
-                                    <br>
                                     <div>
-                                        <div style="margin-top: 3vh;">
-                                            <div style="display: flex;">
-                                                <div><span class="icon fas fa-bolt"></span>
+                                        <h2 class="theme_color text-center">Isolator</h2>
+                                        <br>
+                                        <div>
+                                            <div style="margin-top: 3vh;">
+                                                <div style="display: flex;">
+                                                    <div><span class="icon fas fa-bolt"></span>
+                                                    </div>
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;
+                                                    <p>Vacuum Interrupter VS 17040</p>
+                                                    <div class="text"></div>
                                                 </div>
-                                                &nbsp;&nbsp;&nbsp;&nbsp;
-                                                <p>Vacuum Interrupter VS 17040</p>
-                                                <div class="text"></div>
-                                            </div>
-                                            <div style="display: flex;">
-                                                <div><span class="icon fas fa-bolt"></span>
+                                                <div style="display: flex;">
+                                                    <div><span class="icon fas fa-bolt"></span>
+                                                    </div>
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;
+                                                    <p>4000 Amp Top Flange</p>
+                                                    <div class="text"></div>
                                                 </div>
-                                                &nbsp;&nbsp;&nbsp;&nbsp;
-                                                <p>4000 Amp Top Flange</p>
-                                                <div class="text"></div>
-                                            </div>
-                                            <div style="display: flex;">
-                                                <div><span class="icon fas fa-bolt"></span>
+                                                <div style="display: flex;">
+                                                    <div><span class="icon fas fa-bolt"></span>
+                                                    </div>
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;
+                                                    <p> 4000 Amp Bottom Flange</p>
+                                                    <div class="text"></div>
                                                 </div>
-                                                &nbsp;&nbsp;&nbsp;&nbsp;
-                                                <p> 4000 Amp Bottom Flange</p>
-                                                <div class="text"></div>
-                                            </div>
-                                            <div style="display: flex;">
-                                                <div><span class="icon fas fa-bolt"></span>
+                                                <div style="display: flex;">
+                                                    <div><span class="icon fas fa-bolt"></span>
+                                                    </div>
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;
+                                                    <p> 4000 Amp Pole Cover Assembly</p>
+                                                    <div class="text"></div>
                                                 </div>
-                                                &nbsp;&nbsp;&nbsp;&nbsp;
-                                                <p> 4000 Amp Pole Cover Assembly</p>
-                                                <div class="text"></div>
-                                            </div>
-                                            <div style="display: flex;">
-                                                <div><span class="icon fas fa-bolt"></span>
+                                                <div style="display: flex;">
+                                                    <div><span class="icon fas fa-bolt"></span>
+                                                    </div>
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;
+                                                    <p> 4000 Amp Pole Kinematic Assembly </p>
+                                                    <div class="text"></div>
                                                 </div>
-                                                &nbsp;&nbsp;&nbsp;&nbsp;
-                                                <p> 4000 Amp Pole Kinematic Assembly </p>
-                                                <div class="text"></div>
-                                            </div>
-                                            <div style="display: flex;">
-                                                <div><span class="icon fas fa-bolt"></span>
+                                                <div style="display: flex;">
+                                                    <div><span class="icon fas fa-bolt"></span>
+                                                    </div>
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;
+                                                    <p>4000 Amp Contact Arms</p>
+                                                    <div class="text"></div>
                                                 </div>
-                                                &nbsp;&nbsp;&nbsp;&nbsp;
-                                                <p>4000 Amp Contact Arms</p>
-                                                <div class="text"></div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-8 col-md-6 col-sm-12">
-                                    <div class="blue-color  text-center">
-                                        <h2 class="theme_color">Catalog</h2>
-                                        <br>
-                                        <a class="theme-btn btn-style-two" href="images/products/EHV_spares.pdf">
-                                            <span class="btn-title">
-                                                <i class="fa fa-file-pdf"></i>Download Isolator Handbook
-                                                (PDF)
-                                            </span>
-                                        </a>
-                                    </div>
+                                    <h2 class="theme_color">Catalog</h2>
+                                    <br>
+                                    <a class="theme-btn btn-style-two" href="images/products/EHV_spares.pdf">
+                                        <span class="btn-title">
+                                            <i class="fa fa-file-pdf"></i>Isolator Handbook
+                                        </span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                </div>
-            </section>
-
-            <section class="fun-facts">
-                <div class="auto-container">
-                    <div class="sec-title text-center">
-                        <span class="float-text">Choose Us</span>
-                        <h2>Why Choose Us</h2>
-                    </div>
-                    <div class="row">
-                        <!--Counter Column-->
-                        <div class="fact-counter col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                            <div class="row justify-content-center">
-                                <!--Column-->
-                                <div class="column col-lg-9 col-md-12">
-                                    <div class="inner2">
-                                        <span class="icon2 ">
-                                            <img src="images/icons_2/expert.png" alt="expert">
-                                        </span>
-                                        <div class="count-outer">
-                                            <span class="count-text2">Proven Expertise</span>
-                                            <h5 class="counter-title2">Decades of experience delivering reliable power
-                                                solutions.</h5>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="column col-lg-9 col-md-12">
-                                    <div class="inner2">
-                                        <span class="icon2">
-                                            <img src="images/icons_2/customer-satisfaction.png" alt="clients">
-                                        </span>
-                                        <div class="count-outer">
-                                            <span class="count-text2">Client-First Focus</span>
-                                            <h5 class="counter-title2">We listen to your needs and tailor solutions that
-                                                achieve your specific goals.
-                                            </h5>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="column col-lg-9 col-md-12">
-                                    <div class="inner2">
-                                        <span class="icon2">
-                                            <img src="images/icons_2/high-quality.png" alt="high-quality">
-                                        </span>
-                                        <div class="count-outer">
-                                            <span class="count-text2">Uncompromising Quality</span>
-                                            <h5 class="counter-title2">Commited to industry-leading standards and the
-                                                finest Siemens equipment.
-                                            </h5>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="column col-lg-9 col-md-12">
-                                    <div class="inner2">
-                                        <span class="icon2">
-                                            <img src="images/icons_2/technical-support.png" alt="support">
-                                        </span>
-                                        <div class="count-outer">
-                                            <span class="count-text2">Technical Excellence</span>
-                                            <h5 class="counter-title2">A team of professionals with a deep understanding
-                                                of power systems.
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="column col-lg-9 col-md-12">
-                                    <div class="inner2">
-                                        <span class="icon2">
-                                            <img src="images/icons_2/handshake.png" alt="Partnership">
-                                        </span>
-                                        <div class="count-outer">
-                                            <span class="count-text2">Partnership Approach</span>
-                                            <h5 class="counter-title2">We're not just suppliers, we're invested in your
-                                                long-term success.
-                                            </h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </section>
 
