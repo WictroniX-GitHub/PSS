@@ -61,26 +61,45 @@
             }
         }
 
-        /* .info {
-            position: relative;
-            cursor: pointer;
-        }
-
-        .info .info-icon {
-            font-size: 1.2em;
-            color: blue;
-        }
-
-        .info-content {
+        .main-nav ul .dropdown {
             display: none;
-            position: absolute;
-            top: 20px;
-            left: 0;
-            background-color: white;
-            padding: 10px;
-            border: 1px solid #ddd;
+            position: relative;
+            top: 0%;
+            background-color: #fff;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
             z-index: 1;
-        } */
+        }
+
+        .main-nav ul .dropdown li {
+            display: block;
+        }
+
+        /* Show the dropdown menu on hover */
+        .main-nav ul li:hover .dropdown {
+            display: block;
+        }
+
+        /* Style the links */
+        .main-nav ul li a {
+            display: block;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        .main-nav ul li a:hover {
+            background-color: #f1f1f1;
+        }
+
+        /* Additional styles for dropdown links */
+        .main-nav ul .dropdown li a {
+            padding: 10px 20px;
+            white-space: nowrap;
+        }
+
+        .main-nav ul .dropdown li a:hover {
+            background-color: #ddd;
+        }
     </style>
     <!-- <script>
         document.addEventListener("DOMContentLoaded", function () {
@@ -127,7 +146,15 @@
                     <ul>
                         <li><a href="index.html">HOME</a></li>
                         <li><a href="about-us.html">ABOUT US</a></li>
-                        <li><a href="products.html">PRODUCTS</a></li>
+                        <li>
+                            <a href="products.html">PRODUCTS</a>
+                            <ul class="dropdown">
+                                <li><a href="mv.html">MV Switchgear</a></li>
+                                <li><a href="ehv.html">EHV Circuit breaker</a></li>
+                                <li><a href="isolator.html">Isolator/ Disconnector</a></li>
+                                <li><a href="others.html">Other Products</a></li>
+                            </ul>
+                        </li>
                         <li><a href="gallery.html">GALLERY</a></li>
                         <li><a href="clients.html">CLIENTS</a></li>
                         <li><a href="career.html">CAREER</a></li>
