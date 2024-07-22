@@ -119,7 +119,7 @@
             display: block;
         }
     </style>
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 
@@ -379,8 +379,10 @@
                                         <h2 class="theme_color mb-3">Quick Inquiry</h2>
                                     </div>
                                     <!-- Inquiry Form -->
-                                    <form method="post" action="#">
+                                    <form action="https://api.web3forms.com/submit" method="POST">
                                         <div class="row">
+                                            <input type="hidden" name="access_key"
+                                                value="957433a3-c73d-47f7-8a76-7c3fbf8ff156">
                                             <div class="col-lg-12 col-md-12 col-sm-12 form-group">
                                                 <input type="text" name="username" placeholder="Name" required>
                                             </div>
@@ -406,7 +408,7 @@
                                             <div class="col-lg-12 col-md-12 col-sm-12 form-group">
                                                 <textarea name="message" placeholder="Message"></textarea>
                                             </div>
-                                            <div class="col-lg-12 col-md-12 col-sm-12 form-group" >
+                                            <div class="col-lg-12 col-md-12 col-sm-12 form-group">
                                                 <button class="theme-btn btn-style-two" type="submit"
                                                     name="submit-form">
                                                     <span class="btn-title">Submit Now</span>
@@ -584,7 +586,7 @@
             <!-- End service Section -->
 
             <!-- Contact Info Section -->
-            <section class="contact-info-section" data-aos="zoom-in" >
+            <section class="contact-info-section" data-aos="zoom-in">
                 <div class="auto-container">
                     <div class="content">
                         <span class="title"></i> We are a Market Leader</span>
@@ -604,7 +606,7 @@
             <!-- Project Section -->
             <section class="project-section-two bg-light" id="gallery">
                 <div class="auto-container">
-                    <div class="sec-title text-center" >
+                    <div class="sec-title text-center">
                         <span class="float-text">Gallery</span>
                         <h2>Projects Gallery<span></span></h2>
                     </div>
@@ -625,7 +627,7 @@
                         <div class="filter-list row">
                             <!-- Portfolio Block -->
                             <div class="project-block-two mix all mv col-lg-4 col-md-6 col-sm-12" data-aos="fade-right">
-                                <div class="inner-box" >
+                                <div class="inner-box">
                                     <a href="images/products/MV_spares.pdf">
                                         <div class="image-box">
                                             <figure class="image"><img src="images/products/image1.jpeg" alt="gallery">
@@ -689,7 +691,8 @@
                             </div>
 
                             <!-- Portfolio Block -->
-                            <div class="project-block-two mix all isolater col-lg-4 col-md-6 col-sm-12" data-aos="fade-up">
+                            <div class="project-block-two mix all isolater col-lg-4 col-md-6 col-sm-12"
+                                data-aos="fade-up">
                                 <div class="inner-box">
                                     <a href="images/products/Isolator_Hand_Book.pdf">
                                         <div class="image-box">
@@ -860,13 +863,13 @@
 
 
             <!-- Certificates -->
-            <section class="team-section bg-white"  >
-                <div class="auto-container" >
+            <section class="team-section bg-white">
+                <div class="auto-container">
                     <div class="sec-title text-center">
                         <span class="float-text">Awards</span>
                         <h2>Our Awards<span></span></h2>
                     </div>
-                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" >
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item p-0 active">
                                 <img class="d-block w-100" src="images/certificates/1.webp" alt="First slide">
@@ -907,7 +910,7 @@
             <!-- Clients Section -->
             <section class="clients-section" id="clients" data-aos="fade-in" data-aos-delay="200">
                 <div class="auto-container">
-                    <div class="sec-title text-center" >
+                    <div class="sec-title text-center">
                         <span class="float-text">Clients</span>
                         <h2>Our Clients<span></span></h2>
                     </div>
@@ -952,13 +955,15 @@
                     <div class="outer-box" data-aos="fade-left">
                         <div class="photo row">
                             <!-- Form Column -->
-                            <div class="form-column col-lg-6 col-md-12 col-sm-12"  >
+                            <div class="form-column col-lg-6 col-md-12 col-sm-12">
                                 <div class="inner-column">
                                     <div class="request-form wow fadeInLeft">
                                         <!--Comment Form-->
-                                        <form method="post" action="#">
+                                        <form action="https://api.web3forms.com/submit" method="POST">
                                             <h3 class="theme_color mb-3">Let's Connect</h3>
                                             <div class="row">
+                                                <input type="hidden" name="access_key"
+                                                    value="957433a3-c73d-47f7-8a76-7c3fbf8ff156">
                                                 <div class="col-lg-12 col-md-12 col-sm-12 form-group">
                                                     <input type="text" name="username" placeholder="Name" required>
                                                 </div>
@@ -986,7 +991,8 @@
                                 </div>
                             </div>
 
-                            <div class="image-column col-lg-6 col-md-12 col-sm-12" data-aos="fade-right" data-aos="fade-left" data-aos-delay="300">
+                            <div class="image-column col-lg-6 col-md-12 col-sm-12" data-aos="fade-right"
+                                data-aos="fade-left" data-aos-delay="300">
                                 <div class="image-box wow fadeInRight" style="padding: 7vh 0vh;">
                                     <img style="width: 100%; border-radius: 2vh;" src="images/connect.jpg"
                                         alt="connect-with-us">
@@ -1168,13 +1174,13 @@
             };
         });
     </script>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init({
-        offset: 330,
-        duration: 400,
-    });
-  </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 330,
+            duration: 400,
+        });
+    </script>
 </body>
 
 <!-- index-205:59-->
