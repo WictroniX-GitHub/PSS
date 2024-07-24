@@ -2064,7 +2064,7 @@ ul {
 }
 .fact-counter .column .inner,
 .fact-counter .column .inner2 {
-  background-color: #abe0f7;
+  background-color: #3399ff;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
   border-radius: 20px;
 }
@@ -2128,14 +2128,14 @@ ul {
 .fact-counter .count-outer {
   display: inline-block;
   font-weight: 500;
-  color: #000;
-  font-size: 34px;
+  color: #fff;
+  font-size: 36px;
   margin-bottom: 10px;
 }
 .fact-counter .count-outer .count-text {
   font-weight: 500;
-  color: #000;
-  font-size: 34px;
+  color: #fff;
+  font-size: 40px;
   display: inline-block;
 }
 .fact-counter .count-outer .count-text2 {
@@ -2145,9 +2145,9 @@ ul {
   display: inline-block;
 }
 .fact-counter .column .counter-title {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 600;
-  color: #000;
+  color: #fff;
   text-transform: capitalize;
 }
 .fun-facts .progress-column .inner-column {
@@ -2327,11 +2327,11 @@ ul {
 .service-block .inner-box {
   position: relative;
   display: block;
-  background-color: #abe0f7;
+  background-color: #3399ff;
   text-align: center;
   padding: 35px 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-  border-radius: 15px;
+  border-radius: 20px;
   overflow: hidden;
   border-bottom: 4px solid #fd7e14;
   -webkit-transition: 0.3s;
@@ -2367,7 +2367,7 @@ ul {
   position: relative;
   display: block;
   font-size: 64px;
-  color: #fd7e14;
+  color: #fff;
   line-height: 1em;
   width: 8vh;
   margin: auto;
@@ -2413,7 +2413,7 @@ ul {
   position: relative;
   font-size: 16px;
   line-height: 24px;
-  color: #444;
+  color: #fff;
   font-weight: 400;
   margin-bottom: 25px;
 }
@@ -2425,8 +2425,8 @@ ul {
   color: #222;
   font-weight: 600;
   padding: 5px 20px;
-  border-radius: 3px;
-  background-color: #fd7e14;
+  border-radius: 8px;
+  background-color: #fff !important;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
@@ -2434,8 +2434,8 @@ ul {
   transition: 0.3s;
 }
 .service-block .read-more:hover {
-  background-color: #fff;
-  color: #222;
+  background-color: #ff9933 !important;
+  color: #fff !important;
 }
 .services-section .services-carousel {
   position: relative;

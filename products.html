@@ -57,7 +57,7 @@
 
         /* Links inside the dropdown */
         .main-nav ul .dropdown-content a {
-            color: black;
+            color: #000 !important;
             text-decoration: none;
             display: block;
             padding: 10px 20px;
@@ -65,12 +65,46 @@
 
         /* Change color of dropdown links on hover */
         .main-nav ul .dropdown-content a:hover {
-            background-color: #ddd;
+            color: #FFA500 !important;
         }
 
         /* Show the dropdown menu on hover */
         .main-nav ul li:hover .dropdown-content {
             display: block;
+        }
+
+        .quote-btn {
+            background-color: #FFA500;
+            color: #fff;
+            font-size: 18px;
+            border-radius: 8px;
+            margin: 0px 20px;
+            padding: 4px 8px;
+            background: linear-gradient(to left, #FFA500 50%, #007BFF 50%) right;
+            background-size: 200%;
+            transition: .5s ease-out;
+        }
+
+        .quote-btn:hover {
+            background-position: left;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        @media (min-width: 750px) {
+            .quo {
+                display: none;
+            }
+        }
+
+        @media (max-width: 450px) {
+            .quote-btn {
+                margin: 2px;
+            }
+
+            .contact-link {
+                margin-left: 2px !important;
+            }
         }
     </style>
 
@@ -93,6 +127,9 @@
                             9825513700</span></a>
                     <a href="mailto:vptrivedi@powersystemservices.in" class="contact-link"><i
                             class="fas fa-envelope"></i><span>&nbsp; vptrivedi@powersystemservices.in</span></a>
+                    <a href="index.html#contact" class="quote-btn"><i class="quo">Qoute
+                        </i> <span class="btn-title">REQUEST A QUOTE</span>
+                    </a>
                 </div>
                 <div class="toggle">
                     <button class="menu-toggle" aria-label="Toggle menu">
