@@ -146,6 +146,16 @@
             .quo {
                 display: none;
             }
+
+            .mobile-res {
+                display: none;
+            }
+        }
+
+        @media (max-width: 750px) {
+            .laptop-res {
+                display: none;
+            }
         }
 
         @media (max-width: 450px) {
@@ -359,131 +369,37 @@
             <section class="about-us bg-white" id="about-us">
                 <div class="auto-container">
                     <div class="sec-title text-center">
-                        <span class="float-text">STORY</span>
-                        <h2>OUR STORY</h2>
+                        <span class="float-text">INNOVATIVE</span>
+                        <h2>WHAT WE DO</h2>
                     </div>
                     <div class="row">
                         <!-- Content Column -->
-                        <div class="content-column col-lg-6 col-md-12 col-sm-12" data-aos="fade-right">
-                            <div class="inner-column">
+                        <div class="content-column col-lg-6 col-md-12 col-sm-12 mx-auto" data-aos="fade-down">
+                            <div class="image-box flex justify-content-center align-items-center">
                                 <div class="text-box">
-                                    <p style="font-weight: 500;">Since 2006, Power System Services has been the trusted
-                                        expert in
-                                        delivering
-                                        cutting-edge power solutions that empower both industrial and utility sectors.
-                                        Our expertise in MV and HV retrofits ensures your systems operate at maximum
-                                        efficiency and reliability, directly boosting productivity.</p>
-                                    <p style="font-weight: 500;">
-                                        Our client-centric approach is founded on understanding the unique needs power
-                                        systems present to your specific operations.
-                                        We take the time to analyse your needs and goals, tailoring solutions that
-                                        surpass expectations.
-                                        <br>As a <b>certified Siemens channel partner</b>, we leverage the power of
-                                        their renowned equipment, spares, and services offering, including:
-                                    </p>
+                                    <p>With 18 years of experience, we've developed a 3-step framework for success,
+                                        offering comprehensive solutions for all your power system needs. Our services
+                                        include Isolators/Disconnectors, EHV Products, Power System Retrofits, MV
+                                        Switchgear, and LT Switchgear, all backed by advanced Siemens technology you can
+                                        rely on.</p>
+                                    <p><b>See our 3-step easy framework and its benefits to you.</b> </p>
                                 </div>
-
-                                <!-- Feature Blocks -->
-                                <div class="feature-block" style="display: flex; align-items: center;margin-bottom: 0;">
-                                    <span class="icon flaticon-rocket-ship"></span>
-                                    <h4>MV Panels (6.6Kv to 33Kv)</h4>
-                                </div>
-                                <br />
-
-                                <div class="feature-block" style="display: flex; align-items: center;margin-bottom: 0;">
-                                    <span class="icon flaticon-rocket-ship"></span>
-                                    <h4>EHV Breakers (SF6 Gas CB, 66KV to 765KV)</h4>
-                                </div>
-                                <br />
-
-                                <div class="feature-block" style="display: flex; align-items: center;margin-bottom: 0;">
-                                    <span class="icon flaticon-rocket-ship"></span>
-                                    <h4>Isolators (33KV to 765KV)</h4>
-                                </div>
-                                <br />
-
-                                <div class="feature-block" style="display: flex; align-items: center;margin-bottom: 0;">
-                                    <span class="icon flaticon-rocket-ship"></span>
-                                    <h4>LT Panels, PCC, MCC, APFC</h4>
-                                </div>
-                                <br />
-
-                                <div class="btn-box">
-                                    <a href="about-us.html" class="theme-btn btn-style-two"><span class="btn-title">Read
-                                            More</span></a>
-                                </div>
+                                <img class="img-fluid rounded w-100 laptop-res" src="images/3 step framework svg.svg"
+                                    alt="3-step">
+                                <img class="img-fluid rounded w-100 mobile-res"
+                                    src="images/SVG Mobile version 3 step framework.svg" alt="3-step-mobile">
+                            </div>
+                            <div class="text-center laptop-res float-right" style="position: relative;right: -36px;">
+                                <a href="contact.html" class="btn btn-primary btn-lg">Define Your Success</a>
+                            </div>
+                            <div class="text-center mobile-res">
+                                <a href="contact.html" class="btn btn-primary btn-lg">Define Your Success</a>
                             </div>
                         </div>
-
-                        <!-- Inquiry Form Column -->
-                        <div class="content-column col-lg-6 col-md-12 col-sm-12" data-aos="fade-left">
-                            <div class="inner-column">
-                                <div class="request-form wow fadeInLeft theme">
-                                    <div class="welcome-heading">
-                                        <h2 class="theme_color mb-3">Quick Inquiry</h2>
-                                    </div>
-                                    <!-- Inquiry Form -->
-                                    <form action="https://api.web3forms.com/submit" method="POST">
-                                        <div class="row">
-                                            <input type="hidden" name="access_key"
-                                                value="957433a3-c73d-47f7-8a76-7c3fbf8ff156">
-                                            <input type="hidden" name="redirect"
-                                                value="https://powersystemservices.in/thankyou.html">
-
-                                            <!-- Honeypot field to prevent spam -->
-                                            <input type="text" name="honeypot" style="display:none">
-
-                                            <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                                                <label for="username">Name</label>
-                                                <input type="text" id="username" name="username" placeholder="Your Name"
-                                                    required aria-required="true" aria-label="Name">
-                                            </div>
-                                            <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                                                <label for="email">Email</label>
-                                                <input type="email" id="email" name="email" placeholder="Your Email"
-                                                    required aria-required="true" aria-label="Email">
-                                            </div>
-                                            <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                                                <label for="phone">Phone</label>
-                                                <input type="text" id="phone" name="phone"
-                                                    placeholder="Your Phone Number" required aria-required="true"
-                                                    aria-label="Phone">
-                                            </div>
-                                            <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                                                <label for="interested">Interest</label>
-                                                <select id="interested" name="interested" required aria-required="true"
-                                                    aria-label="Interest">
-                                                    <option value="" class="theme_color">Please select your interest
-                                                    </option>
-                                                    <option value="MV (6.6Kv-33Kv)" class="theme_color">MV (6.6Kv-33Kv)
-                                                    </option>
-                                                    <option value="EHV (66Kv to 765Kv)" class="theme_color">EHV (66Kv to
-                                                        765Kv)</option>
-                                                    <option value="Service Jobs" class="theme_color">Service Jobs
-                                                    </option>
-                                                    <option value="LT Panels" class="theme_color">LT Panels</option>
-                                                </select>
-                                            </div>
-                                            <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                                                <label for="message">Message</label>
-                                                <textarea id="message" name="message" placeholder="Your Message"
-                                                    aria-label="Message"></textarea>
-                                            </div>
-                                            <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                                                <button class="theme-btn btn-style-two" type="submit"
-                                                    name="submit-form">
-                                                    <span class="btn-title">Submit Now</span>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
             </section>
+
 
             <!-- End About Us -->
 
