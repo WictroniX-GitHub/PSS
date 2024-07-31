@@ -2097,7 +2097,7 @@ ul {
   margin: 10px 0;
 }
 .fact-counter .column .inner {
-  padding: 45px 30px;
+  padding: 20px 10px;
   text-align: center;
   transition: 0.5s;
 }
@@ -2145,7 +2145,7 @@ ul {
   display: inline-block;
 }
 .fact-counter .column .counter-title {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   color: #fff;
   text-transform: capitalize;
